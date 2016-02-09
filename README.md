@@ -1,5 +1,5 @@
 # TIL
-Today I learned
+> Today I learned
 
 This is inspired by https://github.com/jbranchaud/til.
 
