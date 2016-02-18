@@ -25,3 +25,7 @@ This is inspired by https://github.com/jbranchaud/til.
 * [Vim](#vim)
 
 ---
+
+### Go
+
+- [Upgrade go to 1.6](Go/Upgrade-go-to-1.6.md)
