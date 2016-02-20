@@ -34,3 +34,4 @@ This is inspired by https://github.com/jbranchaud/til.
 ### iOS
 
 - [Print system font names](iOS/print-system-font-names.md)
+- [How to use Low Power Mode in code](iOS/How-to-use-Low-Power-Mode-in-code.md)
