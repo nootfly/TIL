@@ -5,7 +5,7 @@ https://littlebitesofcocoa.com/192-being-a-good-low-power-mode-citizen?utm_campa
 
 - Read Low Power Mode property
 
-```
+```swift
 func userStoppedScrolling() {
   guard NSProcessInfo.processInfo().lowPowerModeEnabled == false else { return }
   gifView.beginPlaying()
@@ -14,7 +14,7 @@ func userStoppedScrolling() {
 
 - Register the notification
 
-```
+```swift
 NSNotificationCenter.defaultCenter()
   .addObserver(self,
     selector: "lowPowerModeChanged:",

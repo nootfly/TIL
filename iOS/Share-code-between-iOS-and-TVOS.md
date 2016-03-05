@@ -3,7 +3,7 @@
 Using CocoaPods different targets is a way to share code between iOS and TVOS.
 The code is from https://labs.ribot.co.uk/sharing-functionality-across-tvos-and-ios-228c76b03a06#.4pa6trgb7.
 
-```
+```ruby
 # Podfile
 source 'https://github.com/CocoaPods/Specs.git'
 
