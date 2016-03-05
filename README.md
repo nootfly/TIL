@@ -39,3 +39,6 @@ This is inspired by https://github.com/jbranchaud/til.
 - [UIScrollView not scrolling when using autolayout](iOS/UIScrollView-not-scrolling-when-using-autolayout.md)
 - [iOS 9 PopOver points to top-left corner of anchor](iOS/ios9-popover-always-points-to-top-left-corner-of-anchor.md)
 - [CALayer shadow performance issue](iOS/CALayer-shadow-performance-issue.md)
+
+### Swift
+- [Swift lazy](Swift/Lazy-Swift.md)
