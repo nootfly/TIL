@@ -3,7 +3,7 @@
 
 ```lazy var``` and ```LazySequence``` examples are as the blow. The code is from http://alisoftware.github.io/swift/2016/02/28/being-lazy/?utm_campaign=iOS%2BDev%2BWeekly&utm_medium=web&utm_source=iOS_Dev_Weekly_Issue_240
 
-```
+```swift
 class Avatar {
   static let defaultSmallSize = CGSize(width: 64, height: 64)
 
@@ -22,7 +22,7 @@ class Avatar {
 }
 ```
 
-```
+```swift
 let array = Array(0..<1000)
 let incArray = array.lazy.map(increment)
 print("Result:")
