@@ -19,7 +19,7 @@ This is inspired by https://github.com/jbranchaud/til.
 * [PostgreSQL](#postgresql)
 * [Rails](#rails)
 * [Ruby](#ruby)
-* [Swift](#Swift)
+* [Swift](#swift)
 * [tmux](#tmux)
 * [Unix](#unix)
 * [Vim](#vim)
