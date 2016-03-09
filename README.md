@@ -40,6 +40,8 @@ This is inspired by https://github.com/jbranchaud/til.
 - [iOS 9 PopOver points to top-left corner of anchor](iOS/ios9-popover-always-points-to-top-left-corner-of-anchor.md)
 - [CALayer shadow performance issue](iOS/CALayer-shadow-performance-issue.md)
 - [Slow animations in a simulator](iOS/Slow-animations-in-a-simulator.md)
+- [UITapGestureRecognizer or touchesBegan](iOS/UITapGestureRecognizer-or-touchesBegan.md)
+- [CoreData in Swift framework](iOS/CoreData-in-Swift-framework.md)
 
 ### Swift
 - [Swift lazy](Swift/Lazy-Swift.md)
