@@ -47,5 +47,8 @@ This is inspired by https://github.com/jbranchaud/til.
 - [UITapGestureRecognizer or touchesBegan](iOS/UITapGestureRecognizer-or-touchesBegan.md)
 - [CoreData in Swift framework](iOS/CoreData-in-Swift-framework.md)
 
+### Mac
+- [nscurl](Mac/nscurl.ed)
+
 ### Swift
 - [Swift lazy](Swift/Lazy-Swift.md)
