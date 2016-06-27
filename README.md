@@ -48,7 +48,7 @@ This is inspired by https://github.com/jbranchaud/til.
 - [CoreData in Swift framework](iOS/CoreData-in-Swift-framework.md)
 
 ### Mac
-- [nscurl](Mac/nscurl.ed)
+- [nscurl](Mac/nscurl.md)
 
 ### Swift
 - [Swift lazy](Swift/Lazy-Swift.md)
