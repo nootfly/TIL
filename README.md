@@ -52,3 +52,6 @@ This is inspired by https://github.com/jbranchaud/til.
 
 ### Swift
 - [Swift lazy](Swift/Lazy-Swift.md)
+- [Swift generated interface](Swift/Show-swift-generated-interface.md)
+- [Creating Set Types](Swift/Creating-your-own-set-types.md)
+- [Conditionally Extending a Type](Swift/Conditionally-Extending-a-Type.md)
