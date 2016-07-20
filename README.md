@@ -55,3 +55,4 @@ This is inspired by https://github.com/jbranchaud/til.
 - [Swift generated interface](Swift/Show-swift-generated-interface.md)
 - [Creating Set Types](Swift/Creating-your-own-set-types.md)
 - [Conditionally Extending a Type](Swift/Conditionally-Extending-a-Type.md)
+- [Data set in asset catalogue](Swift/Data-set-in-asset-catalogue.md)
