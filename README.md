@@ -56,3 +56,4 @@ This is inspired by https://github.com/jbranchaud/til.
 - [Creating Set Types](Swift/Creating-your-own-set-types.md)
 - [Conditionally Extending a Type](Swift/Conditionally-Extending-a-Type.md)
 - [Data set in asset catalogue](Swift/Data-set-in-asset-catalogue.md)
+- [ReadableContentGuide](Swift/ReadableContentGuide.md)
