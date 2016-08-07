@@ -46,7 +46,7 @@ This is inspired by https://github.com/jbranchaud/til.
 - [Slow animations in a simulator](iOS/Slow-animations-in-a-simulator.md)
 - [UITapGestureRecognizer or touchesBegan](iOS/UITapGestureRecognizer-or-touchesBegan.md)
 - [CoreData in Swift framework](iOS/CoreData-in-Swift-framework.md)
-- [iOS keyboard background issue](iOS/iOS-keyboard-background-issue)
+- [iOS keyboard background issue](iOS/iOS-keyboard-background-issue.md)
 
 ### Mac
 - [nscurl](Mac/nscurl.md)
