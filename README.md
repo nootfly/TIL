@@ -47,6 +47,7 @@ This is inspired by https://github.com/jbranchaud/til.
 - [UITapGestureRecognizer or touchesBegan](iOS/UITapGestureRecognizer-or-touchesBegan.md)
 - [CoreData in Swift framework](iOS/CoreData-in-Swift-framework.md)
 - [iOS keyboard background issue](iOS/iOS-keyboard-background-issue.md)
+- [iOS delete downloaded simulators](iOS/iOS-delete-downloaded-simulators.md)
 
 ### Mac
 - [nscurl](Mac/nscurl.md)
