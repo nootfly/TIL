@@ -48,6 +48,7 @@ This is inspired by https://github.com/jbranchaud/til.
 - [CoreData in Swift framework](iOS/CoreData-in-Swift-framework.md)
 - [iOS keyboard background issue](iOS/iOS-keyboard-background-issue.md)
 - [iOS delete downloaded simulators](iOS/iOS-delete-downloaded-simulators.md)
+- [SDWebImagePrefetcher memory issue](iOS/SDWebImage-memory-issue.md)
 
 ### Mac
 - [nscurl](Mac/nscurl.md)
