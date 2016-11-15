@@ -49,6 +49,7 @@ This is inspired by https://github.com/jbranchaud/til.
 - [iOS keyboard background issue](iOS/iOS-keyboard-background-issue.md)
 - [iOS delete downloaded simulators](iOS/iOS-delete-downloaded-simulators.md)
 - [SDWebImagePrefetcher memory issue](iOS/SDWebImage-memory-issue.md)
+- [Get current thread](iOS/Get-current-thread.md)
 
 ### Mac
 - [nscurl](Mac/nscurl.md)
