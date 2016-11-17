@@ -53,6 +53,7 @@ This is inspired by https://github.com/jbranchaud/til.
 
 ### Mac
 - [nscurl](Mac/nscurl.md)
+- [Resize off screen window](Mac/Resize-off-screen-window.md)
 
 ### Swift
 - [Swift lazy](Swift/Lazy-Swift.md)
