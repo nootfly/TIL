@@ -24,6 +24,7 @@ This is inspired by https://github.com/jbranchaud/til.
 * [tmux](#tmux)
 * [Unix](#unix)
 * [Vim](#vim)
+* [WatchOS](#watchos)
 
 ---
 
@@ -66,3 +67,6 @@ This is inspired by https://github.com/jbranchaud/til.
 - [Conditionally Extending a Type](Swift/Conditionally-Extending-a-Type.md)
 - [Data set in asset catalogue](Swift/Data-set-in-asset-catalogue.md)
 - [ReadableContentGuide](Swift/ReadableContentGuide.md)
+
+### WatchOS
+- [Watch OS app archive other items issue](WatchOS/Watch-OS-app-archive-other-items-issue.md)
