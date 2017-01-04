@@ -52,6 +52,7 @@ This is inspired by https://github.com/jbranchaud/til.
 - [iOS delete downloaded simulators](iOS/iOS-delete-downloaded-simulators.md)
 - [SDWebImagePrefetcher memory issue](iOS/SDWebImage-memory-issue.md)
 - [Get current thread](iOS/Get-current-thread.md)
+- [iOS concurrency fact sheet](iOS/iOS-concurrency-fact-sheet.md)
 
 ### Mac
 - [nscurl](Mac/nscurl.md)
