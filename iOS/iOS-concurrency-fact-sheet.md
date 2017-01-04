@@ -47,4 +47,6 @@ dispatch_semaphore_signal(fd_sema);
 
 * Dispatch groups are a way to block a thread until one or more tasks finish executing.
 * Do not call the dispatch_sync function from a task that is executing on the same queue that you pass to your function call. Doing so will deadlock the queue. If you need to dispatch to the current queue, do so asynchronously using the dispatch_async function.
-*
+
+
+All contents are from [Apple concurrency programming guide](https://developer.apple.com/library/content/documentation/General/Conceptual/ConcurrencyProgrammingGuide/Introduction/Introduction.html#//apple_ref/doc/uid/TP40008091-CH1-SW1)
