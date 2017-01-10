@@ -17,6 +17,7 @@ This is inspired by https://github.com/jbranchaud/til.
 * [JavaScript](#javascript)
 * [Linux](#linux)
 * [Mac](#mac)
+* [Others](#Others)
 * [PostgreSQL](#postgresql)
 * [Python](#python)
 * [Rails](#rails)
@@ -26,6 +27,7 @@ This is inspired by https://github.com/jbranchaud/til.
 * [Unix](#unix)
 * [Vim](#vim)
 * [WatchOS](#watchos)
+
 
 ---
 
@@ -65,6 +67,9 @@ This is inspired by https://github.com/jbranchaud/til.
 ### Mac
 - [nscurl](Mac/nscurl.md)
 - [Resize off screen window](Mac/Resize-off-screen-window.md)
+
+### Others
+- [Developers cheat sheets](Others/Developers-cheat-sheets.md)
 
 ### Python
 - [Python resources](Python/Python-resources.md)
