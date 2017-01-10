@@ -11,3 +11,5 @@
 * Access Control Lists are not available in iOS or to macOS apps that use the iCloud keychain. For keychain item sharing in those environments, use Access Groups instead.
 
 * Keychain does store values after we uninstall the app.
+
+The content is from [Apple Keychain Services Programming Guide.](https://developer.apple.com/library/content/documentation/Security/Conceptual/keychainServConcepts/01introduction/introduction.html#//apple_ref/doc/uid/TP30000897-CH203-TP1)
