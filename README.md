@@ -21,12 +21,14 @@ This is inspired by https://github.com/jbranchaud/til.
 * [Python](#python)
 * [Rails](#rails)
 * [Ruby](#ruby)
-* [Swift](#Swift)
+* [Swift](#swift)
 * [tmux](#tmux)
 * [Unix](#unix)
 * [Vim](#vim)
 * [WatchOS](#watchos)
-
+<!---
+the inner page anchor names must be lowercase.
+-->
 
 ---
 
