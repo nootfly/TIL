@@ -55,8 +55,9 @@ This is inspired by https://github.com/jbranchaud/til.
 - [iOS delete downloaded simulators](iOS/iOS-delete-downloaded-simulators.md)
 - [SDWebImagePrefetcher memory issue](iOS/SDWebImage-memory-issue.md)
 - [Get current thread](iOS/Get-current-thread.md)
-- [iOS concurrency fact sheet](iOS/iOS-concurrency-fact-sheet.md)
+- [iOS concurrency cheat sheet](iOS/iOS-concurrency-cheat-sheet.md)
 - [No such module](iOS/No-such-module.md)
+- [iOS Keychain cheat sheet](iOS-Keychain-cheat-sheet.md)
 
 ### Linux
 - [Ubuntu commands](Linux/Ubuntu-commands.md)
