@@ -57,7 +57,7 @@ This is inspired by https://github.com/jbranchaud/til.
 - [Get current thread](iOS/Get-current-thread.md)
 - [iOS concurrency cheat sheet](iOS/iOS-concurrency-cheat-sheet.md)
 - [No such module](iOS/No-such-module.md)
-- [iOS Keychain cheat sheet](iOS-keychain-cheat-sheet.md)
+- [iOS Keychain cheat sheet](iOS/iOS-keychain-cheat-sheet.md)
 
 ### Linux
 - [Ubuntu commands](Linux/Ubuntu-commands.md)
