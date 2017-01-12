@@ -85,3 +85,4 @@ the inner page anchor names must be lowercase.
 
 ### WatchOS
 - [Watch OS app archive other items issue](WatchOS/Watch-OS-app-archive-other-items-issue.md)
+- [Watch OS app connection lost issue issue](WatchOS/Watch-app-the-connection-lost.md)

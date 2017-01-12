@@ -1,12 +1,19 @@
 # iOS concurrency fact sheet
 
 * NSInvocationOperation is a class you use as-is to create an operation object based on an object and selector from your application.
+
 * When you create a block operation, you typically add at least one block at initialization time; you can add more blocks as needed later. When it comes time to execute an NSBlockOperation object, the object submits all of its blocks to the default-priority, concurrent dispatch queue. The object then waits until all of the blocks finish executing.
+
 * `start`, `isExecuting`, `isFinished`, and `isConcurrent` are required to override for concurrent operations.
+
 * A canceled operation is still considered to be "finished".
+
 * The system provides each application with four concurrent dispatch queues. These queues are global to the application and are differentiated only by their priority level.
+
 * Use the dispatch_get_current_queue function for debugging purposes or to test the identity of the current queue.
+
 * All dispatch objects (including dispatch queues) allow you to associate custom context data with the object. To set and get this data on a given object, you use the dispatch_set_context and dispatch_get_context functions.
+
 * Executing a completion callback after a task
 
 ```objective-c
@@ -46,7 +53,12 @@ dispatch_semaphore_signal(fd_sema);
 ```
 
 * Dispatch groups are a way to block a thread until one or more tasks finish executing.
+
 * Do not call the dispatch_sync function from a task that is executing on the same queue that you pass to your function call. Doing so will deadlock the queue. If you need to dispatch to the current queue, do so asynchronously using the dispatch_async function.
+
+* All dispatch queues are first-in, first-out data structures.
+
+* You can create as many serial queues as you need, and each queue operates concurrently with respect to all other queues. In other words, if you create four serial queues, each queue executes only one task at a time but up to four tasks could still execute concurrently, one from each queue.
 
 
 All contents are from [Apple concurrency programming guide](https://developer.apple.com/library/content/documentation/General/Conceptual/ConcurrencyProgrammingGuide/Introduction/Introduction.html#//apple_ref/doc/uid/TP40008091-CH1-SW1)
