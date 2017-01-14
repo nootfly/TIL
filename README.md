@@ -62,6 +62,10 @@ the inner page anchor names must be lowercase.
 - [No such module](iOS/No-such-module.md)
 - [iOS Keychain cheat sheet](iOS/iOS-keychain-cheat-sheet.md)
 
+### JavaScript
+- [Show console.log in JSFiddle](Javascript/JSFiddle-console.md)
+- [Run script in Atom](Javascript/Atom-run-javascript.md)
+
 ### Linux
 - [Ubuntu commands](Linux/Ubuntu-commands.md)
 
