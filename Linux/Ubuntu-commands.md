@@ -13,3 +13,6 @@ sudo apt-add-repository ppa:git-core/ppa
 sudo apt-get update
 sudo apt-get install git
 ```
+
+* Install ping
+`apt-get install iputils-ping`
