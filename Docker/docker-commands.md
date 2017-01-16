@@ -23,3 +23,11 @@
 * docker-machine configures at the start of each shell session
 
 `eval $(docker-machine env docker-sandbox)`
+
+* docker saves an image to a tar
+
+`docker save -o ~/container1.tar container1`
+
+* docker recovery an image from a tar
+
+`docker load -i /root/container1.tar`
