@@ -6,6 +6,10 @@
 * Create ssh keys
   `ssh-keygen -t rsa`
 
+* copy public key to a remote server
+
+`ssh-copy-id dockeradmin@remote-server`  
+
 * Upgrade git version (http://askubuntu.com/questions/568591/how-do-i-install-the-latest-version-of-git-with-apt)
 
 ```

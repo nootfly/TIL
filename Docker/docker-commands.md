@@ -31,3 +31,7 @@
 * docker recovery an image from a tar
 
 `docker load -i /root/container1.tar`
+
+* rename docker container
+
+`docker rename CONTAINER NEW_NAME`
