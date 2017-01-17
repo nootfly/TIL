@@ -38,6 +38,9 @@ the inner page anchor names must be lowercase.
 - [sudo docker](Docker/sudo-docker.md)
 - [docker commands](Docker/docker-commands.md)
 
+### Git
+- [git auto push](git/git-auto-push.md)  
+
 ### Go
 
 - [Upgrade go to 1.6](Go/Upgrade-go-to-1.6.md)
