@@ -23,6 +23,7 @@ This is inspired by https://github.com/jbranchaud/til.
 * [Ruby](#ruby)
 * [Swift](#swift)
 * [tmux](#tmux)
+* [Tools](#tools)
 * [Unix](#unix)
 * [Vim](#vim)
 * [WatchOS](#watchos)
@@ -31,6 +32,10 @@ the inner page anchor names must be lowercase.
 -->
 
 ---
+
+### Tools
+* [Dictionary](https://github.com/nootfly/TIL/dict.html)
+
 
 ### Docker
 
