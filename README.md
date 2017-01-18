@@ -79,6 +79,7 @@ the inner page anchor names must be lowercase.
 
 ### Others
 - [Developers cheat sheets](Others/Developers-cheat-sheets.md)
+- [Technical coding interviews websites](Others/technique-interview-websites.md)
 
 ### Python
 - [Python resources](Python/Python-resources.md)

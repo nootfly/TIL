@@ -1,4 +1,4 @@
-# move docker-machine config to another machine
+# Move docker-machine config to another machine
 
 1. Move `~/.docker/machine` directory to another machine's the same directory
 
