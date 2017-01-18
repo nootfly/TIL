@@ -38,6 +38,7 @@ the inner page anchor names must be lowercase.
 - [sudo docker](Docker/sudo-docker.md)
 - [docker commands](Docker/docker-commands.md)
 - [Move docker-machine config](Docker/Move-docker-machine-config.md)
+- [Move different docker versions](Docker/Manage-different-docker-versions.md)
 
 ### Git
 - [git auto push](git/git-auto-push.md)  
