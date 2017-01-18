@@ -37,6 +37,7 @@ the inner page anchor names must be lowercase.
 - [docker nginx log configuration](Docker/nginx-log-conf.md)
 - [sudo docker](Docker/sudo-docker.md)
 - [docker commands](Docker/docker-commands.md)
+- [Move docker-machine config](Docker/Move-docker-machine-config.md)
 
 ### Git
 - [git auto push](git/git-auto-push.md)  
