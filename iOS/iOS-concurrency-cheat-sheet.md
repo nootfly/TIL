@@ -16,41 +16,41 @@
 
 * Executing a completion callback after a task
 
-```objective-c
-void average_async(int *data, size_t len,
-   dispatch_queue_t queue, void (^block)(int))
-{
-   // Retain the queue provided by the user to make
-   // sure it does not disappear before the completion
-   // block can be called.
-   dispatch_retain(queue);
+  ```objective-c
+  void average_async(int *data, size_t len,
+     dispatch_queue_t queue, void (^block)(int))
+  {
+     // Retain the queue provided by the user to make
+     // sure it does not disappear before the completion
+     // block can be called.
+     dispatch_retain(queue);
 
-   // Do the work on the default concurrent queue and then
-   // call the user-provided block with the results.
-   dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
-      int avg = average(data, len);
-      dispatch_async(queue, ^{ block(avg);});
+     // Do the work on the default concurrent queue and then
+     // call the user-provided block with the results.
+     dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
+        int avg = average(data, len);
+        dispatch_async(queue, ^{ block(avg);});
 
-      // Release the user-provided queue when done
-      dispatch_release(queue);
-   });
-}
-```
+        // Release the user-provided queue when done
+        dispatch_release(queue);
+     });
+  }
+  ```
 
 * Using Dispatch Semaphores to Regulate the Use of Finite Resources
 
-```objective-c
-// Create the semaphore, specifying the initial pool size
-dispatch_semaphore_t fd_sema = dispatch_semaphore_create(getdtablesize() / 2);
-
-// Wait for a free file descriptor
-dispatch_semaphore_wait(fd_sema, DISPATCH_TIME_FOREVER);
-fd = open("/etc/services", O_RDONLY);
-
-// Release the file descriptor when done
-close(fd);
-dispatch_semaphore_signal(fd_sema);
-```
+   ```objective-c
+   // Create the semaphore, specifying the initial pool size
+   dispatch_semaphore_t fd_sema = dispatch_semaphore_create(getdtablesize() / 2);
+   
+   // Wait for a free file descriptor
+   dispatch_semaphore_wait(fd_sema, DISPATCH_TIME_FOREVER);
+   fd = open("/etc/services", O_RDONLY);
+   
+   // Release the file descriptor when done
+   close(fd);
+   dispatch_semaphore_signal(fd_sema);
+   ```
 
 * Dispatch groups are a way to block a thread until one or more tasks finish executing.
 
