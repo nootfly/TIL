@@ -34,7 +34,7 @@ the inner page anchor names must be lowercase.
 ---
 
 ### Tools
-* [Dictionary](https://github.com/nootfly/TIL/dict.html)
+* [Dictionary](https://cdn.rawgit.com/nootfly/TIL/10cc9914/dict.html)
 
 
 ### Docker
