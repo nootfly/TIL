@@ -45,6 +45,7 @@ the inner page anchor names must be lowercase.
 - [Move docker-machine config](Docker/Move-docker-machine-config.md)
 - [Move different docker versions](Docker/Manage-different-docker-versions.md)
 - [docker-compose node link mongo](Docker/docker-compose-node-link-mongo.md)
+- [Docker insecure registry](Docker/Docker-insecure-registry.md)
 
 ### Git
 - [git auto push](git/git-auto-push.md)  
