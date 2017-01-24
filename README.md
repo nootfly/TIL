@@ -100,6 +100,7 @@ the inner page anchor names must be lowercase.
 - [Data set in asset catalogue](Swift/Data-set-in-asset-catalogue.md)
 - [ReadableContentGuide](Swift/ReadableContentGuide.md)
 - [Swift 2 to Swift 3](Swift/Swift2-to-Swift3.md)
+- [Escaping closures](Swift/Escaping-Closures.md)
 
 ### WatchOS
 - [Watch OS app archive other items issue](WatchOS/Watch-OS-app-archive-other-items-issue.md)
