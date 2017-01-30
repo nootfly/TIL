@@ -73,7 +73,7 @@ the inner page anchor names must be lowercase.
 - [iOS concurrency cheat sheet](iOS/iOS-concurrency-cheat-sheet.md)
 - [No such module](iOS/No-such-module.md)
 - [iOS Keychain cheat sheet](iOS/iOS-keychain-cheat-sheet.md)
-- [iOS Extensions access CoreData, shared folder and CloudKit](iOS/iOS Extensions-access-CoreData-shared-folder-and-CloudKit.md)
+- [iOS Extensions access CoreData, shared folder and CloudKit](iOS/iOS-Extensions-access-CoreData-shared-folder-and-CloudKit.md)
 
 ### JavaScript
 - [Show console.log in JSFiddle](Javascript/JSFiddle-console.md)
