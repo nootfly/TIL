@@ -6,6 +6,8 @@
 
 * [Xcode keyboard shortcuts and gestures](https://developer.apple.com/library/content/documentation/IDEs/Conceptual/xcode_help-command_shortcuts/MenuCommands/MenuCommands014.html)
 
+* [Xcode keyboard shortcuts 2](http://five.agency/xcode-keyboard-shortcuts-which-will-boost-your-productivity/)
+
 * [Android Studio keyboard shortcuts](https://developer.android.com/studio/intro/keyboard-shortcuts.html)
 
 * [Eclipse shortcuts](https://shortcutworld.com/en/Eclipse/win/all)
