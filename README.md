@@ -82,6 +82,7 @@ the inner page anchor names must be lowercase.
 
 ### Linux
 - [Ubuntu commands](Linux/Ubuntu-commands.md)
+- [Bash commands](Linux/Bash-commands.md)
 
 ### Mac
 - [nscurl](Mac/nscurl.md)
