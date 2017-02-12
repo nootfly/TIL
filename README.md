@@ -104,6 +104,7 @@ the inner page anchor names must be lowercase.
 - [ReadableContentGuide](Swift/ReadableContentGuide.md)
 - [Swift 2 to Swift 3](Swift/Swift2-to-Swift3.md)
 - [Escaping closures](Swift/Escaping-Closures.md)
+- [Open keyword](Swift/Open-keyword-swift-3.md)
 
 ### Tools
 * [Dictionary](https://cdn.rawgit.com/nootfly/TIL/10cc9914/dict.html)
