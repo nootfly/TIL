@@ -32,10 +32,8 @@ the inner page anchor names must be lowercase.
 -->
 
 ---
-
-### Tools
-* [Dictionary](https://cdn.rawgit.com/nootfly/TIL/10cc9914/dict.html)
-* [Where has my disk space gone](Tools/Where-has-my-disk-space-gone.md)
+### Android
+* [Android simulator HAXM hypervisor error](Android/Android-simulator-HAXM-hypervisor-error.md)
 
 ### Docker
 
@@ -106,6 +104,10 @@ the inner page anchor names must be lowercase.
 - [ReadableContentGuide](Swift/ReadableContentGuide.md)
 - [Swift 2 to Swift 3](Swift/Swift2-to-Swift3.md)
 - [Escaping closures](Swift/Escaping-Closures.md)
+
+### Tools
+* [Dictionary](https://cdn.rawgit.com/nootfly/TIL/10cc9914/dict.html)
+* [Where has my disk space gone](Tools/Where-has-my-disk-space-gone.md)
 
 ### WatchOS
 - [Watch OS app archive other items issue](WatchOS/Watch-OS-app-archive-other-items-issue.md)
