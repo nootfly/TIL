@@ -17,3 +17,5 @@ If you want to alway show a chooser dialog, you can create `Intent` using `creat
         startActivity(chooser);
     }
 ```
+
+Reference: https://developer.android.com/training/basics/intents/sending.html
