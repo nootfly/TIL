@@ -34,6 +34,7 @@ the inner page anchor names must be lowercase.
 ---
 ### Android
 * [Android simulator HAXM hypervisor error](Android/Android-simulator-HAXM-hypervisor-error.md)
+* [Always show an intent chooser](Android/Alway-show-an-Intent-chooser.md)
 
 ### Docker
 
