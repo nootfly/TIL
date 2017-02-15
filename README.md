@@ -78,6 +78,7 @@ the inner page anchor names must be lowercase.
 - [Show console.log in JSFiddle](Javascript/JSFiddle-console.md)
 - [Run script in Atom](Javascript/Atom-run-javascript.md)
 - [mongojs aggregate](Javascript/mongojs-aggregate.md)
+- [nodejs debug objects](Javascript/nodejs-debug-object.md)
 
 ### Linux
 - [Ubuntu commands](Linux/Ubuntu-commands.md)
