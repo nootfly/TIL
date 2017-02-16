@@ -73,6 +73,7 @@ the inner page anchor names must be lowercase.
 - [No such module](iOS/No-such-module.md)
 - [iOS Keychain cheat sheet](iOS/iOS-keychain-cheat-sheet.md)
 - [iOS Extensions access CoreData, shared folder and CloudKit](iOS/iOS-Extensions-access-CoreData-shared-folder-and-CloudKit.md)
+- [Xcode uses too much disk space](iOS/Xcode-uses-too-much-disk-space.md)
 
 ### JavaScript
 - [Show console.log in JSFiddle](Javascript/JSFiddle-console.md)
