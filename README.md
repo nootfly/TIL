@@ -74,6 +74,7 @@ the inner page anchor names must be lowercase.
 - [iOS Keychain cheat sheet](iOS/iOS-keychain-cheat-sheet.md)
 - [iOS Extensions access CoreData, shared folder and CloudKit](iOS/iOS-Extensions-access-CoreData-shared-folder-and-CloudKit.md)
 - [Xcode uses too much disk space](iOS/Xcode-uses-too-much-disk-space.md)
+- [CoreData get records count](iOS/coredata-get-records-count.md)
 
 ### JavaScript
 - [Show console.log in JSFiddle](Javascript/JSFiddle-console.md)
