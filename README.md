@@ -18,6 +18,7 @@ This is inspired by https://github.com/jbranchaud/til.
 * [JavaScript](#javascript)
 * [Linux](#linux)
 * [Mac](#mac)
+* [Machine Learning](#machinelearning)
 * [Others](#others)
 * [PostgreSQL](#postgresql)
 * [Python](#python)
@@ -94,6 +95,9 @@ the inner page anchor names must be lowercase.
 ### Mac
 - [nscurl](Mac/nscurl.md)
 - [Resize off screen window](Mac/Resize-off-screen-window.md)
+
+### Machine Learning
+
 
 ### Others
 - [Developers cheat sheets](Others/Developers-cheat-sheets.md)
