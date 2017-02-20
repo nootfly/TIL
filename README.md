@@ -97,7 +97,7 @@ the inner page anchor names must be lowercase.
 - [Resize off screen window](Mac/Resize-off-screen-window.md)
 
 ### Machine Learning
-
+- [install tensorflow error](ML/install-tensorflow-error.md)
 
 ### Others
 - [Developers cheat sheets](Others/Developers-cheat-sheets.md)
