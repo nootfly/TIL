@@ -3,6 +3,8 @@
 
 This is inspired by https://github.com/jbranchaud/til.
 
+[My blog](http://blog.youapp.co)
+
 ---
 
 ### Categories
