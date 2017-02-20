@@ -47,7 +47,8 @@ the inner page anchor names must be lowercase.
 - [Docker insecure registry](Docker/Docker-insecure-registry.md)
 
 ### Git
-- [git auto push](git/git-auto-push.md)  
+- [git auto push](git/git-auto-push.md)
+- [git cheat sheet](git/git-cheat-sheet.md)  
 
 ### Go
 

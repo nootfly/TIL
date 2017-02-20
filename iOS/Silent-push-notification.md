@@ -5,7 +5,7 @@ You need to push `content-available` in a payload.
   ```json
   {
     "content-available" : 1
- }
+  }
   ```
 And you can check this in application delegate:
 
