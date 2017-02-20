@@ -18,7 +18,7 @@ This is inspired by https://github.com/jbranchaud/til.
 * [JavaScript](#javascript)
 * [Linux](#linux)
 * [Mac](#mac)
-* [Machine Learning](#machine learning)
+* [Machine Learning](#ml)
 * [Others](#others)
 * [PostgreSQL](#postgresql)
 * [Python](#python)
@@ -96,7 +96,7 @@ the inner page anchor names must be lowercase.
 - [nscurl](Mac/nscurl.md)
 - [Resize off screen window](Mac/Resize-off-screen-window.md)
 
-### Machine Learning
+### ML
 - [install tensorflow error](ML/install-tensorflow-error.md)
 
 ### Others
