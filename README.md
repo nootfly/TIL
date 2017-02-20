@@ -18,7 +18,7 @@ This is inspired by https://github.com/jbranchaud/til.
 * [JavaScript](#javascript)
 * [Linux](#linux)
 * [Mac](#mac)
-* [Machine Learning](#machinelearning)
+* [Machine Learning](#machine learning)
 * [Others](#others)
 * [PostgreSQL](#postgresql)
 * [Python](#python)
