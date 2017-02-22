@@ -81,6 +81,7 @@ the inner page anchor names must be lowercase.
 - [CoreData get records count](iOS/coredata-get-records-count.md)
 - [UIApplicationDelegate handles push notification](iOS/UIApplicationDelegate-handles-push-notification.md)
 - [Silent push notification](iOS/Silent-push-notification.md)
+- [Prepare push notification certificate](iOS/Prepare-push-notification-certificate.md)
 
 ### JavaScript
 - [Show console.log in JSFiddle](Javascript/JSFiddle-console.md)
