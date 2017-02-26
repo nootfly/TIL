@@ -83,6 +83,7 @@ the inner page anchor names must be lowercase.
 - [Silent push notification](iOS/Silent-push-notification.md)
 - [Prepare push notification certificate](iOS/Prepare-push-notification-certificate.md)
 - [I used iOS Cocoapods libraries](iOS/I-used-iOS-Cocoapods-libraries.md)
+- [UIViewController loadView](iOS/UIViewController-loadView.md)
 
 ### JavaScript
 - [Show console.log in JSFiddle](Javascript/JSFiddle-console.md)
@@ -102,7 +103,6 @@ the inner page anchor names must be lowercase.
 - [install tensorflow error](ML/install-tensorflow-error.md)
 
 ### Others
-- [Developers cheat sheets](Others/Developers-cheat-sheets.md)
 - [Technical coding interviews websites](Others/technique-interview-websites.md)
 - [Gmail alias](Others/Gmail-alias.md)
 - [letsencrypt certificate](Others/letsencrypt-certificate.md)
@@ -122,10 +122,11 @@ the inner page anchor names must be lowercase.
 - [Open keyword](Swift/Open-keyword-swift-3.md)
 
 ### Tools
-* [Dictionary](https://cdn.rawgit.com/nootfly/TIL/10cc9914/dict.html)
-* [Where has my disk space gone](Tools/Where-has-my-disk-space-gone.md)
-* [Mathematical symbols](http://www.rapidtables.com/math/symbols/Basic_Math_Symbols.htm)
-* [Convert Icon Fonts To PNG](http://fa2png.io/)
+- [Developers cheat sheets](Others/Developers-cheat-sheets.md)
+- [Dictionary](https://cdn.rawgit.com/nootfly/TIL/10cc9914/dict.html)
+- [Where has my disk space gone](Tools/Where-has-my-disk-space-gone.md)
+- [Mathematical symbols](http://www.rapidtables.com/math/symbols/Basic_Math_Symbols.htm)
+- [Convert Icon Fonts To PNG](http://fa2png.io/)
 
 ### WatchOS
 - [Watch OS app archive other items issue](WatchOS/Watch-OS-app-archive-other-items-issue.md)
