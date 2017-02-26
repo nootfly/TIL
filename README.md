@@ -82,6 +82,7 @@ the inner page anchor names must be lowercase.
 - [UIApplicationDelegate handles push notification](iOS/UIApplicationDelegate-handles-push-notification.md)
 - [Silent push notification](iOS/Silent-push-notification.md)
 - [Prepare push notification certificate](iOS/Prepare-push-notification-certificate.md)
+- [I used iOS Cocoapods libraries](iOS/I-used-iOS-Cocoapods-libraries.md)
 
 ### JavaScript
 - [Show console.log in JSFiddle](Javascript/JSFiddle-console.md)

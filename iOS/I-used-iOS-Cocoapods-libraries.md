@@ -1,4 +1,4 @@
-# I used iOS Cocoapods libraries.
+# I used iOS Cocoapods libraries
 
 * [SSFadingScrollView](https://github.com/stephsharp/SSFadingScrollView)
 
