@@ -84,6 +84,7 @@ the inner page anchor names must be lowercase.
 - [Prepare push notification certificate](iOS/Prepare-push-notification-certificate.md)
 - [I used iOS Cocoapods libraries](iOS/I-used-iOS-Cocoapods-libraries.md)
 - [UIViewController loadView](iOS/UIViewController-loadView.md)
+- [Autolayout cheat sheet](iOS/Autolayout-rules-of-thumb.md)
 
 ### JavaScript
 - [Show console.log in JSFiddle](Javascript/JSFiddle-console.md)
