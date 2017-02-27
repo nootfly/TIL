@@ -24,7 +24,7 @@
       cancelButton.leadingAnchor.constraintEqualToAnchor(space1.trailingAnchor).active = true
       cancelButton.trailingAnchor.constraintEqualToAnchor(space2.leadingAnchor).active = true
       clearButton.leadingAnchor.constraintEqualToAnchor(space2.trailingAnchor).active = true
-   ```
+  ```
 
 
 
