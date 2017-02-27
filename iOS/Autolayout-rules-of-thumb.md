@@ -14,6 +14,14 @@
 > 12. To prevent unwanted stretching, increase the content-hugging priority.
 > 13. Baseline constraints work only with views that are at their intrinsic content height. If a view is vertically stretched or compressed, the baseline constraints no longer align properly.
 > 14. Setting the stack view’s CHCR priorities has no effect, because the stack view does not have an intrinsic content size.
-> 15. 
+> 15. The system sets and manages the margins of a view controller’s root view. The top and bottom margins are set to zero points, making it easy to extend content under the bars (if any). The side margins vary depending on how and where the controller is presented, but can be either 16 or 20 points. You cannot change these margins.
+> 16. Use stack views wherever possible
+> 17. Avoid giving views a fixed height or width.
+> 18. Always use leading and trailing constraints instead of right and left.
+> 19. For text objects that fill the root view from margin to margin, use the readable content guides instead of the layout margins.
+For items that need to fill the root view from edge to edge (for example, background images), use the view’s leading and trailing edges.
+> 20. If the view extends under the bars, use the top and bottom margins.If the view does not extend under the bars, constrain the view to the top and bottom layout guides instead.
+> 21. When programmatically instantiating views, be sure to set their translatesAutoresizingMaskIntoConstraints property to NO.
+
 
 Reference:https://developer.apple.com/library/content/documentation/UserExperience/Conceptual/AutolayoutPG/AnatomyofaConstraint.html#//apple_ref/doc/uid/TP40010853-CH9-SW1
