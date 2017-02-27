@@ -6,8 +6,6 @@
 
 * [JVFloatLabeledTextField](https://github.com/jverdi/JVFloatLabeledTextField)
 
-* [SnapKit](https://github.com/SnapKit/SnapKit)
-
 * [Mantle](https://github.com/Mantle/Mantle)
 
 * [IQKeyboardManager](https://github.com/hackiftekhar/IQKeyboardManager)

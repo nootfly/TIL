@@ -86,6 +86,7 @@ the inner page anchor names must be lowercase.
 - [UIViewController loadView](iOS/UIViewController-loadView.md)
 - [Autolayout cheat sheet](iOS/Autolayout-rules-of-thumb.md)
 - [NSLayoutAnchor](iOS/NSLayoutAnchor.md)
+- [UILayoutGuide](iOS/UILayoutGuide.md)
 
 ### JavaScript
 - [Show console.log in JSFiddle](Javascript/JSFiddle-console.md)
