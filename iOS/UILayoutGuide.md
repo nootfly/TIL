@@ -12,7 +12,7 @@
 
 >You can use these guides to define the space between elements in your layout. The following example shows layout guides used to define an equal spacing between a series of views.
 
-  ```
+  ```swift
       let space1 = UILayoutGuide()
       view.addLayoutGuide(space1)
 
@@ -25,6 +25,7 @@
       cancelButton.trailingAnchor.constraintEqualToAnchor(space2.leadingAnchor).active = true
       clearButton.leadingAnchor.constraintEqualToAnchor(space2.trailingAnchor).active = true
    ```
+
 
 
 Reference: https://developer.apple.com/reference/uikit/uilayoutguide   
