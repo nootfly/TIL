@@ -52,7 +52,6 @@ leadingConstraint.active = true
 centerXAnchor.constraint(equalTo: (superview?.centerXAnchor)!, constant: 0).isActive = true
 
 centerYAnchor.constraint(equalTo: (superview?.centerYAnchor)!, constant: 0).isActive = true
-
 ```
 
 
