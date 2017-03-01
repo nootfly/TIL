@@ -87,6 +87,7 @@ the inner page anchor names must be lowercase.
 - [Autolayout cheat sheet](iOS/Autolayout-rules-of-thumb.md)
 - [NSLayoutAnchor](iOS/NSLayoutAnchor.md)
 - [UILayoutGuide](iOS/UILayoutGuide.md)
+- [Customize iOS share extension UI](http://blog.youapp.co/ios/2017/03/01/Customize-iOS-Share-extension-UI/)
 
 ### JavaScript
 - [Show console.log in JSFiddle](Javascript/JSFiddle-console.md)
