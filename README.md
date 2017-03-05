@@ -88,6 +88,7 @@ the inner page anchor names must be lowercase.
 - [NSLayoutAnchor](iOS/NSLayoutAnchor.md)
 - [UILayoutGuide](iOS/UILayoutGuide.md)
 - [Customize iOS share extension UI](http://blog.youapp.co/ios/2017/03/01/Customize-iOS-Share-extension-UI/)
+- [Give a UIStackView a background color](iOS/Give-a-UIStackView-a-background-color.md)
 
 ### JavaScript
 - [Show console.log in JSFiddle](Javascript/JSFiddle-console.md)
@@ -132,6 +133,7 @@ the inner page anchor names must be lowercase.
 - [Where has my disk space gone](Tools/Where-has-my-disk-space-gone.md)
 - [Mathematical symbols](http://www.rapidtables.com/math/symbols/Basic_Math_Symbols.htm)
 - [Convert Icon Fonts To PNG](http://fa2png.io/)
+- [Gradient colours](https://uigradients.com)
 
 ### WatchOS
 - [Watch OS app archive other items issue](WatchOS/Watch-OS-app-archive-other-items-issue.md)
