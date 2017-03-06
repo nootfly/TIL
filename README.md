@@ -10,7 +10,7 @@ This is inspired by https://github.com/jbranchaud/til.
 ### Categories
 
 * [Android](#android)
-* [Clojure](#clojure)
+* [Design](#design)
 * [Docker](#docker)
 * [Git](#git)
 * [Go](#go)
@@ -36,8 +36,15 @@ the inner page anchor names must be lowercase.
 
 ---
 ### Android
-* [Android simulator HAXM hypervisor error](Android/Android-simulator-HAXM-hypervisor-error.md)
-* [Always show an intent chooser](Android/Alway-show-an-Intent-chooser.md)
+- [Android simulator HAXM hypervisor error](Android/Android-simulator-HAXM-hypervisor-error.md)
+- [Always show an intent chooser](Android/Alway-show-an-Intent-chooser.md)
+
+
+### Design
+- [Color-hex](http://www.color-hex.com/)
+- [Convert Icon Fonts To PNG](http://fa2png.io/)
+- [Gradient colors](https://uigradients.com)
+- [Flat colors](https://www.materialui.co/flatuicolors)
 
 ### Docker
 
@@ -132,8 +139,7 @@ the inner page anchor names must be lowercase.
 - [Dictionary](https://cdn.rawgit.com/nootfly/TIL/10cc9914/dict.html)
 - [Where has my disk space gone](Tools/Where-has-my-disk-space-gone.md)
 - [Mathematical symbols](http://www.rapidtables.com/math/symbols/Basic_Math_Symbols.htm)
-- [Convert Icon Fonts To PNG](http://fa2png.io/)
-- [Gradient colours](https://uigradients.com)
+
 
 ### WatchOS
 - [Watch OS app archive other items issue](WatchOS/Watch-OS-app-archive-other-items-issue.md)
