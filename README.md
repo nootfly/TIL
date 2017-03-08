@@ -96,7 +96,7 @@ the inner page anchor names must be lowercase.
 - [NSLayoutAnchor](iOS/NSLayoutAnchor.md)
 - [UILayoutGuide](iOS/UILayoutGuide.md)
 - [Customize iOS share extension UI](http://blog.youapp.co/ios/2017/03/01/Customize-iOS-Share-extension-UI/)
-- [Give a UIStackView a background color](iOS/Give-a-UIStackView-a-background-color.md)
+- [UIStackView](iOS/UIStackView.md)
 
 ### JavaScript
 - [Show console.log in JSFiddle](Javascript/JSFiddle-console.md)
