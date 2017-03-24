@@ -98,6 +98,7 @@ the inner page anchor names must be lowercase.
 - [Customize iOS share extension UI](http://blog.youapp.co/ios/2017/03/01/Customize-iOS-Share-extension-UI/)
 - [UIStackView](iOS/UIStackView.md)
 - [Fix iTunesConnect must have an arm64-only executable error](iOS/itunesconnect-arm64-only-error.md)
+- [iOS share extension icon not seen on simulators](iOS/iOS-share-extension-icon-not-seen-on-simulators.md)
 
 ### JavaScript
 - [Show console.log in JSFiddle](Javascript/JSFiddle-console.md)
