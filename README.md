@@ -111,6 +111,7 @@ the inner page anchor names must be lowercase.
 - [Ubuntu commands](Linux/Ubuntu-commands.md)
 - [Bash commands](Linux/Bash-commands.md)
 - [Run cd in a shell script](Linux/run-cd-in-a-shell-script.md)
+- [sudo cd](Linux/sudo-cd.md)
 
 ### Mac
 - [nscurl](Mac/nscurl.md)
