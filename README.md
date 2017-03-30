@@ -10,6 +10,7 @@ This is inspired by https://github.com/jbranchaud/til.
 ### Categories
 
 * [Android](#android)
+* [Cloud](#cloud)
 * [Design](#design)
 * [Docker](#docker)
 * [Git](#git)
@@ -39,6 +40,8 @@ the inner page anchor names must be lowercase.
 - [Android simulator HAXM hypervisor error](Android/Android-simulator-HAXM-hypervisor-error.md)
 - [Always show an intent chooser](Android/Alway-show-an-Intent-chooser.md)
 
+### Cloud
+- [AWS EC2 disk full](Cloud/aws-ec2-disk-full.md)
 
 ### Design
 - [Color-hex](http://www.color-hex.com/)
