@@ -4,14 +4,14 @@ It's a quick way to get system font names. The code is from http://codewithchris
 
 Swift:
 ```swift
-for family: String in UIFont.familyNames()
-{
-     print("\(family)")
-     for names: String in UIFont.fontNamesForFamilyName(family)
-     {
-         print("== \(names)")
-     }
-}
+ for family: String in UIFont.familyNames
+ {
+            print("\(family)")
+            for names: String in UIFont.fontNames(forFamilyName: family)
+            {
+                print("== \(names)")
+            }
+  }
 
 ```
 
