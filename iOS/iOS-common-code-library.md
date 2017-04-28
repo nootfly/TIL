@@ -9,3 +9,12 @@
     button.setImage(buttonImage?.withRenderingMode(.alwaysTemplate), for: .normal)
     button.tintColor = .white
 ```
+
+2. Add `Mark` to Swift code
+
+   ```swift
+     //MARK: viewDidLoad
+     //TODO: - viewDidLoad
+     //FIXME - viewDidLoad
+
+   ```
