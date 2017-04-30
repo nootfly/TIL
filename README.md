@@ -105,6 +105,7 @@ the inner page anchor names must be lowercase.
 - [Fix iTunesConnect must have an arm64-only executable error](iOS/itunesconnect-arm64-only-error.md)
 - [iOS share extension icon not seen on simulators](iOS/iOS-share-extension-icon-not-seen-on-simulators.md)
 - [iOS common code library](iOS/iOS-common-code-library.md)
+- [Quartz 2D cheat sheet](iOS/quartz2d.md)
 
 ### JavaScript
 - [Show console.log in JSFiddle](Javascript/JSFiddle-console.md)
