@@ -106,6 +106,8 @@ the inner page anchor names must be lowercase.
 - [iOS share extension icon not seen on simulators](iOS/iOS-share-extension-icon-not-seen-on-simulators.md)
 - [iOS common code library](iOS/iOS-common-code-library.md)
 - [Quartz 2D cheat sheet](iOS/quartz2d.md)
+- [iOS Drawing Concepts cheat sheet](iOS/iOS-Drawing-Concepts.md)
+- [iOS graph SDK guides](iOS/iOS-graph-SDK-guides.md)
 
 ### JavaScript
 - [Show console.log in JSFiddle](Javascript/JSFiddle-console.md)

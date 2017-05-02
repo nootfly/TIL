@@ -28,4 +28,4 @@
 
 * Quartz provides two data types for creating reusable paths—CGPathRef and CGMutablePathRef.
 
-* 
+* iOS does not support device-independent or generic color spaces. iOS applications must use device color spaces instead.
