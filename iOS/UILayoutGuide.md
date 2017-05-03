@@ -19,11 +19,11 @@
       let space2 = UILayoutGuide()
       view.addLayoutGuide(space2)
 
-      space1.widthAnchor.constraintEqualToAnchor(space2.widthAnchor).active = true
-      saveButton.trailingAnchor.constraintEqualToAnchor(space1.leadingAnchor).active = true
-      cancelButton.leadingAnchor.constraintEqualToAnchor(space1.trailingAnchor).active = true
-      cancelButton.trailingAnchor.constraintEqualToAnchor(space2.leadingAnchor).active = true
-      clearButton.leadingAnchor.constraintEqualToAnchor(space2.trailingAnchor).active = true
+      space1.widthAnchor.constraint(equalTo: space2.widthAnchor).isActive = true
+      saveButton.trailingAnchor.constraint(equalTo: space1.leadingAnchor).isActive = true
+      cancelButton.leadingAnchor.constraint(equalTo: space1.trailingAnchor).isActive = true
+      cancelButton.trailingAnchor.constraint(equalTo: space2.leadingAnchor).isActive = true
+      clearButton.leadingAnchor.constraint(equalTo: space2.trailingAnchor).isActive = true
   ```
 
 
