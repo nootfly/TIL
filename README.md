@@ -108,6 +108,8 @@ the inner page anchor names must be lowercase.
 - [Quartz 2D cheat sheet](iOS/quartz2d.md)
 - [iOS Drawing cheat sheet](iOS/iOS-Drawing-Concepts.md)
 - [iOS graphics SDK guides](iOS/iOS-graph-SDK-guides.md)
+- [no known instance method for selector](iOS/no-known-instance-method-error.md)
+- [OpenGL cheat sheet](iOS/OpenGL-cheat-sheet.md)
 
 ### JavaScript
 - [Show console.log in JSFiddle](Javascript/JSFiddle-console.md)
