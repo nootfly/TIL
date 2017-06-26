@@ -111,6 +111,7 @@ the inner page anchor names must be lowercase.
 - [no known instance method for selector](iOS/no-known-instance-method-error.md)
 - [OpenGL cheat sheet](iOS/OpenGL-cheat-sheet.md)
 - [Set static UITableViewCell delegate](iOS/Set-static-UITableViewCell-delegate.md)
+- [UIWebView transparent background color](iOS/UIWebView-transparent-background-color.md)
 
 ### JavaScript
 - [Show console.log in JSFiddle](Javascript/JSFiddle-console.md)
