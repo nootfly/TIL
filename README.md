@@ -118,6 +118,8 @@ the inner page anchor names must be lowercase.
 - [Run script in Atom](Javascript/Atom-run-javascript.md)
 - [mongojs aggregate](Javascript/mongojs-aggregate.md)
 - [nodejs debug objects](Javascript/nodejs-debug-object.md)
+- [ES6 cheat sheet](Javascript/es6-cheat-sheet.md)
+- [Webpack errors](Javascript/Webpack-errors.md)
 
 ### Linux
 - [Ubuntu commands](Linux/Ubuntu-commands.md)
