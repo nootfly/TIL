@@ -2,8 +2,8 @@
 
 1. Error: Cannot find module 'webpack'
 
-  ```
-    npm install --save-dev webpack
+   ```
+   npm install --save-dev webpack
    ```
 
 2. configuration.output.path: The provided value "dist/assets" is not an absolute path!
