@@ -10,9 +10,9 @@
   To solve this issue, you can add `__dirname` to a ouput path.
 
    ```
-  output: {
+     output: {
         path: __dirname + "dist/assets",
         filename: "bundle.js",
         sourceMapFilename: 'bundle.map'
-  }
+     }
     ```
