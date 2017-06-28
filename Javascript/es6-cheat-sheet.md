@@ -16,6 +16,34 @@
 
 8. Bindings declared using const are considered constants, meaning their values cannot be changed once set.
 
+9. Constants, like let declarations, are block-level declarations. That means constants are no longer accessible once execution flows out of the block in which they were declared, and declarations are not hoisted.
+
+10. The value a constant holds can be modified if it is an object. `const` prevents modification of the binding, not modification of the bound value.
+
+11. Use const by default, and only use let when you know a variable’s value needs to change.
+
+12. ECMAScript 6 supports Unicode normalization forms by giving strings a `normalize()` method.
+
+13. ECMAScript 6 adds `includes()`, `startsWith()`, `endsWith()` and `repeat()` method to strings.
+
+14. A template tag performs a transformation on the template literal and returns the final string value. This tag is specified at the start of the template.
+
+15. Rest parameters have two restrictions. The first restriction is that there can be only one rest parameter, and the rest parameter must be last. The second restriction is that rest parameters cannot be used in an object literal setter.
+
+16. All functions in an ECMAScript 6 program will have an appropriate value for their name property.
+
+17. JavaScript has two different internal-only methods for functions: [[Call]] and [[Construct]]. When a function is called without new, the [[Call]] method is executed, which executes the body of the function as it appears in the code. When a function is called with new, that’s when the [[Construct]] method is called.
+
+18. ECMAScript 6 introduces the new.target metaproperty. A metaproperty is a property of a nonobject that provides additional information related to its target (such as new).
+
+19. Block-level functions are hoisted to the top of the block in which they are defined.
+
+20. But arrow functions behave differently than traditional JavaScript functions in a number of important ways: 1. No this, super, arguments, and new.target bindings 2. Cannot be called with new 3. No prototype 4. Can’t change this 5. No arguments object 6. No duplicate named parameters.
+
+21. Even though there is no explicit return statement, this arrow function will return the first argument that is passed in.
+
+
+
 
 Reference:
 

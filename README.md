@@ -158,6 +158,8 @@ the inner page anchor names must be lowercase.
 - [Dictionary](https://cdn.rawgit.com/nootfly/TIL/10cc9914/dict.html)
 - [Where has my disk space gone](Tools/Where-has-my-disk-space-gone.md)
 - [Mathematical symbols](http://www.rapidtables.com/math/symbols/Basic_Math_Symbols.htm)
+- [ES 6 playground](https://babeljs.io/repl/)
+
 
 
 ### WatchOS
