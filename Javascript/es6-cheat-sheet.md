@@ -42,6 +42,32 @@
 
 21. Even though there is no explicit return statement, this arrow function will return the first argument that is passed in.
 
+22. Think about tail call optimization whenever you’re writing a recursive function, because it can provide a significant performance improvement, especially when applied in a computationally expensive function.
+
+23. When an object property name is the same as the local variable name, you can simply include the name without a colon and value.
+
+24. ECMAScript 6 introduces the `Object.is()` method to remedy the remaining inaccuracies of the identically equals operator.
+
+25. It’s now possible to modify an object’s prototype after it’s been created thanks to ECMAScript 6’s Object.setPrototypeOf() method.
+
+26. When you’re using destructuring to declare variables using var, let, or const, you must supply an initializer (the value after the equal sign).
+
+27. In ECMAScript 6, you can use rest items to clone an array.
+
+28. ECMAScript 6 introduces symbols as a primitive type. (The language already had five primitive types: strings, numbers, Booleans, null, and undefined.
+
+29. ECMAScript 6 introduces symbols as a primitive type. (The language already had five primitive types: strings, numbers, Booleans, null, and undefined.
+
+30. ECMAScript 6 added sets and maps to JavaScript.
+
+31. Keep in mind that although sets are great for tracking values and forEach() lets you work on each item sequentially, you can’t directly access an item by index like you can with an array. If you need to do so, the best option is to convert the set to an array.
+
+32. Converting an array to a set is easy because you can pass the array to the Set constructor; converting a set back to an array is also easy if you use the spread operator (...).
+
+33. ECMAScript 6 also includes weak sets, which only store weak object references and cannot store primitive values. A weak reference to an object doesn’t prevent garbage collection if it’s the only remaining reference.
+
+34. Keep in mind that an error will be thrown if the array contains any nonobject values, because WeakSet can’t accept primitive values.
+
 
 
 
