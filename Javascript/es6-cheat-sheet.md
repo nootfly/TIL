@@ -68,6 +68,16 @@
 
 34. Keep in mind that an error will be thrown if the array contains any nonobject values, because WeakSet can’t accept primitive values.
 
+35. You can initialize a map with data by passing an array to the Map constructor. Each item in the array must itself be an array where the first item is the key and the second is that key’s corresponding value. Therefore, the entire map is an array of these two-item arrays.
+
+36. It’s best to use weak sets only for tracking objects that need to be grouped together.
+
+37. Generator functions are indicated by an asterisk character (*) after the function keyword and use the new yield keyword.
+
+38. The for-of statement will throw an error when you use it on a non-iterable object, null, or undefined.
+
+39.
+
 
 
 

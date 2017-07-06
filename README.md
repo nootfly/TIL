@@ -146,6 +146,7 @@ the inner page anchor names must be lowercase.
 ### ReactNative
 
 - [Add custom fonts](https://medium.com/@danielskripnik/how-to-add-and-remove-custom-fonts-in-react-native-b2830084b0e4)
+- [RawText must be wrapped issue](ReactNative/RawText-must-be-wrapped.md)
 
 ### Swift
 - [Swift lazy](Swift/Lazy-Swift.md)
