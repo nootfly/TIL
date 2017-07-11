@@ -76,7 +76,13 @@
 
 38. The for-of statement will throw an error when you use it on a non-iterable object, null, or undefined.
 
-39.
+39. The spread operator and `for-of` ignore any value specified by a return statement. As soon as they see done is true, they stop without reading the value. However, iterator return values are helpful when delegating generators.
+
+40. Class declarations and class expressions are not hoisted.
+
+41. Classes that inherit from other classes are referred to as derived classes. Derived classes require you to use `super()` if you specify a constructor; if you don’t, an error will occur. You must call `super()` before accessing this in the constructor. Because `super()` is responsible for initializing this, attempting to access this before calling `super()` results in an error. The only way to avoid calling `super()` is to return an object from the class constructor.
+
+42.
 
 
 
