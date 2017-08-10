@@ -82,9 +82,15 @@
 
 41. Classes that inherit from other classes are referred to as derived classes. Derived classes require you to use `super()` if you specify a constructor; if you don’t, an error will occur. You must call `super()` before accessing this in the constructor. Because `super()` is responsible for initializing this, attempting to access this before calling `super()` results in an error. The only way to avoid calling `super()` is to return an object from the class constructor.
 
-42.
+42. An internal [[PromiseState]] property is set to "pending", "fulfilled", or "rejected" to reflect the promise’s state. This property isn’t exposed on promise objects, so you can’t determine which state the promise is in programmatically. But you can take a specific action when a promise changes state by using the then() method.
 
+43. Prototype proxy traps have some restrictions. First, the getPrototypeOf trap must return an object or null, and any other return value results in a runtime error. The return value check ensures that Object.getPrototypeOf() will always return an expected value. Second, the return value of the setPrototypeOf trap must be false if the operation doesn’t succeed. When setPrototypeOf returns false, Object.setPrototypeOf() throws an error. If setPrototypeOf returns any value other than false, Object.setPrototypeOf() assumes the operation succeeded.
 
+44. You can use the ownKeys trap to, for example, filter out certain property keys that you don’t want used when the Object.keys() method, the Object.getOwnPropertyNames() method, the Object.getOwnPropertySymbols() method, or the Object.assign() method is used.
+
+45. Using a combination of proxy traps and reflection API methods, it’s possible to filter some operations to behave differently only in certain conditions while defaulting to the built-in behavior.
+
+46. A module is JavaScript code that automatically runs in strict mode with no way to opt out. Keep in mind that no matter how many times you use a module in import statements, the module will execute only once. Keep in mind that the default must come before the non-defaults in the import statement. Imports without bindings are most likely to be used to create polyfills and shims.
 
 
 Reference:

@@ -113,6 +113,7 @@ the inner page anchor names must be lowercase.
 - [OpenGL cheat sheet](iOS/OpenGL-cheat-sheet.md)
 - [Set static UITableViewCell delegate](iOS/Set-static-UITableViewCell-delegate.md)
 - [UIWebView transparent background color](iOS/UIWebView-transparent-background-color.md)
+- [Increase iOS build number in Fastlane](iOS/increase-ios-build-number-in-fastlane.md)
 
 ### JavaScript
 - [Show console.log in JSFiddle](Javascript/JSFiddle-console.md)
