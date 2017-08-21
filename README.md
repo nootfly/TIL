@@ -166,6 +166,7 @@ the inner page anchor names must be lowercase.
 - [Where has my disk space gone](Tools/Where-has-my-disk-space-gone.md)
 - [Mathematical symbols](http://www.rapidtables.com/math/symbols/Basic_Math_Symbols.htm)
 - [ES 6 playground](https://babeljs.io/repl/)
+- [atom mac live server plugin not working](Tools/atom-mac-live-server-plugin-not-working.md)
 
 ### WatchOS
 - [Watch OS app archive other items issue](WatchOS/Watch-OS-app-archive-other-items-issue.md)
