@@ -160,7 +160,7 @@ the inner page anchor names must be lowercase.
 - [Swift 2 to Swift 3](Swift/Swift2-to-Swift3.md)
 - [Escaping closures](Swift/Escaping-Closures.md)
 - [Open keyword](Swift/Open-keyword-swift-3.md)
-- [Swift 3 cheat sheet](Swift/swift-3-cheat-sheet.md)
+- [Swift 3 cheat sheet](Swift/Swift-3-cheat-sheet.md)
 
 ### Tools
 - [Developers cheat sheets](Others/Developers-cheat-sheets.md)
