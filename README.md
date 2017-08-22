@@ -65,7 +65,8 @@ the inner page anchor names must be lowercase.
 
 ### Git
 - [git auto push](git/git-auto-push.md)
-- [git cheat sheet](git/git-cheat-sheet.md)  
+- [git cheat sheet](git/git-cheat-sheet.md)
+- [remove big files from git repository.md](remove-big-files-from-git-repository.md)  
 
 ### Go
 
@@ -167,6 +168,7 @@ the inner page anchor names must be lowercase.
 - [Mathematical symbols](http://www.rapidtables.com/math/symbols/Basic_Math_Symbols.htm)
 - [ES 6 playground](https://babeljs.io/repl/)
 - [atom mac live server plugin not working](Tools/atom-mac-live-server-plugin-not-working.md)
+- [jenkins docker permission denied issue.md](Tools/jenkins-docker-permission-denied-issue.md)
 
 ### WatchOS
 - [Watch OS app archive other items issue](WatchOS/Watch-OS-app-archive-other-items-issue.md)
