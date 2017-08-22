@@ -66,7 +66,7 @@ the inner page anchor names must be lowercase.
 ### Git
 - [git auto push](git/git-auto-push.md)
 - [git cheat sheet](git/git-cheat-sheet.md)
-- [remove big files from git repository.md](remove-big-files-from-git-repository.md)  
+- [remove big files from git repository](git/remove-big-files-from-git-repository.md)  
 
 ### Go
 
