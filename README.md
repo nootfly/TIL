@@ -170,6 +170,7 @@ the inner page anchor names must be lowercase.
 - [ES 6 playground](https://babeljs.io/repl/)
 - [atom mac live server plugin not working](Tools/atom-mac-live-server-plugin-not-working.md)
 - [jenkins docker permission denied issue.md](Tools/jenkins-docker-permission-denied-issue.md)
+- [Atom packages](Tools/atom-packages.md)
 
 ### WatchOS
 - [Watch OS app archive other items issue](WatchOS/Watch-OS-app-archive-other-items-issue.md)
