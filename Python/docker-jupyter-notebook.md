@@ -1,8 +1,8 @@
 # run Jupyter in a docker container
 
-1. docker run -d -P jupyter/scipy-notebook
+1. `docker run -d -P jupyter/scipy-notebook`
 
-2. docker exec -it container_id /bin/bash
+2. `docker exec -it container_id /bin/bash`
 
 3. Run `jupyter notebook list` to get a url with a token
 
