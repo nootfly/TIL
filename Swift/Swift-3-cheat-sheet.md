@@ -36,5 +36,8 @@ func returnTwenty() -> Int {
  returnTwenty()
 ```
 5. AnyObject can represent an instance of any class type. Any can represent an instance of any type, including structs, enumerations, and function types.
-6. Swift enables us to declare nested types whereby we nest supporting enumerations, classes, and structures within the definition of the type that they support. 
-7.
+
+6. Swift enables us to declare nested types whereby we nest supporting enumerations, classes, and structures within the definition of the type that they support.
+
+7. The static methods cannot be overridden by the subclasses of the object that they reside in. Class methods are like the static methods but they can be overridden by subclasses.
+8.

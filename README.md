@@ -164,7 +164,7 @@ the inner page anchor names must be lowercase.
 - [Swift 3 cheat sheet](Swift/Swift-3-cheat-sheet.md)
 
 ### Tools
-- [Developers cheat sheets](Others/Developers-cheat-sheets.md)
+- [Developers cheat sheets](Tools/Developers-cheat-sheets.md)
 - [Dictionary](https://cdn.rawgit.com/nootfly/TIL/10cc9914/dict.html)
 - [Where has my disk space gone](Tools/Where-has-my-disk-space-gone.md)
 - [Mathematical symbols](http://www.rapidtables.com/math/symbols/Basic_Math_Symbols.htm)
