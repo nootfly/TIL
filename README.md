@@ -144,6 +144,7 @@ the inner page anchor names must be lowercase.
 
 ### Python
 - [Python resources](Python/Python-resources.md)
+- [Docker Jupter notebook](Python/docker-jupyter-notebook.md)
 
 ### ReactNative
 
