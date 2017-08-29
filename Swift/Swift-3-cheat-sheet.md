@@ -40,4 +40,5 @@ func returnTwenty() -> Int {
 6. Swift enables us to declare nested types whereby we nest supporting enumerations, classes, and structures within the definition of the type that they support.
 
 7. The static methods cannot be overridden by the subclasses of the object that they reside in. Class methods are like the static methods but they can be overridden by subclasses.
+
 8.
