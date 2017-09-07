@@ -116,6 +116,7 @@ the inner page anchor names must be lowercase.
 - [UIWebView transparent background color](iOS/UIWebView-transparent-background-color.md)
 - [Increase iOS build number in Fastlane](iOS/increase-ios-build-number-in-fastlane.md)
 - [iOS theme code](iOS/ios-theme.md)
+- [iOS debugging tips](iOS/xcode-debugging-tips.md)
 
 ### JavaScript
 - [Show console.log in JSFiddle](Javascript/JSFiddle-console.md)
