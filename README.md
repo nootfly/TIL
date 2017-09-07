@@ -40,6 +40,7 @@ the inner page anchor names must be lowercase.
 ### Android
 - [Android simulator HAXM hypervisor error](Android/Android-simulator-HAXM-hypervisor-error.md)
 - [Always show an intent chooser](Android/Alway-show-an-Intent-chooser.md)
+- [Gradle daemon error](Android/gradle-daemon-error.md)
 
 ### Cloud
 - [AWS EC2 disk full](Cloud/aws-ec2-disk-full.md)
