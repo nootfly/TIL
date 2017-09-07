@@ -1,6 +1,6 @@
 # Gradle damon error
 
-You can solve the below issue by add `org.gradle.jvmargs=-Xmx1024m` in `gradle.properties` file.
+You can solve the below issue by adding `org.gradle.jvmargs=-Xmx1024m` in `gradle.properties` file.
 
 >Error:Unable to start the daemon process.
 >This problem might be caused by incorrect configuration of the daemon.
