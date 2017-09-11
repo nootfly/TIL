@@ -35,3 +35,7 @@
 * rename docker container
 
    `docker rename CONTAINER NEW_NAME`
+
+* copy files from the container to the host  
+
+   `docker cp <containerId>:/file/path/within/container /host/path/target`
