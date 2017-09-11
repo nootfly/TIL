@@ -42,6 +42,7 @@ the inner page anchor names must be lowercase.
 - [Always show an intent chooser](Android/Alway-show-an-Intent-chooser.md)
 - [Gradle daemon error](Android/gradle-daemon-error.md)
 - [Use Dagger 2 for dependency injection](Android/Use-Dagger2-for-DI.md)
+- [Enable Android emulator keyboard](Android/enable-emulator-keyboard.md)
 
 ### Cloud
 - [AWS EC2 disk full](Cloud/aws-ec2-disk-full.md)
