@@ -43,6 +43,7 @@ the inner page anchor names must be lowercase.
 - [Gradle daemon error](Android/gradle-daemon-error.md)
 - [Use Dagger 2 for dependency injection](Android/Use-Dagger2-for-DI.md)
 - [Enable Android emulator keyboard](Android/enable-emulator-keyboard.md)
+- [Android Studio gradle project sync failed](Android/gradle-project-sync-failed.md)
 
 ### Cloud
 - [AWS EC2 disk full](Cloud/aws-ec2-disk-full.md)
@@ -128,6 +129,7 @@ the inner page anchor names must be lowercase.
 - [nodejs debug objects](Javascript/nodejs-debug-object.md)
 - [ES6 cheat sheet](Javascript/es6-cheat-sheet.md)
 - [Webpack errors](Javascript/Webpack-errors.md)
+- [Nodejs Authentication](Javascript/nodejs-authentication.md)
 
 ### Linux
 - [Ubuntu commands](Linux/Ubuntu-commands.md)
