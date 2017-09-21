@@ -131,6 +131,7 @@ the inner page anchor names must be lowercase.
 - [ES6 cheat sheet](Javascript/es6-cheat-sheet.md)
 - [Webpack errors](Javascript/Webpack-errors.md)
 - [Nodejs Authentication](Javascript/nodejs-authentication.md)
+- [Semantic versioning and npm](Javascript/npm-semver.md)
 
 ### Linux
 - [Ubuntu commands](Linux/Ubuntu-commands.md)
