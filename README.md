@@ -121,7 +121,7 @@ the inner page anchor names must be lowercase.
 - [Increase iOS build number in Fastlane](iOS/increase-ios-build-number-in-fastlane.md)
 - [iOS theme code](iOS/ios-theme.md)
 - [iOS debugging tips](iOS/xcode-debugging-tips.md)
-- [Strange AQDefaultDevice loggin](iOS/strange-AQDefaultDevice-logging.md)
+- [Strange AQDefaultDevice logs](iOS/strange-AQDefaultDevice-logging.md)
 
 ### JavaScript
 - [Show console.log in JSFiddle](Javascript/JSFiddle-console.md)
