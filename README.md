@@ -44,6 +44,7 @@ the inner page anchor names must be lowercase.
 - [Use Dagger 2 for dependency injection](Android/Use-Dagger2-for-DI.md)
 - [Enable Android emulator keyboard](Android/enable-emulator-keyboard.md)
 - [Android Studio gradle project sync failed](Android/gradle-project-sync-failed.md)
+- [Android activity lifecycle](Android/Android-Activity-lifecycle.md)
 
 ### Cloud
 - [AWS EC2 disk full](Cloud/aws-ec2-disk-full.md)
