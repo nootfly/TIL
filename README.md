@@ -45,7 +45,8 @@ the inner page anchor names must be lowercase.
 - [Enable Android emulator keyboard](Android/enable-emulator-keyboard.md)
 - [Android Studio gradle project sync failed](Android/gradle-project-sync-failed.md)
 - [Android activity lifecycle](Android/Android-Activity-lifecycle.md)
-- [Adnroid layout cheat sheet](Android/layout-cheat-sheet.md)
+- [Android layout cheat sheet](Android/layout-cheat-sheet.md)
+- [Android style cheat sheet](Android/Android-style-cheat-sheet.md)
 
 ### Cloud
 - [AWS EC2 disk full](Cloud/aws-ec2-disk-full.md)
