@@ -125,6 +125,7 @@ the inner page anchor names must be lowercase.
 - [iOS theme code](iOS/ios-theme.md)
 - [iOS debugging tips](iOS/xcode-debugging-tips.md)
 - [Strange AQDefaultDevice logs](iOS/strange-AQDefaultDevice-logging.md)
+- [Xcode 9 tips](iOS/xcode-9-tips.md)
 
 ### JavaScript
 - [Show console.log in JSFiddle](Javascript/JSFiddle-console.md)
