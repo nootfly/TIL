@@ -15,3 +15,5 @@
 ```
 
 * The Main Thread Checker is a standalone tool for Swift and C languages that detects invalid usage of AppKit, UIKit, and other APIs on a background thread.
+
+* Select the segue object in Interface Builder, you can select the `Preview & Commit Segues` checkbox under `Peek & Pop` section.
