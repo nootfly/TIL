@@ -176,6 +176,7 @@ the inner page anchor names must be lowercase.
 - [Escaping closures](Swift/Escaping-Closures.md)
 - [Open keyword](Swift/Open-keyword-swift-3.md)
 - [Swift 3 cheat sheet](Swift/Swift-3-cheat-sheet.md)
+- [Swift Playground tips](Swift/playground-tips.md)
 
 ### Tools
 - [Developers cheat sheets](Tools/Developers-cheat-sheets.md)

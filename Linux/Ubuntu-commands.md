@@ -22,3 +22,7 @@
 * Install ping
 
   `apt-get install iputils-ping`
+
+* Copy SSH key to clipboard
+
+  `pbcopy < ~/.ssh/id_rsa.pub`
