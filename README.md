@@ -47,6 +47,7 @@ the inner page anchor names must be lowercase.
 - [Android activity lifecycle](Android/Android-Activity-lifecycle.md)
 - [Android layout cheat sheet](Android/layout-cheat-sheet.md)
 - [Android style cheat sheet](Android/Android-style-cheat-sheet.md)
+- [Android CI](Android/android-ci.md)
 
 ### Cloud
 - [AWS EC2 disk full](Cloud/aws-ec2-disk-full.md)
