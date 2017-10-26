@@ -48,6 +48,7 @@ the inner page anchor names must be lowercase.
 - [Android layout cheat sheet](Android/layout-cheat-sheet.md)
 - [Android style cheat sheet](Android/Android-style-cheat-sheet.md)
 - [Android CI](Android/android-ci.md)
+- [Vector Support Library](Android/vector-asset-support.md)
 
 ### Cloud
 - [AWS EC2 disk full](Cloud/aws-ec2-disk-full.md)
@@ -74,12 +75,12 @@ the inner page anchor names must be lowercase.
 ### Git
 - [git auto push](git/git-auto-push.md)
 - [git cheat sheet](git/git-cheat-sheet.md)
-- [remove big files from git repository](git/remove-big-files-from-git-repository.md)  
+- [remove big files from git repository](git/remove-big-files-from-git-repository.md)
+- [Automatically use correct SSH key for remote Git repo](git/use-correct-ssh-key.md)  
 
 ### Go
 
 - [Upgrade go to 1.6](Go/Upgrade-go-to-1.6.md)
-
 
 ### iOS
 
@@ -179,6 +180,7 @@ the inner page anchor names must be lowercase.
 - [Open keyword](Swift/Open-keyword-swift-3.md)
 - [Swift 3 cheat sheet](Swift/Swift-3-cheat-sheet.md)
 - [Swift Playground tips](Swift/playground-tips.md)
+- [Swift playground unit test](Swift/swift-playground-unit-test.md)
 
 ### Tools
 - [Developers cheat sheets](Tools/Developers-cheat-sheets.md)
