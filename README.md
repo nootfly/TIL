@@ -50,6 +50,7 @@ the inner page anchor names must be lowercase.
 - [Android style cheat sheet](Android/Android-style-cheat-sheet.md)
 - [Android CI](Android/android-ci.md)
 - [Vector Support Library](Android/vector-asset-support.md)
+- [Distribute views evenly across a linearlayout](Android/distribute-views-evenly-linearlayout.md)
 
 ### Cloud
 - [AWS EC2 disk full](Cloud/aws-ec2-disk-full.md)
