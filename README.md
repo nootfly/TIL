@@ -54,6 +54,7 @@ the inner page anchor names must be lowercase.
 
 ### Cloud
 - [AWS EC2 disk full](Cloud/aws-ec2-disk-full.md)
+- [Serverless S3 bucket exists error](Cloud/serverless-s3-exits-error.md)
 
 ### Design
 - [Color-hex](http://www.color-hex.com/)
@@ -198,6 +199,7 @@ the inner page anchor names must be lowercase.
 - [atom mac live server plugin not working](Tools/atom-mac-live-server-plugin-not-working.md)
 - [jenkins docker permission denied issue.md](Tools/jenkins-docker-permission-denied-issue.md)
 - [Atom packages](Tools/atom-packages.md)
+- [visual studio code column selection](Tools/visual-studio-code-column-selection.md)
 
 
 ### WatchOS
