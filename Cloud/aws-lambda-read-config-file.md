@@ -4,7 +4,7 @@
 
 2. Read the config file using the code below
 
-```kotlin
+```java
 InputStream is = WobCredentials.class.getResourceAsStream(serviceAccountPrivateKeyPath);
         String content = convertStreamToString(is);
         JSONObject privateKeyJson = new JSONObject(content);
@@ -13,4 +13,6 @@ InputStream is = WobCredentials.class.getResourceAsStream(serviceAccountPrivateK
         java.util.Scanner s = new java.util.Scanner(is).useDelimiter("\\A");
         return s.hasNext() ? s.next() : "";
     }
-```            
+```  
+
+Reference: [https://stackoverflow.com/questions/35356200/how-to-load-property-file-from-classpath-in-aws-lambda-java](https://stackoverflow.com/questions/35356200/how-to-load-property-file-from-classpath-in-aws-lambda-java)          
