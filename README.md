@@ -58,6 +58,7 @@ the inner page anchor names must be lowercase.
 - [Serverless S3 bucket exists error](Cloud/serverless-s3-exits-error.md)
 - [AWS lambda Java read config file](Cloud/aws-lambda-read-config-file.md)
 - [Serverless function 6 seconds timeout](Cloud/serverless-function-6-seconds-timeout.md)
+- [Serverless commands](Cloud/serverless-commands.md)
 
 ### Design
 - [Color-hex](http://www.color-hex.com/)
