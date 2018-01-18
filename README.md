@@ -138,6 +138,7 @@ the inner page anchor names must be lowercase.
 - [iPad Drag and Drop steps](iOS/drag-drop-implement-steps.md)
 - [SceneKit torus example](iOS/scenekit-torus-example.md)
 - [Save to Apple Wallet](http://nootfly.github.io/ios/2017/12/13/Save-to-Apple-Wallet/)
+- [Command /bin/sh failed with exit code 1](iOS/command-failed-with-exit-code-1.md)
 
 ### JavaScript
 - [Show console.log in JSFiddle](Javascript/JSFiddle-console.md)
