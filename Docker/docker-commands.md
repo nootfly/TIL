@@ -39,3 +39,5 @@
 * copy files from the container to the host  
 
    `docker cp <containerId>:/file/path/within/container /host/path/target`
+
+* [Removing Docker containers and images](https://zaiste.net/posts/removing_docker_containers/)    
