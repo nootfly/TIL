@@ -7,3 +7,6 @@
 * `sls offline start`
 
 * `sls dynamodb install`
+
+* `sls deploy --aws-profile profileName`
+

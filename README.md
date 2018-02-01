@@ -139,6 +139,7 @@ the inner page anchor names must be lowercase.
 - [SceneKit torus example](iOS/scenekit-torus-example.md)
 - [Save to Apple Wallet](http://nootfly.github.io/ios/2017/12/13/Save-to-Apple-Wallet/)
 - [Command /bin/sh failed with exit code 1](iOS/command-failed-with-exit-code-1.md)
+- [ALWAYS #import other classes in your .m file](iOS/Always-import-other-classes-in-m-file.md)
 
 ### JavaScript
 - [Show console.log in JSFiddle](Javascript/JSFiddle-console.md)
