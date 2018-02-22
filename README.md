@@ -24,6 +24,7 @@ This is inspired by https://github.com/jbranchaud/til.
 * [PostgreSQL](#postgresql)
 * [Python](#python)
 * [Rails](#rails)
+* [Raspberry PI](#raspberry)
 * [ReactNative](#reactnative)
 * [Resources](#resources)
 * [Ruby](#ruby)
@@ -172,6 +173,9 @@ the inner page anchor names must be lowercase.
 ### Python
 - [Python resources](Python/Python-resources.md)
 - [Docker Jupter notebook](Python/docker-jupyter-notebook.md)
+
+### Raspberry
+- [Some interesting Raspberry PI projects](raspberrypi/interesting-pi-projects.md)
 
 ### ReactNative
 
