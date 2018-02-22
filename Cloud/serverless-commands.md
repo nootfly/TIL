@@ -2,7 +2,7 @@
 
 * `sls invoke local -f funcName`
 
-* `sls deploy function --function funcName` 
+* `sls deploy -f funcName` 
 
 * `sls offline start`
 

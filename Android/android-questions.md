@@ -12,4 +12,4 @@
 
 6. stringbuilder vs stringbuffer
 
-7. 
+7. LoaderManager
