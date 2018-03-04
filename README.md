@@ -60,6 +60,7 @@ the inner page anchor names must be lowercase.
 - [AWS lambda Java read config file](Cloud/aws-lambda-read-config-file.md)
 - [Serverless function 6 seconds timeout](Cloud/serverless-function-6-seconds-timeout.md)
 - [Serverless commands](Cloud/serverless-commands.md)
+- [AWS Policy generator](Cloud/aws-policy-generator.md)
 
 ### Design
 - [Color-hex](http://www.color-hex.com/)
