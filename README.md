@@ -80,6 +80,7 @@ the inner page anchor names must be lowercase.
 - [docker-compose node link mongo](Docker/docker-compose-node-link-mongo.md)
 - [Docker insecure registry](Docker/Docker-insecure-registry.md)
 - [Docker.qcow2 disk space issue on Mac](Docker/Docker.qcow2-disk-space-issue-on-Mac.md)
+- [Run Docker tomcat image](Docker/run-tomcat-image.md)
 
 ### Git
 - [git auto push](git/git-auto-push.md)
