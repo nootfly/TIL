@@ -168,6 +168,7 @@ the inner page anchor names must be lowercase.
 ### ML
 - [install tensorflow error](ML/install-tensorflow-error.md)
 - [Show Pandas graph in jupyter notebook](ML/show-pandas-graph-in-jupyter-notebook.md)
+- [Machine learning courses](ML/machine-learning-courses.md)
 
 ### Others
 - [Technical coding interviews websites](Others/technique-interview-websites.md)
