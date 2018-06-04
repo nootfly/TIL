@@ -1,4 +1,4 @@
-#RecyclerView laggy scrolling issue
+# RecyclerView laggy scrolling issue
 
 When using RecycelerView inside NestedScrollView, recyclerView scroolling is laggy. To solve this issue, just set:
 
