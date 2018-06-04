@@ -53,6 +53,8 @@ the inner page anchor names must be lowercase.
 - [Vector Support Library](Android/vector-asset-support.md)
 - [Distribute views evenly across a linearlayout](Android/distribute-views-evenly-linearlayout.md)
 - [Save to Android Pay](https://nootfly.github.io/android/2017/12/12/Save-to-Android-Pay/)
+- [Android Studio tips](Android/Android-studio-tips.md)
+- [RecyclerView laggy scrolling issue](Android/recyclerView-laggy-scrolling-issue.md)
 
 ### Cloud
 - [AWS EC2 disk full](Cloud/aws-ec2-disk-full.md)
