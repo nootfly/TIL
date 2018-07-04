@@ -1,6 +1,6 @@
 # Automatically use correct SSH key for remote Git repo
 
-1. In ~/.ssh/ create a file called config with contents based on this:
+1. In ~/.ssh/ create a file called `config` with contents based on this:
 ```
 #user1 account
 Host github.com-user1
