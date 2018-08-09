@@ -55,6 +55,7 @@ the inner page anchor names must be lowercase.
 - [Save to Android Pay](https://nootfly.github.io/android/2017/12/12/Save-to-Android-Pay/)
 - [Android Studio tips](Android/Android-studio-tips.md)
 - [RecyclerView laggy scrolling issue](Android/recyclerView-laggy-scrolling-issue.md)
+- [Android FCM and AWS SNS settings](Android/push-notification-sns.md) 
 
 ### Cloud
 - [AWS EC2 disk full](Cloud/aws-ec2-disk-full.md)
