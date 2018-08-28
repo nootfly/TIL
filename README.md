@@ -219,6 +219,7 @@ the inner page anchor names must be lowercase.
 - [jenkins docker permission denied issue.md](Tools/jenkins-docker-permission-denied-issue.md)
 - [Atom packages](Tools/atom-packages.md)
 - [visual studio code column selection](Tools/visual-studio-code-column-selection.md)
+- [Pandoc](Tools/panddoc.md)
 
 
 ### WatchOS
