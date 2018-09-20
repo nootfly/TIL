@@ -34,7 +34,7 @@ def fetch_files(dirname):
              except AttributeError:
                 created = stat.st_mtime
              #print(datetime.fromtimestamp(created).date() == datetime.today().date())
-             if (datetime.fromtimestamp(created).date() - datetime.today().date()).days >= -1:
+             if (datetime.fromtimestamp(created).date() - datetime.today().date()).days >= 1:
                   
                   name = open(filename).readline().rstrip().replace('# ', '')
                   record = Record(filename, name, created)
@@ -62,7 +62,8 @@ def update_readme(text_dict):
 if __name__ == "__main__":
     fetch_files('.')
     text_dict = generate_readme_str()
-    update_readme(text_dict)
-    os.remove('README.md')
-    os.rename("new.md", 'README.md')
+    if text_dict:
+       update_readme(text_dict)
+       os.remove('README.md')
+       os.rename("new.md", 'README.md')
               

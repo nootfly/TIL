@@ -10,26 +10,26 @@ This is inspired by https://github.com/jbranchaud/til.
 ### Categories
 
 - [TIL](#til)
-        - [Categories](#categories)
-        - [Android](#android)
-        - [Cloud](#cloud)
-        - [Design](#design)
-        - [Docker](#docker)
-        - [Git](#git)
-        - [Go](#go)
-        - [iOS](#ios)
-        - [JavaScript](#javascript)
-        - [Linux](#linux)
-        - [Mac](#mac)
-        - [ML](#ml)
-        - [Others](#others)
-        - [Python](#python)
-        - [Raspberry](#raspberry)
-        - [ReactNative](#reactnative)
-        - [Resources](#resources)
-        - [Swift](#swift)
-        - [Tools](#tools)
-        - [WatchOS](#watchos)
+                - [Categories](#categories)
+                - [Android](#android)
+                - [Cloud](#cloud)
+                - [Design](#design)
+                - [Docker](#docker)
+                - [Git](#git)
+                - [Go](#go)
+                - [iOS](#ios)
+                - [JavaScript](#javascript)
+                - [Linux](#linux)
+                - [Mac](#mac)
+                - [ML](#ml)
+                - [Others](#others)
+                - [Python](#python)
+                - [Raspberry](#raspberry)
+                - [ReactNative](#reactnative)
+                - [Resources](#resources)
+                - [Swift](#swift)
+                - [Tools](#tools)
+                - [WatchOS](#watchos)
 <!---
 the inner page anchor names must be lowercase.
 -->
@@ -210,7 +210,6 @@ the inner page anchor names must be lowercase.
 - [Swift playground unit test](Swift/swift-playground-unit-test.md)
 
 ### Tools
-- [How to Flush DNS Cache in Google Chrome](Tools/clear-chrome-dns-cache.md) - 20 September 2018
 - [How to Flush DNS Cache in Google Chrome](Tools/clear-chrome-dns-cache.md) - 20 September 2018
 - [Developers cheat sheets](Tools/Developers-cheat-sheets.md)
 - [Dictionary](https://cdn.rawgit.com/nootfly/TIL/10cc9914/dict.html)
