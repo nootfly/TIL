@@ -34,8 +34,7 @@ def fetch_files(dirname):
              except AttributeError:
                 created = stat.st_mtime
              #print(datetime.fromtimestamp(created).date() == datetime.today().date())
-             if (datetime.fromtimestamp(created).date() - datetime.today().date()).days >= 1:
-                  
+             if (datetime.fromtimestamp(created).date() - datetime.today().date()).days >= 0: 
                   name = open(filename).readline().rstrip().replace('# ', '')
                   record = Record(filename, name, created)
                   all_files.append(record) 
@@ -57,11 +56,22 @@ def update_readme(text_dict):
             if '### ' + key in line:
                for text in texts:
                   f_new.write(text)
+
+def remove_duplicates(text_dict):
+    with open("README.md") as f_old:
+      for line in f_old:
+        for key, texts in text_dict.copy().items():
+               for text in texts.copy():
+                   if text in line:
+                       texts.remove(text)
+               if len(text_dict[key]) == 0:
+                   del text_dict[key]
             
 
 if __name__ == "__main__":
     fetch_files('.')
     text_dict = generate_readme_str()
+    remove_duplicates(text_dict)
     if text_dict:
        update_readme(text_dict)
        os.remove('README.md')

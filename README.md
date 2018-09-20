@@ -176,6 +176,7 @@ the inner page anchor names must be lowercase.
 - [letsencrypt certificate](Others/letsencrypt-certificate.md)
 
 ### Python
+- [Python Code sippets](Python/python-code-snippets.md) - 20 September 2018
 - [Showing line numbers in Jupyter Notebooks](Python/jupyter-show-line.md) - 16 September 2018
 - [Python resources](Python/Python-resources.md)
 - [Docker Jupter notebook](Python/docker-jupyter-notebook.md)
