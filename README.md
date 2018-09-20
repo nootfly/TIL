@@ -155,6 +155,7 @@ the inner page anchor names must be lowercase.
 - [Semantic versioning and npm](Javascript/npm-semver.md)
 
 ### Linux
+
 - [Ubuntu commands](Linux/Ubuntu-commands.md)
 - [Bash commands](Linux/Bash-commands.md)
 - [Run cd in a shell script](Linux/run-cd-in-a-shell-script.md)
@@ -175,6 +176,7 @@ the inner page anchor names must be lowercase.
 - [letsencrypt certificate](Others/letsencrypt-certificate.md)
 
 ### Python
+- [Showing line numbers in Jupyter Notebooks](Python/jupyter-show-line.md) - 16 September 2018
 - [Python resources](Python/Python-resources.md)
 - [Docker Jupter notebook](Python/docker-jupyter-notebook.md)
 - [Using Python unittest in IPython or Jupyter](Python/unittest-jupyter.md)
@@ -208,6 +210,7 @@ the inner page anchor names must be lowercase.
 - [Swift playground unit test](Swift/swift-playground-unit-test.md)
 
 ### Tools
+- [How to Flush DNS Cache in Google Chrome](Tools/clear-chrome-dns-cache.md) - 20 September 2018
 - [Developers cheat sheets](Tools/Developers-cheat-sheets.md)
 - [Dictionary](https://cdn.rawgit.com/nootfly/TIL/10cc9914/dict.html)
 - [Where has my disk space gone](Tools/Where-has-my-disk-space-gone.md)
