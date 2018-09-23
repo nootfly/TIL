@@ -162,6 +162,7 @@ the inner page anchor names must be lowercase.
 - [sudo cd](Linux/sudo-cd.md)
 
 ### Mac
+- [Delete old time machine backups manually](Mac/delete-time-machine-backup.md) - 23 September 2018
 - [nscurl](Mac/nscurl.md)
 - [Resize off screen window](Mac/Resize-off-screen-window.md)
 
