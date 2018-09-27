@@ -198,6 +198,7 @@ the inner page anchor names must be lowercase.
 - [Mathematical symbols](http://www.rapidtables.com/math/symbols/Basic_Math_Symbols.htm)
 
 ### Swift
+- [Automatic Reference Counting](Swift/arc.md) - 28 September 2018
 - [Stop Swift playground refresh](Swift/stop-swift-playgound-refresh.md) - 20 September 2018
 - [Swift lazy](Swift/Lazy-Swift.md)
 - [Swift generated interface](Swift/Show-swift-generated-interface.md)
