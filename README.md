@@ -95,7 +95,6 @@ the inner page anchor names must be lowercase.
 
 ### iOS
 - [Performing a Task in the Future](iOS/run-task-in-future.md) - 02 October 2018
-
 - [Print system font names](iOS/print-system-font-names.md)
 - [How to use Low Power Mode in code](iOS/How-to-use-Low-Power-Mode-in-code.md)
 - [Share code between iOS and TVOS](iOS/Share-code-between-iOS-and-TVOS.md)

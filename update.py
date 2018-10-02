@@ -42,7 +42,7 @@ def fetch_files(dirname):
 def generate_readme_str():
     text_dict = defaultdict(set)
     for record in all_files:
-        temp = '- [{}]({}) - {}\n'.format(record.name, record.filename.replace('./', ''), record.created_time())
+        temp = '- [{}]({}) - {}'.format(record.name, record.filename.replace('./', ''), record.created_time())
         key = re.search('./(.*)/', record.filename).group(1)
         text_dict[key].add(temp)
 
