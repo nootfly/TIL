@@ -94,7 +94,8 @@ the inner page anchor names must be lowercase.
 - [Upgrade go to 1.6](Go/Upgrade-go-to-1.6.md)
 
 ### iOS
-- [Error Domain=PlugInKit Code=13](iOS/imagepicker-error-domain.md) - 03 October 2018- [Performing a Task in the Future](iOS/run-task-in-future.md) - 02 October 2018
+- [Error Domain=PlugInKit Code=13](iOS/imagepicker-error-domain.md) - 03 October 2018
+- [Performing a Task in the Future](iOS/run-task-in-future.md) - 02 October 2018
 - [Print system font names](iOS/print-system-font-names.md)
 - [How to use Low Power Mode in code](iOS/How-to-use-Low-Power-Mode-in-code.md)
 - [Share code between iOS and TVOS](iOS/Share-code-between-iOS-and-TVOS.md)
