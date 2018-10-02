@@ -36,6 +36,7 @@ the inner page anchor names must be lowercase.
 
 ---
 ### Android
+- [Disable App Signing from Google Play Console](Android/disable-play-signing.md) - 02 October 2018
 - [Android simulator HAXM hypervisor error](Android/Android-simulator-HAXM-hypervisor-error.md)
 - [Always show an intent chooser](Android/Alway-show-an-Intent-chooser.md)
 - [Gradle daemon error](Android/gradle-daemon-error.md)
