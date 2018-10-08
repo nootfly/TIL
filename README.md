@@ -55,6 +55,7 @@ the inner page anchor names must be lowercase.
 - [Android FCM and AWS SNS settings](Android/push-notification-sns.md) 
 
 ### Cloud
+- [Build AWS Java lambda Serverless](Cloud/build-aws-java-gradle-serverless.md) - 09 October 2018
 - [AWS EC2 disk full](Cloud/aws-ec2-disk-full.md)
 - [Serverless S3 bucket exists error](Cloud/serverless-s3-exits-error.md)
 - [AWS lambda Java read config file](Cloud/aws-lambda-read-config-file.md)
@@ -218,6 +219,7 @@ the inner page anchor names must be lowercase.
 - [Swift playground unit test](Swift/swift-playground-unit-test.md)
 
 ### Tools
+- [VS Code setters and getters](Tools/vscode-java-get-set.md) - 09 October 2018
 - [How to Flush DNS Cache in Google Chrome](Tools/clear-chrome-dns-cache.md) - 20 September 2018
 - [Developers cheat sheets](Tools/Developers-cheat-sheets.md)
 - [Dictionary](https://cdn.rawgit.com/nootfly/TIL/10cc9914/dict.html)
