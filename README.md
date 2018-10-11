@@ -85,6 +85,7 @@ the inner page anchor names must be lowercase.
 - [docker GetImageBlob no such file or directory issue](Docker/docker-GetImageBlob-no-such-file.md)
 
 ### Git
+- [Config Repo user](Git/config-repo-user.md) - 11 October 2018
 - [git auto push](git/git-auto-push.md)
 - [git cheat sheet](git/git-cheat-sheet.md)
 - [remove big files from git repository](git/remove-big-files-from-git-repository.md)

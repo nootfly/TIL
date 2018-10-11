@@ -36,6 +36,7 @@ def fetch_files(dirname):
              #print(datetime.fromtimestamp(created).date() == datetime.today().date())
              if (datetime.fromtimestamp(created).date() - datetime.today().date()).days >= 0: 
                   name = open(filename).readline().rstrip().replace('# ', '')
+                  print(name)
                   record = Record(filename, name, created)
                   all_files.append(record) 
 
