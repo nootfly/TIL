@@ -149,7 +149,8 @@ the inner page anchor names must be lowercase.
 - [Command /bin/sh failed with exit code 1](iOS/command-failed-with-exit-code-1.md)
 - [ALWAYS #import other classes in your .m file](iOS/Always-import-other-classes-in-m-file.md)
 
-### JavaScript
+### Javascript
+- [Decouple Jquery](Javascript/decouple-jquery.md) - 17 October 2018
 - [Show console.log in JSFiddle](Javascript/JSFiddle-console.md)
 - [Run script in Atom](Javascript/Atom-run-javascript.md)
 - [mongojs aggregate](Javascript/mongojs-aggregate.md)
