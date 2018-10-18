@@ -4,6 +4,8 @@
 
 `float('inf')` acts as an unbounded upper value for comparison.
 
+`float('-inf')` acts as an unbounded lower value for comparison.
+
 ## References
 
 [Arbitrary Argument Lists](https://docs.python.org/3/tutorial/controlflow.html#more-on-defining-functions)

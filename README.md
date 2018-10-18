@@ -96,6 +96,7 @@ the inner page anchor names must be lowercase.
 - [Upgrade go to 1.6](Go/Upgrade-go-to-1.6.md)
 
 ### iOS
+- [Xcode 10 (iOS 12) does not contain libstdc++6.0.9](iOS/xcode10-libstdc-issue.md) - 19 October 2018
 - [CoreML 2](iOS/coreml2.md) - 04 October 2018
 - [Error Domain=PlugInKit Code=13](iOS/imagepicker-error-domain.md) - 03 October 2018
 - [Performing a Task in the Future](iOS/run-task-in-future.md) - 02 October 2018
