@@ -185,6 +185,7 @@ the inner page anchor names must be lowercase.
 - [letsencrypt certificate](Others/letsencrypt-certificate.md)
 
 ### Python
+- [Python Prime number checker](Python/prime-number.md) - 25 October 2018
 - [Remove a key from a Python dictionary](Python/dict-del.md) - 23 October 2018
 - [Expend Tuple as part of argument list](Python/expend-tuple.md) - 17 October 2018
 - [Python lambda in a loop](Python/python-lambda-in-loop.md) - 15 October 2018
