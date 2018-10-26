@@ -50,6 +50,8 @@ guard let name = name else {
         }
 ```
 
+3. You cannot change the app icon in background. An alert message shows when the icon is changed.
+
 ## Reference
 
 [supportsAlternateIcons](https://developer.apple.com/documentation/uikit/uiapplication/2806815-supportsalternateicons)
