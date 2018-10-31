@@ -11,6 +11,7 @@ This is inspired by https://github.com/jbranchaud/til.
 
 - [TIL](#til)
                 - [Categories](#categories)
+                - [Algorithms](#algorithms)
                 - [Android](#android)
                 - [Cloud](#cloud)
                 - [Design](#design)
@@ -35,6 +36,11 @@ the inner page anchor names must be lowercase.
 -->
 
 ---
+### Algorithms
+- [Open addressing hash tables](Algorithms/fast-hashing.md) - 31 October 2018
+
+
+
 ### Android
 - [Disable App Signing from Google Play Console](Android/disable-play-signing.md) - 02 October 2018
 - [Android simulator HAXM hypervisor error](Android/Android-simulator-HAXM-hypervisor-error.md)
