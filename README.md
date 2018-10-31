@@ -101,6 +101,7 @@ the inner page anchor names must be lowercase.
 - [Upgrade go to 1.6](Go/Upgrade-go-to-1.6.md)
 
 ### iOS
+- [iBeacons cheat sheet](iOS/ibeacons.md) - 01 November 2018
 - [Revoking an enterprise distribution certificate](iOS/revoke-enterprise-cert.md) - 29 October 2018
 - [Change app icon](iOS/change-app-icon.md) - 26 October 2018
 - [Xcode 10 (iOS 12) does not contain libstdc++6.0.9](iOS/xcode10-libstdc-issue.md) - 19 October 2018
