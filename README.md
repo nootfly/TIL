@@ -37,9 +37,8 @@ the inner page anchor names must be lowercase.
 
 ---
 ### Algorithms
+- [Path Finding Algorithms](Algorithms/path-find.md) - 31 October 2018
 - [Open addressing hash tables](Algorithms/fast-hashing.md) - 31 October 2018
-
-
 
 ### Android
 - [Disable App Signing from Google Play Console](Android/disable-play-signing.md) - 02 October 2018
@@ -193,6 +192,7 @@ the inner page anchor names must be lowercase.
 - [letsencrypt certificate](Others/letsencrypt-certificate.md)
 
 ### Python
+- [Jupyter tools](Python/jupyter-notebook.md) - 31 October 2018
 - [Python Prime number checker](Python/prime-number.md) - 25 October 2018
 - [Remove a key from a Python dictionary](Python/dict-del.md) - 23 October 2018
 - [Expend Tuple as part of argument list](Python/expend-tuple.md) - 17 October 2018
