@@ -33,7 +33,7 @@ def fetch_files(dirname):
                 created = stat.st_birthtime
              except AttributeError:
                 created = stat.st_mtime
-             #print(datetime.fromtimestamp(created).date() == datetime.today().date())
+             #print("file={}, time diff={}".format(file, (datetime.fromtimestamp(created).date() - datetime.today().date()).days))
              if (datetime.fromtimestamp(created).date() - datetime.today().date()).days >= 0: 
                   name = open(filename).readline().rstrip().replace('# ', '')
                   print(name)

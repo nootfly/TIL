@@ -183,6 +183,7 @@ the inner page anchor names must be lowercase.
 - [Resize off screen window](Mac/Resize-off-screen-window.md)
 
 ### ML
+- [Setup Tensorflow on Windows 10](ML/step-tensorflow-windows.md) - 03 November 2018
 - [install tensorflow error](ML/install-tensorflow-error.md)
 - [Show Pandas graph in jupyter notebook](ML/show-pandas-graph-in-jupyter-notebook.md)
 - [Machine learning courses](ML/machine-learning-courses.md)

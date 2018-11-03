@@ -1,4 +1,4 @@
-# Install Tensorflow on Windows 10
+# Setup Tensorflow on Windows 10
 
 1. Before the setup, check Python version, cuDNN and CUDA versions on [Build from source on Windows](https://www.tensorflow.org/install/source_windows)
 
