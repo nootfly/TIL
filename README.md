@@ -20,6 +20,7 @@ This is inspired by https://github.com/jbranchaud/til.
                 - [Go](#go)
                 - [iOS](#ios)
                 - [JavaScript](#javascript)
+                - [Life](#life)
                 - [Linux](#linux)
                 - [Mac](#mac)
                 - [ML](#ml)
@@ -168,6 +169,9 @@ the inner page anchor names must be lowercase.
 - [Webpack errors](Javascript/Webpack-errors.md)
 - [Nodejs Authentication](Javascript/nodejs-authentication.md)
 - [Semantic versioning and npm](Javascript/npm-semver.md)
+
+### Life
+- [Reading](Life/inspiring-words.md) - 08 November 2018
 
 ### Linux
 
