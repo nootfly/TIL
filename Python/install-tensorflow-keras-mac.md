@@ -12,4 +12,4 @@
    `conda install tensorflow`
 5. Install Keras
 
-   `conda install keras` 
+   `conda install keras`
