@@ -199,6 +199,7 @@ the inner page anchor names must be lowercase.
 - [letsencrypt certificate](Others/letsencrypt-certificate.md)
 
 ### Python
+- [Install Tensorflow and Kerea](Python/install-tensorflow-keras-mac.md) - 17 November 2018
 - [Jupyter tools](Python/jupyter-notebook.md) - 31 October 2018
 - [Python Prime number checker](Python/prime-number.md) - 25 October 2018
 - [Remove a key from a Python dictionary](Python/dict-del.md) - 23 October 2018
