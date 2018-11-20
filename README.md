@@ -172,6 +172,7 @@ the inner page anchor names must be lowercase.
 - [Semantic versioning and npm](Javascript/npm-semver.md)
 
 ### Kotlin
+- [Lazy delegate](Kotlin/by-lazy.md) - 20 November 2018
 - [Sealed classes](Kotlin/sealed-class.md) - 17 November 2018
 
 ### Life
