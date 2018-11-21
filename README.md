@@ -179,6 +179,7 @@ the inner page anchor names must be lowercase.
 - [Reading](Life/inspiring-words.md) - 08 November 2018
 
 ### Linux
+- [Enable Dell Alienware Wifi and touchpad on ubuntu 18.04](Linux/dell-alienware-enable-wifi-touchpad.md) - 21 November 2018
 
 - [Ubuntu commands](Linux/Ubuntu-commands.md)
 - [Bash commands](Linux/Bash-commands.md)
