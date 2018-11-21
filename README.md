@@ -180,7 +180,6 @@ the inner page anchor names must be lowercase.
 
 ### Linux
 - [Enable Dell Alienware Wifi and touchpad on ubuntu 18.04](Linux/dell-alienware-enable-wifi-touchpad.md) - 21 November 2018
-
 - [Ubuntu commands](Linux/Ubuntu-commands.md)
 - [Bash commands](Linux/Bash-commands.md)
 - [Run cd in a shell script](Linux/run-cd-in-a-shell-script.md)
