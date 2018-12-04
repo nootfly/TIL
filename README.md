@@ -186,6 +186,7 @@ the inner page anchor names must be lowercase.
 - [sudo cd](Linux/sudo-cd.md)
 
 ### Mac
+- [Remove and regenerate the Bluetooth.plist file](Mac/fix-bluetooth-issue.md) - 05 December 2018
 - [Xcode constantly crashing](Mac/xcode-constantly-crashing.md) - 27 November 2018
 - [Delete Mac outlook calendar attachments](Mac/delete-outlook-calendar-attachements.md) - 05 October 2018
 - [Delete old time machine backups manually](Mac/delete-time-machine-backup.md) - 23 September 2018
