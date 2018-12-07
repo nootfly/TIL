@@ -21,3 +21,8 @@
             [self.tableView endUpdates];
         });
    ```
+
+## References
+
+[UITableViewCell's contentView gets unwanted “height==44” constraint
+](https://stackoverflow.com/questions/26100053/uitableviewcells-contentview-gets-unwanted-height-44-constraint)
