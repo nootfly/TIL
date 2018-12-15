@@ -43,6 +43,8 @@ the inner page anchor names must be lowercase.
 - [Open addressing hash tables](Algorithms/fast-hashing.md) - 31 October 2018
 
 ### Android
+- [Fragment removal animation](Android/fragment-remove-animation.md) - 15 December 2018
+- [Dim background](Android/dim-background.md) - 15 December 2018
 - [Disable App Signing from Google Play Console](Android/disable-play-signing.md) - 02 October 2018
 - [Android simulator HAXM hypervisor error](Android/Android-simulator-HAXM-hypervisor-error.md)
 - [Always show an intent chooser](Android/Alway-show-an-Intent-chooser.md)
