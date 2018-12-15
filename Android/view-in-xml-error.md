@@ -1,4 +1,4 @@
-# Getting Binary XML file line #141: Attempt to invoke virtual method 'boolean java.lang.String.equals(java.lang.Object)' on a null object reference
+# Getting Binary XML file line : Attempt to invoke virtual method
 
 ```xml
  <view

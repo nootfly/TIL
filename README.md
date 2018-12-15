@@ -43,7 +43,7 @@ the inner page anchor names must be lowercase.
 - [Open addressing hash tables](Algorithms/fast-hashing.md) - 31 October 2018
 
 ### Android
-- [Getting Binary XML file line #141: Attempt to invoke virtual method 'boolean java.lang.String.equals(java.lang.Object)' on a null object reference](Android/view-in-xml-error.md) - 15 December 2018
+- [Getting Binary XML file line : Attempt to invoke virtual method](Android/view-in-xml-error.md) - 15 December 2018
 - [Fragment removal animation](Android/fragment-remove-animation.md) - 15 December 2018
 - [Dim background](Android/dim-background.md) - 15 December 2018
 - [Disable App Signing from Google Play Console](Android/disable-play-signing.md) - 02 October 2018
