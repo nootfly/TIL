@@ -110,6 +110,7 @@ the inner page anchor names must be lowercase.
 - [Upgrade go to 1.6](Go/Upgrade-go-to-1.6.md)
 
 ### iOS
+- [Provide Export Compliance Information](iOS/Provide-Export-Compliance-Information.md) - 31 December 2018
 - [Device type and notch](iOS/devices-notch.md) - 13 December 2018
 - [UITableViewCell's contentView gets unwanted height==44 constraint](iOS/tableview-constraint-height-44-issue.md) - 08 December 2018
 - [iBeacons cheat sheet](iOS/ibeacons.md) - 01 November 2018
