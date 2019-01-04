@@ -33,6 +33,8 @@ This is inspired by https://github.com/jbranchaud/til.
                 - [Swift](#swift)
                 - [Tools](#tools)
                 - [WatchOS](#watchos)
+                - [Web](#web)
+
 <!---
 the inner page anchor names must be lowercase.
 -->
@@ -171,6 +173,7 @@ the inner page anchor names must be lowercase.
 - [ALWAYS #import other classes in your .m file](iOS/Always-import-other-classes-in-m-file.md)
 
 ### Javascript
+- [Eslint: How to disable "unexpected console statement" in VueJs](Javascript/Eslin-unexpected-console-statement.md) - 05 January 2019
 - [Decouple Jquery](Javascript/decouple-jquery.md) - 17 October 2018
 - [Show console.log in JSFiddle](Javascript/JSFiddle-console.md)
 - [Run script in Atom](Javascript/Atom-run-javascript.md)
@@ -277,8 +280,9 @@ the inner page anchor names must be lowercase.
 - [visual studio code column selection](Tools/visual-studio-code-column-selection.md)
 - [Pandoc](Tools/panddoc.md)
 
-
 ### WatchOS
 - [Watch OS app archive other items issue](WatchOS/Watch-OS-app-archive-other-items-issue.md)
 - [Watch OS app connection lost issue issue](WatchOS/Watch-app-the-connection-lost.md)
 - [watchOS 3 cheat sheet](WatchOS/watchOS-3-cheat-sheet.md)
+
+### Web
