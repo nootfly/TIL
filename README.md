@@ -102,10 +102,10 @@ the inner page anchor names must be lowercase.
 
 ### Git
 - [Config Repo user](Git/config-repo-user.md) - 11 October 2018
-- [git auto push](git/git-auto-push.md)
-- [git cheat sheet](git/git-cheat-sheet.md)
-- [remove big files from git repository](git/remove-big-files-from-git-repository.md)
-- [Automatically use correct SSH key for remote Git repo](git/use-correct-ssh-key.md)  
+- [git auto push](Git/git-auto-push.md)
+- [git cheat sheet](Git/git-cheat-sheet.md)
+- [remove big files from git repository](Git/remove-big-files-from-git-repository.md)
+- [Automatically use correct SSH key for remote Git repo](Git/use-correct-ssh-key.md)  
 
 ### Go
 
