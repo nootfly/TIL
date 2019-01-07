@@ -173,6 +173,8 @@ the inner page anchor names must be lowercase.
 - [ALWAYS #import other classes in your .m file](iOS/Always-import-other-classes-in-m-file.md)
 
 ### Javascript
+- [Notification callback function for Safari](Javascript/safari-notification-callback-issue.md) - 07 January 2019
+- [Check mobile safari](Javascript/check-mobile-safari.md) - 07 January 2019
 - [Eslint: How to disable "unexpected console statement" in VueJs](Javascript/Eslin-unexpected-console-statement.md) - 05 January 2019
 - [Decouple Jquery](Javascript/decouple-jquery.md) - 17 October 2018
 - [Show console.log in JSFiddle](Javascript/JSFiddle-console.md)
