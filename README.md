@@ -173,6 +173,7 @@ the inner page anchor names must be lowercase.
 - [ALWAYS #import other classes in your .m file](iOS/Always-import-other-classes-in-m-file.md)
 
 ### Javascript
+- [Config environment variables in Vuejs](Javascript/vuejs-environment-config.md) - 21 January 2019
 - [ReactJS: Maximum update depth exceeded error](Javascript/ReactJS-Maximum-update-depth-exceeded-error.md) - 08 January 2019
 - [Notification callback function for Safari](Javascript/safari-notification-callback-issue.md) - 07 January 2019
 - [Check mobile safari](Javascript/check-mobile-safari.md) - 07 January 2019
