@@ -70,6 +70,7 @@ the inner page anchor names must be lowercase.
 - [Android FCM and AWS SNS settings](Android/push-notification-sns.md) 
 
 ### Cloud
+
 - [Firebase get IP address function](Cloud/firebase-get-ip-function.md) - 04 February 2019
 - [iOS upload files to AWS S3](Cloud/aws-ios-upload-file-to-s3.md) - 08 December 2018
 - [Build AWS Java lambda Serverless](Cloud/build-aws-java-gradle-serverless.md) - 09 October 2018
