@@ -228,6 +228,7 @@ the inner page anchor names must be lowercase.
 - [letsencrypt certificate](Others/letsencrypt-certificate.md)
 
 ### Python
+- [Python objects sort](Python/python-sort.md) - 05 February 2019
 - [ pprint — Data pretty printer](Python/pprint.md) - 20 November 2018
 - [Install Tensorflow and Kerea](Python/install-tensorflow-keras-mac.md) - 17 November 2018
 - [Jupyter tools](Python/jupyter-notebook.md) - 31 October 2018
