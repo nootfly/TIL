@@ -175,6 +175,7 @@ the inner page anchor names must be lowercase.
 - [ALWAYS #import other classes in your .m file](iOS/Always-import-other-classes-in-m-file.md)
 
 ### Javascript
+- [Chatjs Linear Cartesian Axis](Javascript/chartjs-y-axis-options.md) - 08 February 2019
 - [Netlify Firebase authentication redirect issue](Javascript/netlify-redirect-issue.md) - 31 January 2019
 - [Config environment variables in Vuejs](Javascript/vuejs-environment-config.md) - 21 January 2019
 - [ReactJS: Maximum update depth exceeded error](Javascript/ReactJS-Maximum-update-depth-exceeded-error.md) - 08 January 2019
@@ -228,6 +229,7 @@ the inner page anchor names must be lowercase.
 - [letsencrypt certificate](Others/letsencrypt-certificate.md)
 
 ### Python
+- [Jupyter notebook keyboard shortcuts](Python/Jupyter-Notebook-Keyboard-Shortcuts.md) - 08 February 2019
 - [Python objects sort](Python/python-sort.md) - 05 February 2019
 - [ pprint — Data pretty printer](Python/pprint.md) - 20 November 2018
 - [Install Tensorflow and Kerea](Python/install-tensorflow-keras-mac.md) - 17 November 2018
