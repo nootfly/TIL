@@ -1,6 +1,6 @@
 # CreateML Vs TuriCreate
 
->The key differences between CreateML and TuriCreate are:
+The key differences between CreateML and TuriCreate are:
 
 >CreateML only works on macOS 10.14+, where as TuriCreate is cross-platform and works on macOS 10.12+, Linux & Windows 10.
 
