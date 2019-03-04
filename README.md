@@ -45,6 +45,7 @@ the inner page anchor names must be lowercase.
 - [Open addressing hash tables](Algorithms/fast-hashing.md) - 31 October 2018
 
 ### Android
+- [The Android Gradle plugin supports only Kotlin Gradle plugin version 1.3.0 and higher](Android/android-gradle-plgin-supports-only-kotlin-gradle-plugin.md) - 05 March 2019
 - [Android Animations](Android/Android-Animations.md) - 24 December 2018
 - [Stop Tap Events From Passing Through an Android Fragment](Android/stop-events-pass-through.md) - 24 December 2018
 - [Translated here but not found in default locale](Android/translated-here-but-not-found-in-default-locale.md) - 24 December 2018
