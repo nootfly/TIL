@@ -215,6 +215,7 @@ the inner page anchor names must be lowercase.
 - [Resize off screen window](Mac/Resize-off-screen-window.md)
 
 ### ML
+- [CreateML Vs TuriCreate](ML/createml-turicreate.md) - 04 March 2019
 - [No module named tensorflow in jupyter](ML/No-module-named-tensorflow-in-jupyter.md) - 21 November 2018
 - [NVIDIA CUDA [Version 9.0] Installer Failed](ML/install-cuda.md) - 20 November 2018
 - [Activation function](ML/activation-function.md) - 10 November 2018
