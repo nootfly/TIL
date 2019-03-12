@@ -177,6 +177,8 @@ the inner page anchor names must be lowercase.
 - [ALWAYS #import other classes in your .m file](iOS/Always-import-other-classes-in-m-file.md)
 
 ### Javascript
+- [Npm behind a corporate web proxy](Javascript/npm-install-behind-proxy.md) - 12 March 2019
+- [Error: Cannot find module '../lib/utils/unsupported.js'](Javascript/npm-install-unsupported.js.md) - 12 March 2019
 - [Chatjs Linear Cartesian Axis](Javascript/chartjs-y-axis-options.md) - 08 February 2019
 - [Netlify Firebase authentication redirect issue](Javascript/netlify-redirect-issue.md) - 31 January 2019
 - [Config environment variables in Vuejs](Javascript/vuejs-environment-config.md) - 21 January 2019
@@ -209,6 +211,7 @@ the inner page anchor names must be lowercase.
 - [sudo cd](Linux/sudo-cd.md)
 
 ### Mac
+- [Homebrew behind proxy](Mac/brew-install-behind-proxy.md) - 12 March 2019
 - [Remove and regenerate the Bluetooth.plist file](Mac/fix-bluetooth-issue.md) - 05 December 2018
 - [Xcode constantly crashing](Mac/xcode-constantly-crashing.md) - 27 November 2018
 - [Delete Mac outlook calendar attachments](Mac/delete-outlook-calendar-attachements.md) - 05 October 2018
