@@ -236,6 +236,7 @@ the inner page anchor names must be lowercase.
 - [letsencrypt certificate](Others/letsencrypt-certificate.md)
 
 ### Python
+- [Is Prime](Python/is_prime.md) - 20 March 2019
 - [jupyterthemes](Python/jupyter-notebook-theme.md) - 15 February 2019
 - [Jupyter notebook keyboard shortcuts](Python/Jupyter-Notebook-Keyboard-Shortcuts.md) - 08 February 2019
 - [Python objects sort](Python/python-sort.md) - 05 February 2019
