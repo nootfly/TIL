@@ -177,6 +177,7 @@ the inner page anchor names must be lowercase.
 - [ALWAYS #import other classes in your .m file](iOS/Always-import-other-classes-in-m-file.md)
 
 ### Javascript
+- [Add code command for VS Code](Javascript/add-vs-code-command.md) - 27 March 2019
 - [Npm behind a corporate web proxy](Javascript/npm-install-behind-proxy.md) - 12 March 2019
 - [Error: Cannot find module '../lib/utils/unsupported.js'](Javascript/npm-install-unsupported.js.md) - 12 March 2019
 - [Chatjs Linear Cartesian Axis](Javascript/chartjs-y-axis-options.md) - 08 February 2019
