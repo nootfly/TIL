@@ -37,9 +37,9 @@ service: my-express-application
 
 provider:
  name: aws
- runtime: nodejs6.10
+ runtime: nodejs8.10
  stage: dev
- region: us-east-1
+ region: ap-southeast-2
 
 functions:
   app:
