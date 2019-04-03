@@ -6,7 +6,7 @@
 
 2. Install dependencies
 
-`npm install --save express serverless-http`
+`npm install --save express serverless-http body-parser cors`
 
 3. Create an `index.js`
 
@@ -15,7 +15,11 @@
 
 const serverless = require('serverless-http');
 const express = require('express')
+const cors = require('cors');
 const app = express()
+
+app.use(require("body-parser").json());
+app.use(cors());
 
 app.get('/', function (req, res) {
   res.send('Hello World!')
