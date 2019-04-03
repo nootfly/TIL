@@ -42,11 +42,13 @@ provider:
  region: ap-southeast-2
 
 functions:
-  app:
-    handler: index.handler
-    events:
-      - http: ANY /
-      - http: 'ANY {proxy+}'
+    app:
+      handler: index.handler
+      events:
+        - http: ANY /
+          cors: true
+        - http: 'ANY {proxy+}'
+          cors: true
 ```
 
 5. Deploy your function
