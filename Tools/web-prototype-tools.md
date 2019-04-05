@@ -22,7 +22,7 @@ surge build/
 
 ```
 
-## [now.sh](https://surge.sh)
+## [now.sh](https://now.sh)
 
 [How to Deploy Express on Now.sh](https://dev.to/warenix/how-to-deploy-express-on-nowsh-414i)
 
