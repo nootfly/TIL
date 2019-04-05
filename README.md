@@ -288,6 +288,7 @@ the inner page anchor names must be lowercase.
 - [Swift playground unit test](Swift/swift-playground-unit-test.md)
 
 ### Tools
+- [Web prototype tools](Tools/web-prototype-tools.md) - 05 April 2019
 - [VSCode cannot be resolved to a type](Tools/vscode-cannot-resolve-type.md) - 09 October 2018
 - [VScode Java formatter](Tools/vscode-java-formatter.md) - 09 October 2018
 - [VS Code setters and getters](Tools/vscode-java-get-set.md) - 09 October 2018
