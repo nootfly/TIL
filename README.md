@@ -215,6 +215,7 @@ the inner page anchor names must be lowercase.
 - [sudo cd](Linux/sudo-cd.md)
 
 ### Mac
+- [Show Current dirctory name in iterm tab title](Mac/current-dir-in-iterm-tab-title.md) - 20 April 2019
 - [Homebrew behind proxy](Mac/brew-install-behind-proxy.md) - 12 March 2019
 - [Remove and regenerate the Bluetooth.plist file](Mac/fix-bluetooth-issue.md) - 05 December 2018
 - [Xcode constantly crashing](Mac/xcode-constantly-crashing.md) - 27 November 2018
