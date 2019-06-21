@@ -276,6 +276,7 @@ the inner page anchor names must be lowercase.
 - [Mathematical symbols](http://www.rapidtables.com/math/symbols/Basic_Math_Symbols.htm)
 
 ### Swift
+- [SwiftUI tips and ticks](Swift/swiftui-tips-and-tricks.md) - 21 June 2019
 - [Copy of an array](Swift/array-copy.md) - 13 October 2018
 - [Automatic Reference Counting](Swift/arc.md) - 28 September 2018
 - [Stop Swift playground refresh](Swift/stop-swift-playgound-refresh.md) - 20 September 2018
