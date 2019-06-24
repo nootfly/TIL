@@ -215,6 +215,7 @@ the inner page anchor names must be lowercase.
 - [sudo cd](Linux/sudo-cd.md)
 
 ### Mac
+- [Release mac deleted disk space](Mac/mac-delete-disk-space-not-released.md) - 24 June 2019
 - [Catalina install freezes on boot](Mac/catalina-install-freezes.md) - 12 June 2019
 - [Show Current dirctory name in iterm tab title](Mac/current-dir-in-iterm-tab-title.md) - 20 April 2019
 - [Homebrew behind proxy](Mac/brew-install-behind-proxy.md) - 12 March 2019
