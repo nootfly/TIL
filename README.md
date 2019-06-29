@@ -243,6 +243,7 @@ the inner page anchor names must be lowercase.
 - [letsencrypt certificate](Others/letsencrypt-certificate.md)
 
 ### Python
+- [for else clause](Python/for-else-clause.md) - 29 June 2019
 - [Jupyter notebook theme](Python/juypter-notebook-theme.md) - 20 April 2019
 - [Python execution time](Python/execute-time.md) - 30 March 2019
 - [Is Prime](Python/is_prime.md) - 20 March 2019
