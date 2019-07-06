@@ -116,6 +116,7 @@ the inner page anchor names must be lowercase.
 - [Upgrade go to 1.6](Go/Upgrade-go-to-1.6.md)
 
 ### iOS
+- [ Swift 4 class from Objective-C: “Property not found on object of type”](iOS/swift4-property-not-found.md) - 06 July 2019
 - [Provide Export Compliance Information](iOS/Provide-Export-Compliance-Information.md) - 31 December 2018
 - [Device type and notch](iOS/devices-notch.md) - 13 December 2018
 - [UITableViewCell's contentView gets unwanted height==44 constraint](iOS/tableview-constraint-height-44-issue.md) - 08 December 2018
