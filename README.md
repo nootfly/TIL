@@ -218,6 +218,7 @@ the inner page anchor names must be lowercase.
 - [sudo cd](Linux/sudo-cd.md)
 
 ### Mac
+- [Use two Mac apps side by side in Split View](Mac/mac-apps-split-view.md) - 17 July 2019
 - [Release mac deleted disk space](Mac/mac-delete-disk-space-not-released.md) - 24 June 2019
 - [Catalina install freezes on boot](Mac/catalina-install-freezes.md) - 12 June 2019
 - [Show Current dirctory name in iterm tab title](Mac/current-dir-in-iterm-tab-title.md) - 20 April 2019
