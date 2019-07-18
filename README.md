@@ -116,6 +116,7 @@ the inner page anchor names must be lowercase.
 - [Upgrade go to 1.6](Go/Upgrade-go-to-1.6.md)
 
 ### iOS
+- [Dynamically change the main bundle's class](iOS/change-bundle.md) - 18 July 2019
 - [Background NFC tag reading](iOS/ios13-nfc.md) - 16 July 2019
 - [Using PDF assets in your iOS app](iOS/svg-pdf.md) - 07 July 2019
 - [ Swift 4 class from Objective-C: “Property not found on object of type”](iOS/swift4-property-not-found.md) - 06 July 2019
