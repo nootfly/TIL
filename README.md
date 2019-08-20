@@ -45,7 +45,7 @@ the inner page anchor names must be lowercase.
 - [Open addressing hash tables](Algorithms/fast-hashing.md) - 31 October 2018
 
 ### Android
-- [Programmatically change the app language](Android/ Programmatically-change-app-language.md) - 24 July 2019
+- [Programmatically change the app language](Android/Programmatically-change-app-language.md) - 24 July 2019
 - [The Android Gradle plugin supports only Kotlin Gradle plugin version 1.3.0 and higher](Android/android-gradle-plgin-supports-only-kotlin-gradle-plugin.md) - 05 March 2019
 - [Android Animations](Android/Android-Animations.md) - 24 December 2018
 - [Stop Tap Events From Passing Through an Android Fragment](Android/stop-events-pass-through.md) - 24 December 2018

@@ -1,6 +1,6 @@
 # Programmatically change the app language
 
-`
+
 > ou can call `activity.recreate()` to restart currently loaded activity. 
 
 ## References
