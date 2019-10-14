@@ -1,6 +1,5 @@
 # Swift file template in Xcode
 
-
 Put a file `IDETemplateMacros.plist` in the `projectName.xcodeproj/xcshareddata` directory.
 
 
