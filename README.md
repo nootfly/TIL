@@ -117,6 +117,7 @@ the inner page anchor names must be lowercase.
 - [Upgrade go to 1.6](Go/Upgrade-go-to-1.6.md)
 
 ### iOS
+- [Swift file template in Xcode](iOS/xcode-swift-file-template.md) - 14 October 2019
 - [Programmatically change the app language](iOS/change-language-in-code.md) - 24 July 2019
 - [Dynamically change the main bundle's class](iOS/change-bundle.md) - 18 July 2019
 - [Background NFC tag reading](iOS/ios13-nfc.md) - 16 July 2019
