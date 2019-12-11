@@ -1,4 +1,4 @@
-# Real time app mobile compare with web
+# Mobile app vs web
 
 ## Web apps
 
