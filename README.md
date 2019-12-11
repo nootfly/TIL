@@ -117,7 +117,7 @@ the inner page anchor names must be lowercase.
 - [Upgrade go to 1.6](Go/Upgrade-go-to-1.6.md)
 
 ### iOS
-- [Real time app mobile compare with web](iOS/web-ios-realtime-app-comparsion.md) - 11 December 2019
+- [Mobile app vs web](iOS/web-ios-realtime-app-comparsion.md) - 11 December 2019
 - [ Open terminal window from Xcode](iOS/run-terminal-in-xcode.md) - 10 December 2019
 - [SwiftUI code](iOS/swiftui-cook-book.md) - 17 October 2019
 - [Swift file template in Xcode](iOS/xcode-swift-file-template.md) - 14 October 2019
