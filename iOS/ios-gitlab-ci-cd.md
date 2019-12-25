@@ -124,4 +124,4 @@
 
 [https://medium.com/@phanquanghoang/https-medium-com-phanquanghoang-using-gitlab-ci-cd-fastlane-for-ios-project-part-2-f2c55bf6305e?](https://medium.com/@phanquanghoang/https-medium-com-phanquanghoang-using-gitlab-ci-cd-fastlane-for-ios-project-part-2-f2c55bf6305e?)
 
-
+[https://medium.com/@phanquanghoang/using-gitlab-ci-cd-fastlane-for-ios-project-part-3-f710b618da4a](https://medium.com/@phanquanghoang/using-gitlab-ci-cd-fastlane-for-ios-project-part-3-f710b618da4a)
