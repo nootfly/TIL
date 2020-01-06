@@ -124,3 +124,11 @@ func userNotificationCenter(_ center: UNUserNotificationCenter, willPresent noti
 ```
 
 [https://programmingwithswift.com/how-to-send-local-notification-with-swift-5/](https://programmingwithswift.com/how-to-send-local-notification-with-swift-5/)
+
+
+## Get bandle file path
+
+```swift
+let dbUrl = Bundle.main.url(forResource: "myDb", withExtension: "db")!
+let dbPath = dbUrl.path
+```
