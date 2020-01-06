@@ -117,7 +117,6 @@ the inner page anchor names must be lowercase.
 - [Upgrade go to 1.6](Go/Upgrade-go-to-1.6.md)
 
 ### iOS
-- [Swift Code snippets](iOS/swift-code-snippets.md) - 07 January 2020
 - [iOS GitLabe CI/CD](iOS/ios-gitlab-ci-cd.md) - 25 December 2019
 - [Mobile app vs web](iOS/web-ios-realtime-app-comparsion.md) - 11 December 2019
 - [ Open terminal window from Xcode](iOS/run-terminal-in-xcode.md) - 10 December 2019
@@ -291,6 +290,7 @@ the inner page anchor names must be lowercase.
 - [Mathematical symbols](http://www.rapidtables.com/math/symbols/Basic_Math_Symbols.htm)
 
 ### Swift
+- [Swift Code snippets](Swift/swift-code-snippets.md) - 07 January 2020
 - [Swift UI Code examples](Swift/swift-ui-code.md) - 24 June 2019
 - [SwiftUI tips and ticks](Swift/swiftui-tips-and-tricks.md) - 21 June 2019
 - [Copy of an array](Swift/array-copy.md) - 13 October 2018
