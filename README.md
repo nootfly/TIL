@@ -310,6 +310,7 @@ the inner page anchor names must be lowercase.
 - [Swift playground unit test](Swift/swift-playground-unit-test.md)
 
 ### Tools
+- [Swift Charts](Tools/swift-charts.md) - 07 January 2020
 - [Pygments](Tools/code-highlighter.md) - 07 January 2020
 - [JSON Scheme to models](Tools/json-to-model-tools.md) - 05 November 2019
 - [Web prototype tools](Tools/web-prototype-tools.md) - 05 April 2019
