@@ -1,4 +1,4 @@
-# Swift Code snippets
+# Swift 5 Code snippets
 
 ## Add leading padding to view added inside an UIStackView
 
@@ -125,10 +125,23 @@ func userNotificationCenter(_ center: UNUserNotificationCenter, willPresent noti
 
 [https://programmingwithswift.com/how-to-send-local-notification-with-swift-5/](https://programmingwithswift.com/how-to-send-local-notification-with-swift-5/)
 
-
 ## Get bandle file path
 
 ```swift
 let dbUrl = Bundle.main.url(forResource: "myDb", withExtension: "db")!
 let dbPath = dbUrl.path
 ```
+
+## Mark
+
+```swift
+
+// MARK: A mark comment lives here.
+
+// MARK: - A mark comment lives here. A separation line is added.
+
+// MARK: -
+
+```
+
+[https://stackoverflow.com/a/35963262](https://stackoverflow.com/a/35963262)

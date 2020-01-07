@@ -290,7 +290,7 @@ the inner page anchor names must be lowercase.
 - [Mathematical symbols](http://www.rapidtables.com/math/symbols/Basic_Math_Symbols.htm)
 
 ### Swift
-- [Swift Code snippets](Swift/swift-code-snippets.md) - 07 January 2020
+- [Swift 5 Code snippets](Swift/swift-code-snippets.md) - 07 January 2020
 - [Swift UI Code examples](Swift/swift-ui-code.md) - 24 June 2019
 - [SwiftUI tips and ticks](Swift/swiftui-tips-and-tricks.md) - 21 June 2019
 - [Copy of an array](Swift/array-copy.md) - 13 October 2018
