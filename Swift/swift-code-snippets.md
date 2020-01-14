@@ -167,3 +167,16 @@ UIImageWriteToSavedPhotosAlbum(yourImage, self, #selector(image(_:didFinishSavin
 ```
 
 [https://www.hackingwithswift.com/example-code/media/uiimagewritetosavedphotosalbum-how-to-write-to-the-ios-photo-album](https://www.hackingwithswift.com/example-code/media/uiimagewritetosavedphotosalbum-how-to-write-to-the-ios-photo-album)
+
+## Copy text to the clipboard
+
+```swift
+let pasteboard = UIPasteboard.general
+pasteboard.string = "Hello, world!"
+
+if let string = pasteboard.string {
+    // text was found and placed in the "string" constant
+}
+```
+
+[https://www.hackingwithswift.com/example-code/system/how-to-copy-text-to-the-clipboard-using-uipasteboard](https://www.hackingwithswift.com/example-code/system/how-to-copy-text-to-the-clipboard-using-uipasteboard)
