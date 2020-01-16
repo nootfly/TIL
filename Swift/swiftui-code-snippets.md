@@ -23,3 +23,16 @@ Text(model.brain.output)
             }
 ```
 
+## Shape backgound and gradient color
+
+```swift
+.background(
+            RoundedRectangle(cornerRadius: 20)
+                .fill(
+                    LinearGradient(
+                        gradient: Gradient(colors: [.white, .blue]), startPoint: .leading,
+                    endPoint: .trailing
+                    )
+            )
+        )
+```
