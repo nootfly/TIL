@@ -7,3 +7,5 @@
 * [Buildkite](https://buildkite.com/)
 
 * [CircelCI](https://circleci.com/)
+
+* [GitHub Actions](https://github.com/features/actions)
