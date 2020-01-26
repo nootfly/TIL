@@ -41,10 +41,37 @@ the inner page anchor names must be lowercase.
 
 ---
 ### Algorithms
+- [Path Finding Algorithms](Algorithms/path-find.md) - 26 January 2020
+- [Open addressing hash tables](Algorithms/fast-hashing.md) - 26 January 2020
 - [Path Finding Algorithms](Algorithms/path-find.md) - 31 October 2018
 - [Open addressing hash tables](Algorithms/fast-hashing.md) - 31 October 2018
 
 ### Android
+- [Android studio tips](Android/Android-studio-tips.md) - 26 January 2020
+- [Android simulator HAXM hypervisor error](Android/Android-simulator-HAXM-hypervisor-error.md) - 26 January 2020
+- [Android Studio Error running android: Gradle project sync failed. Please fix your project and try again](Android/gradle-project-sync-failed.md) - 26 January 2020
+- [The Android Gradle plugin supports only Kotlin Gradle plugin version 1.3.0 and higher](Android/android-gradle-plgin-supports-only-kotlin-gradle-plugin.md) - 26 January 2020
+- [Android questions](Android/android-questions.md) - 26 January 2020
+- [Dim background](Android/dim-background.md) - 26 January 2020
+- [Android Activity lifecycle](Android/Android-Activity-lifecycle.md) - 26 January 2020
+- [Programmatically change the app language](Android/Programmatically-change-app-language.md) - 26 January 2020
+- [Use Dagger 2 for dependency injection](Android/Use-Dagger2-for-DI.md) - 26 January 2020
+- [Gradle damon error](Android/gradle-daemon-error.md) - 26 January 2020
+- [Fragment removal animation](Android/fragment-remove-animation.md) - 26 January 2020
+- [Evenly distribute buttons across the width of an android linearlayout](Android/distribute-views-evenly-linearlayout.md) - 26 January 2020
+- [Android Animations](Android/Android-Animations.md) - 26 January 2020
+- [Disable App Signing from Google Play Console](Android/disable-play-signing.md) - 26 January 2020
+- [Getting Binary XML file line : Attempt to invoke virtual method](Android/view-in-xml-error.md) - 26 January 2020
+- [Android FCM and AWS SNS settings](Android/push-notification-sns.md) - 26 January 2020
+- [Android CI](Android/android-ci.md) - 26 January 2020
+- [Layout cheat sheet](Android/layout-cheat-sheet.md) - 26 January 2020
+- [Alway show an `Intent` chooser](Android/Alway-show-an-Intent-chooser.md) - 26 January 2020
+- [Translated here but not found in default locale](Android/translated-here-but-not-found-in-default-locale.md) - 26 January 2020
+- [Stop Tap Events From Passing Through an Android Fragment](Android/stop-events-pass-through.md) - 26 January 2020
+- [Enable Android emulator keyboard](Android/enable-emulator-keyboard.md) - 26 January 2020
+- [RecyclerView laggy scrolling issue](Android/recyclerView-laggy-scrolling-issue.md) - 26 January 2020
+- [Vector Support Library](Android/vector-asset-support.md) - 26 January 2020
+- [Android style cheat sheet](Android/Android-style-cheat-sheet.md) - 26 January 2020
 - [Programmatically change the app language](Android/Programmatically-change-app-language.md) - 24 July 2019
 - [The Android Gradle plugin supports only Kotlin Gradle plugin version 1.3.0 and higher](Android/android-gradle-plgin-supports-only-kotlin-gradle-plugin.md) - 05 March 2019
 - [Android Animations](Android/Android-Animations.md) - 24 December 2018
@@ -72,6 +99,17 @@ the inner page anchor names must be lowercase.
 - [Android FCM and AWS SNS settings](Android/push-notification-sns.md)
 
 ### Cloud
+- [Build AWS Java lambda Serverless](Cloud/build-aws-java-gradle-serverless.md) - 26 January 2020
+- [Firebase get IP address function](Cloud/firebase-get-ip-function.md) - 26 January 2020
+- [Serverless function 6 seconds timeout](Cloud/serverless-function-6-seconds-timeout.md) - 26 January 2020
+- [iOS upload files to AWS S3](Cloud/aws-ios-upload-file-to-s3.md) - 26 January 2020
+- [AWS Policy generator](Cloud/aws-policy-generator.md) - 26 January 2020
+- [AWS lambda Java read config file](Cloud/aws-lambda-read-config-file.md) - 26 January 2020
+- [Deploy an ExpressJs server on AWS lambda using Serverless](Cloud/aws-lambda-express-server.md) - 26 January 2020
+- [Serverless S3 bucket exists error](Cloud/serverless-s3-exits-error.md) - 26 January 2020
+- [Some userful serverless commands](Cloud/serverless-commands.md) - 26 January 2020
+- [Amazon EC2 - disk full](Cloud/aws-ec2-disk-full.md) - 26 January 2020
+- [AWS API performance comparision](Cloud/aws-api-performance-comparision.md) - 26 January 2020
 - [Deploy an ExpressJs server on AWS lambda using Serverless](Cloud/aws-lambda-express-server.md) - 04 April 2019
 - [AWS API performance comparision](Cloud/aws-api-performance-comparision.md) - 06 March 2019
 - [Firebase get IP address function](Cloud/firebase-get-ip-function.md) - 04 February 2019
@@ -93,6 +131,17 @@ the inner page anchor names must be lowercase.
 - [Free high-resolution photos from Unsplash](https://unsplash.com/collections/curated/143)
 
 ### Docker
+- [Docker insecure registry](Docker/Docker-insecure-registry.md) - 26 January 2020
+- [Run Tomcat image](Docker/run-tomcat-image.md) - 26 January 2020
+- [docker-compose node link mongo](Docker/docker-compose-node-link-mongo.md) - 26 January 2020
+- [docker commands](Docker/docker-commands.md) - 26 January 2020
+- [Docker.qcow2 disk space issue on Mac](Docker/Docker.qcow2-disk-space-issue-on-Mac.md) - 26 January 2020
+- [Using SSH keys inside docker container](Docker/Using-SSH-keys-inside-docker-container.md) - 26 January 2020
+- [Docker nginx log configuration](Docker/nginx-log-conf.md) - 26 January 2020
+- [Manage different docker versions](Docker/Manage-different-docker-versions.md) - 26 January 2020
+- [Move docker-machine config to another machine](Docker/Move-docker-machine-config.md) - 26 January 2020
+- [docker GetImageBlob no such file or directory issue](Docker/docker-GetImageBlob-no-such-file.md) - 26 January 2020
+- [sudo docker](Docker/sudo-docker.md) - 26 January 2020
 - [Using SSH keys inside docker container](Docker/Using-SSH-keys-inside-docker-container.md) - 10 March 2019
 - [docker nginx log configuration](Docker/nginx-log-conf.md)
 - [sudo docker](Docker/sudo-docker.md)
@@ -106,6 +155,11 @@ the inner page anchor names must be lowercase.
 - [docker GetImageBlob no such file or directory issue](Docker/docker-GetImageBlob-no-such-file.md)
 
 ### Git
+- [remove big files from git repository](Git/remove-big-files-from-git-repository.md) - 26 January 2020
+- [git cheat sheet](Git/git-cheat-sheet.md) - 26 January 2020
+- [Automatically use correct SSH key for remote Git repo](Git/use-correct-ssh-key.md) - 26 January 2020
+- [Config Repo user](Git/config-repo-user.md) - 26 January 2020
+- [github auto push script](Git/git-auto-push.md) - 26 January 2020
 - [Config Repo user](Git/config-repo-user.md) - 11 October 2018
 - [git auto push](Git/git-auto-push.md)
 - [git cheat sheet](Git/git-cheat-sheet.md)
@@ -113,10 +167,85 @@ the inner page anchor names must be lowercase.
 - [Automatically use correct SSH key for remote Git repo](Git/use-correct-ssh-key.md)  
 
 ### Go
+- [Upgrade go to 1.6](Go/Upgrade-go-to-1.6.md) - 26 January 2020
 
 - [Upgrade go to 1.6](Go/Upgrade-go-to-1.6.md)
 
 ### iOS
+- [Xcode debugging tips](iOS/xcode-debugging-tips.md) - 26 January 2020
+- [UILayoutGuide](iOS/UILayoutGuide.md) - 26 January 2020
+- [Xcode 10 (iOS 12) does not contain libstdc++6.0.9](iOS/xcode10-libstdc-issue.md) - 26 January 2020
+- [iOS GitLabe CI/CD](iOS/ios-gitlab-ci-cd.md) - 26 January 2020
+- [Xcode 9 tips](iOS/xcode-9-tips.md) - 26 January 2020
+- [Print system font names](iOS/print-system-font-names.md) - 26 January 2020
+- [Strange AQDefaultDevice logging](iOS/strange-AQDefaultDevice-logging.md) - 26 January 2020
+- [#CoreData in Swift framework](iOS/CoreData-in-Swift-framework.md) - 26 January 2020
+- [OpenGL cheat sheet](iOS/OpenGL-cheat-sheet.md) - 26 January 2020
+- [UIStackView](iOS/UIStackView.md) - 26 January 2020
+- [iOS Extensions access CoreData, shared folder and CloudKit](iOS/iOS-Extensions-access-CoreData-shared-folder-and-CloudKit.md) - 26 January 2020
+- [#iOS common code library](iOS/iOS-common-code-library.md) - 26 January 2020
+- [UITapGestureRecognizer or touchesBegan](iOS/UITapGestureRecognizer-or-touchesBegan.md) - 26 January 2020
+- [#PODS_ROOT issue](iOS/PODS_ROOT-issue.md) - 26 January 2020
+- [UIWebView transparent background color](iOS/UIWebView-transparent-background-color.md) - 26 January 2020
+- [UIViewController loadView](iOS/UIViewController-loadView.md) - 26 January 2020
+- [#iOS 9 PopOver points to top-left corner of anchor](iOS/ios9-popover-always-points-to-top-left-corner-of-anchor.md) - 26 January 2020
+- [Provide Export Compliance Information](iOS/Provide-Export-Compliance-Information.md) - 26 January 2020
+- [Prepare push notification certificate](iOS/Prepare-push-notification-certificate.md) - 26 January 2020
+- [Performing a Task in the Future](iOS/run-task-in-future.md) - 26 January 2020
+- [core data background context](iOS/core-data-background-context.md) - 26 January 2020
+- [ Open terminal window from Xcode](iOS/run-terminal-in-xcode.md) - 26 January 2020
+- [iBeacons cheat sheet](iOS/ibeacons.md) - 26 January 2020
+- [iOS Keychain check sheet](iOS/iOS-keychain-cheat-sheet.md) - 26 January 2020
+- [iOS keyboard background issue](iOS/iOS-keyboard-background-issue.md) - 26 January 2020
+- [#Get current thread](iOS/Get-current-thread.md) - 26 January 2020
+- [iOS graphics SDK guides](iOS/iOS-graph-SDK-guides.md) - 26 January 2020
+- [How to use Low Power Mode in code](iOS/How-to-use-Low-Power-Mode-in-code.md) - 26 January 2020
+- [#SDWebImagePrefetcher memory issue](iOS/SDWebImage-memory-issue.md) - 26 January 2020
+- [no known instance method for selector respondstoselector](iOS/no-known-instance-method-error.md) - 26 January 2020
+- [iOS concurrency fact sheet](iOS/iOS-concurrency-cheat-sheet.md) - 26 January 2020
+- [Programmatically change the app language](iOS/change-language-in-code.md) - 26 January 2020
+- [#Slow animations in a simulator](iOS/Slow-animations-in-a-simulator.md) - 26 January 2020
+- [Swift file template in Xcode](iOS/xcode-swift-file-template.md) - 26 January 2020
+- [Set static UITableViewCell delegate](iOS/Set-static-UITableViewCell-delegate.md) - 26 January 2020
+- [UIApplicationDelegate handles push notification](iOS/UIApplicationDelegate-handles-push-notification.md) - 26 January 2020
+- [I used iOS Cocoapods libraries](iOS/I-used-iOS-Cocoapods-libraries.md) - 26 January 2020
+- [>You should ALWAYS #import other classes in your .m file.](iOS/Always-import-other-classes-in-m-file.md) - 26 January 2020
+- [iOS questions](iOS/ios-questions.md) - 26 January 2020
+- [* Silent push notification](iOS/Silent-push-notification.md) - 26 January 2020
+- [Change app icon](iOS/change-app-icon.md) - 26 January 2020
+- [iOS share extension icon not seen on simulators](iOS/iOS-share-extension-icon-not-seen-on-simulators.md) - 26 January 2020
+- [Quartz 2D cheat sheet](iOS/quartz2d.md) - 26 January 2020
+- [Share code between iOS and TVOS](iOS/Share-code-between-iOS-and-TVOS.md) - 26 January 2020
+- [Mobile app vs web](iOS/web-ios-realtime-app-comparsion.md) - 26 January 2020
+- [No such module](iOS/No-such-module.md) - 26 January 2020
+- [Mobile CI / CD](iOS/CI-CD-pipleline.md) - 26 January 2020
+- [Error Domain=PlugInKit Code=13](iOS/imagepicker-error-domain.md) - 26 January 2020
+- [SceneKit torus example](iOS/scenekit-torus-example.md) - 26 January 2020
+- [iOS theme code](iOS/ios-theme.md) - 26 January 2020
+- [Revoking an enterprise distribution certificate](iOS/revoke-enterprise-cert.md) - 26 January 2020
+- [Background NFC tag reading](iOS/ios13-nfc.md) - 26 January 2020
+- [Xcode uses too much disk space](iOS/Xcode-uses-too-much-disk-space.md) - 26 January 2020
+- [Command /bin/sh failed with exit code 1](iOS/command-failed-with-exit-code-1.md) - 26 January 2020
+- [iOS delete downloaded simulators](iOS/iOS-delete-downloaded-simulators.md) - 26 January 2020
+- [Dynamically change the main bundle's class](iOS/change-bundle.md) - 26 January 2020
+- [UITableViewCell's contentView gets unwanted height==44 constraint](iOS/tableview-constraint-height-44-issue.md) - 26 January 2020
+- [App Life cycle](iOS/managing-app-life-cycel.md) - 26 January 2020
+- [CoreML 2](iOS/coreml2.md) - 26 January 2020
+- [iOS Drawing cheat sheet 2](iOS/iOS-Drawing-cheat-sheet-2.md) - 26 January 2020
+- [Device type and notch](iOS/devices-notch.md) - 26 January 2020
+- [NSLayoutAnchor](iOS/NSLayoutAnchor.md) - 26 January 2020
+- [Drag and drop steps](iOS/drag-drop-implement-steps.md) - 26 January 2020
+- [Customize iOS share extension UI](iOS/Customize-iOS-Share-extension-UI.md) - 26 January 2020
+- [UIScrollView not scrolling when using autolayout](iOS/UIScrollView-not-scrolling-when-using-autolayout.md) - 26 January 2020
+- [CoreData get records count](iOS/coredata-get-records-count.md) - 26 January 2020
+- [increase iOS build number in Fastlane](iOS/increase-ios-build-number-in-fastlane.md) - 26 January 2020
+- [Fix iTunesConnect must have an arm64-only executable error](iOS/itunesconnect-arm64-only-error.md) - 26 January 2020
+- [Autolayout cheat sheet](iOS/Autolayout-rules-of-thumb.md) - 26 January 2020
+- [iOS Drawing cheat sheet](iOS/iOS-Drawing-Concepts.md) - 26 January 2020
+- [SwiftUI code](iOS/swiftui-cook-book.md) - 26 January 2020
+- [Using PDF assets in your iOS app](iOS/svg-pdf.md) - 26 January 2020
+- [ Swift 4 class from Objective-C: “Property not found on object of type”](iOS/swift4-property-not-found.md) - 26 January 2020
+- [CALayer shadow performance issue](iOS/CALayer-shadow-performance-issue.md) - 26 January 2020
 - [Mobile CI / CD](iOS/CI-CD-pipleline.md) - 22 January 2020
 - [iOS GitLabe CI/CD](iOS/ios-gitlab-ci-cd.md) - 25 December 2019
 - [Mobile app vs web](iOS/web-ios-realtime-app-comparsion.md) - 11 December 2019
@@ -189,6 +318,27 @@ the inner page anchor names must be lowercase.
 - [ALWAYS #import other classes in your .m file](iOS/Always-import-other-classes-in-m-file.md)
 
 ### Javascript
+- [String to hex color](Javascript/string-to-random-color.md) - 26 January 2020
+- [Netlify Firebase authentication redirect issue](Javascript/netlify-redirect-issue.md) - 26 January 2020
+- [JSFiddle console.log](Javascript/JSFiddle-console.md) - 26 January 2020
+- [Notification callback function for Safari](Javascript/safari-notification-callback-issue.md) - 26 January 2020
+- [Npm behind a corporate web proxy](Javascript/npm-install-behind-proxy.md) - 26 January 2020
+- [ReactJS: Maximum update depth exceeded error](Javascript/ReactJS-Maximum-update-depth-exceeded-error.md) - 26 January 2020
+- [nodejs debug object](Javascript/nodejs-debug-object.md) - 26 January 2020
+- [mongojs aggregate](Javascript/mongojs-aggregate.md) - 26 January 2020
+- [Resolve Cannot find modlue 'nice-try' error](Javascript/reactjs-error-cannot-find-module-nice-try.md) - 26 January 2020
+- [Config environment variables in Vuejs](Javascript/vuejs-environment-config.md) - 26 January 2020
+- [Nodejs server api authentication](Javascript/nodejs-authentication.md) - 26 January 2020
+- [Chatjs Linear Cartesian Axis](Javascript/chartjs-y-axis-options.md) - 26 January 2020
+- [Webpack errors](Javascript/Webpack-errors.md) - 26 January 2020
+- [Semver for consumers](Javascript/npm-semver.md) - 26 January 2020
+- [Error: Cannot find module '../lib/utils/unsupported.js'](Javascript/npm-install-unsupported.js.md) - 26 January 2020
+- [Run JavaScript in Atom](Javascript/Atom-run-javascript.md) - 26 January 2020
+- [Eslint: How to disable "unexpected console statement" in VueJs](Javascript/Eslin-unexpected-console-statement.md) - 26 January 2020
+- [Add code command for VS Code](Javascript/add-vs-code-command.md) - 26 January 2020
+- [Decouple Jquery](Javascript/decouple-jquery.md) - 26 January 2020
+- [Check mobile safari](Javascript/check-mobile-safari.md) - 26 January 2020
+- [ES6 cheat sheet](Javascript/es6-cheat-sheet.md) - 26 January 2020
 - [String to hex color](Javascript/string-to-random-color.md) - 20 April 2019
 - [Resolve Cannot find modlue 'nice-try' error](Javascript/reactjs-error-cannot-find-module-nice-try.md) - 04 April 2019
 - [Add code command for VS Code](Javascript/add-vs-code-command.md) - 27 March 2019
@@ -212,13 +362,22 @@ the inner page anchor names must be lowercase.
 - [Semantic versioning and npm](Javascript/npm-semver.md)
 
 ### Kotlin
+- [Sealed classes](Kotlin/sealed-class.md) - 26 January 2020
+- [Lazy delegate](Kotlin/by-lazy.md) - 26 January 2020
 - [Lazy delegate](Kotlin/by-lazy.md) - 20 November 2018
 - [Sealed classes](Kotlin/sealed-class.md) - 17 November 2018
 
 ### Life
+- [Reading](Life/inspiring-words.md) - 26 January 2020
 - [Reading](Life/inspiring-words.md) - 08 November 2018
 
 ### Linux
+- [sudo cd](Linux/sudo-cd.md) - 26 January 2020
+- [Bash commands](Linux/Bash-commands.md) - 26 January 2020
+- [Enable Dell Alienware Wifi and touchpad on ubuntu 18.04](Linux/dell-alienware-enable-wifi-touchpad.md) - 26 January 2020
+- [Run cd in a shell script](Linux/run-cd-in-a-shell-script.md) - 26 January 2020
+- [Find process locking port 3000](Linux/find-process-port.md) - 26 January 2020
+- [Ubuntu commands](Linux/Ubuntu-commands.md) - 26 January 2020
 - [Find process locking port 3000](Linux/find-process-port.md) - 20 April 2019
 - [Enable Dell Alienware Wifi and touchpad on ubuntu 18.04](Linux/dell-alienware-enable-wifi-touchpad.md) - 21 November 2018
 - [Ubuntu commands](Linux/Ubuntu-commands.md)
@@ -227,6 +386,18 @@ the inner page anchor names must be lowercase.
 - [sudo cd](Linux/sudo-cd.md)
 
 ### Mac
+- [Remove and regenerate the Bluetooth.plist file](Mac/fix-bluetooth-issue.md) - 26 January 2020
+- [Catalina install freezes on boot](Mac/catalina-install-freezes.md) - 26 January 2020
+- [Export iPhone photos to external disk](Mac/export-iphone-photos.md) - 26 January 2020
+- [Homebrew behind proxy](Mac/brew-install-behind-proxy.md) - 26 January 2020
+- [Show Current dirctory name in iterm tab title](Mac/current-dir-in-iterm-tab-title.md) - 26 January 2020
+- [Xcode constantly crashing](Mac/xcode-constantly-crashing.md) - 26 January 2020
+- [#Resize off screen window](Mac/Resize-off-screen-window.md) - 26 January 2020
+- [Delete Mac outlook calendar attachments](Mac/delete-outlook-calendar-attachements.md) - 26 January 2020
+- [nscurl](Mac/nscurl.md) - 26 January 2020
+- [Delete old time machine backups manually](Mac/delete-time-machine-backup.md) - 26 January 2020
+- [Use two Mac apps side by side in Split View](Mac/mac-apps-split-view.md) - 26 January 2020
+- [Release mac deleted disk space](Mac/mac-delete-disk-space-not-released.md) - 26 January 2020
 - [Use two Mac apps side by side in Split View](Mac/mac-apps-split-view.md) - 17 July 2019
 - [Release mac deleted disk space](Mac/mac-delete-disk-space-not-released.md) - 24 June 2019
 - [Catalina install freezes on boot](Mac/catalina-install-freezes.md) - 12 June 2019
@@ -240,6 +411,15 @@ the inner page anchor names must be lowercase.
 - [Resize off screen window](Mac/Resize-off-screen-window.md)
 
 ### ML
+- [NVIDIA CUDA [Version 9.0] Installer Failed](ML/install-cuda.md) - 26 January 2020
+- [Activation function](ML/activation-function.md) - 26 January 2020
+- [Show Pandas graph in jupyter notebook](ML/show-pandas-graph-in-jupyter-notebook.md) - 26 January 2020
+- [Setup Tensorflow on Windows 10](ML/step-tensorflow-windows.md) - 26 January 2020
+- [install tensorflow error](ML/install-tensorflow-error.md) - 26 January 2020
+- [CreateML Vs TuriCreate](ML/createml-turicreate.md) - 26 January 2020
+- [CoreML Code Generation Language set to "none"](ML/CoreML-Code-Generation-Language-set-to-none.md) - 26 January 2020
+- [Machine learning courses](ML/machine-learning-courses.md) - 26 January 2020
+- [No module named tensorflow in jupyter](ML/No-module-named-tensorflow-in-jupyter.md) - 26 January 2020
 - [CoreML Code Generation Language set to "none"](ML/CoreML-Code-Generation-Language-set-to-none.md) - 05 March 2019
 - [CreateML Vs TuriCreate](ML/createml-turicreate.md) - 04 March 2019
 - [No module named tensorflow in jupyter](ML/No-module-named-tensorflow-in-jupyter.md) - 21 November 2018
@@ -251,11 +431,35 @@ the inner page anchor names must be lowercase.
 - [Machine learning courses](ML/machine-learning-courses.md)
 
 ### Others
+- [#Preparing technical coding interviews websites](Others/technique-interview-websites.md) - 26 January 2020
+- [letsencrypt certificate](Others/letsencrypt-certificate.md) - 26 January 2020
+- [Gmail alias](Others/Gmail-alias.md) - 26 January 2020
 - [Technical coding interviews websites](Others/technique-interview-websites.md)
 - [Gmail alias](Others/Gmail-alias.md)
 - [letsencrypt certificate](Others/letsencrypt-certificate.md)
 
 ### Python
+- [Python objects sort](Python/python-sort.md) - 26 January 2020
+- [Showing line numbers in Jupyter Notebooks](Python/jupyter-show-line.md) - 26 January 2020
+- [Jupyter notebook keyboard shortcuts](Python/Jupyter-Notebook-Keyboard-Shortcuts.md) - 26 January 2020
+- [Python Code sippets](Python/python-code-snippets.md) - 26 January 2020
+- [Install Tensorflow and Kerea](Python/install-tensorflow-keras-mac.md) - 26 January 2020
+- [Python Prime number checker](Python/prime-number.md) - 26 January 2020
+- [Jupyter notebook theme](Python/juypter-notebook-theme.md) - 26 January 2020
+- [run Jupyter in a docker container](Python/docker-jupyter-notebook.md) - 26 January 2020
+- [Remove a key from a Python dictionary](Python/dict-del.md) - 26 January 2020
+- [Is Prime](Python/is_prime.md) - 26 January 2020
+- [for else clause](Python/for-else-clause.md) - 26 January 2020
+- [Expend Tuple as part of argument list](Python/expend-tuple.md) - 26 January 2020
+- [Python tutorial](Python/python-tutorial.md) - 26 January 2020
+- [Python execution time](Python/execute-time.md) - 26 January 2020
+- [jupyterthemes](Python/jupyter-notebook-theme.md) - 26 January 2020
+- [Using Python unittest in IPython or Jupyter](Python/unittest-jupyter.md) - 26 January 2020
+- [Kill jupyter notebooks](Python/kill-jupyter-notebooks.md) - 26 January 2020
+- [#Python resources](Python/Python-resources.md) - 26 January 2020
+- [ pprint — Data pretty printer](Python/pprint.md) - 26 January 2020
+- [Jupyter tools](Python/jupyter-notebook.md) - 26 January 2020
+- [Python lambda in a loop](Python/python-lambda-in-loop.md) - 26 January 2020
 - [Kill jupyter notebooks](Python/kill-jupyter-notebooks.md) - 13 January 2020
 - [for else clause](Python/for-else-clause.md) - 29 June 2019
 - [Jupyter notebook theme](Python/juypter-notebook-theme.md) - 20 April 2019
@@ -281,6 +485,7 @@ the inner page anchor names must be lowercase.
 - [Some interesting Raspberry PI projects](raspberrypi/interesting-pi-projects.md)
 
 ### ReactNative
+- [RawText must be wrapped issue](ReactNative/RawText-must-be-wrapped.md) - 26 January 2020
 
 - [Add custom fonts](https://medium.com/@danielskripnik/how-to-add-and-remove-custom-fonts-in-react-native-b2830084b0e4)
 - [RawText must be wrapped issue](ReactNative/RawText-must-be-wrapped.md)
@@ -292,6 +497,26 @@ the inner page anchor names must be lowercase.
 - [Mathematical symbols](http://www.rapidtables.com/math/symbols/Basic_Math_Symbols.htm)
 
 ### Swift
+- [Upgrade Swift 3 to Swift 4](Swift/swift3-swift4.2-update.md) - 26 January 2020
+- [Copy of an array](Swift/array-copy.md) - 26 January 2020
+- [Show swift generated interface](Swift/Show-swift-generated-interface.md) - 26 January 2020
+- [Stop Swift playground refresh](Swift/stop-swift-playgound-refresh.md) - 26 January 2020
+- [Swift 5 Code snippets](Swift/swift-code-snippets.md) - 26 January 2020
+- [Swift UI Code examples](Swift/swift-ui-code.md) - 26 January 2020
+- [Conditionally Extending a Type](Swift/Conditionally-Extending-a-Type.md) - 26 January 2020
+- [ Data Set in asset catalogue](Swift/Data-set-in-asset-catalogue.md) - 26 January 2020
+- [Swift Playground tips](Swift/playground-tips.md) - 26 January 2020
+- [Swift playground unit test](Swift/swift-playground-unit-test.md) - 26 January 2020
+- [#Swift 3 cheat sheet](Swift/Swift-3-cheat-sheet.md) - 26 January 2020
+- [Automatic Reference Counting](Swift/arc.md) - 26 January 2020
+- [SwiftUI tips and ticks](Swift/swiftui-tips-and-tricks.md) - 26 January 2020
+- [SwiftUI code snippets](Swift/swiftui-code-snippets.md) - 26 January 2020
+- [Escaping Closures in Swift 3.0.1](Swift/Escaping-Closures.md) - 26 January 2020
+- [Creating your own set types](Swift/Creating-your-own-set-types.md) - 26 January 2020
+- [ReadableContentGuide](Swift/ReadableContentGuide.md) - 26 January 2020
+- [open keyword in Swift 3](Swift/Open-keyword-swift-3.md) - 26 January 2020
+- [#Lazy Swift](Swift/Lazy-Swift.md) - 26 January 2020
+- [Swift 2 to Swift 3](Swift/Swift2-to-Swift3.md) - 26 January 2020
 - [SwiftUI code snippets](Swift/swiftui-code-snippets.md) - 14 January 2020
 - [Swift 5 Code snippets](Swift/swift-code-snippets.md) - 07 January 2020
 - [Swift UI Code examples](Swift/swift-ui-code.md) - 24 June 2019
@@ -313,6 +538,22 @@ the inner page anchor names must be lowercase.
 - [Swift playground unit test](Swift/swift-playground-unit-test.md)
 
 ### Tools
+- [atom mac live server plugin not working](Tools/atom-mac-live-server-plugin-not-working.md) - 26 January 2020
+- [Web prototype tools](Tools/web-prototype-tools.md) - 26 January 2020
+- [VScode Java formatter](Tools/vscode-java-formatter.md) - 26 January 2020
+- [Atom editor packages](Tools/atom-packages.md) - 26 January 2020
+- [VS Code setters and getters](Tools/vscode-java-get-set.md) - 26 January 2020
+- [JSON Scheme to models](Tools/json-to-model-tools.md) - 26 January 2020
+- [Pygments](Tools/code-highlighter.md) - 26 January 2020
+- [Swift Charts](Tools/swift-charts.md) - 26 January 2020
+- [#Selecting Columns in VS Code](Tools/visual-studio-code-column-selection.md) - 26 January 2020
+- [Developers cheat sheets](Tools/Developers-cheat-sheets.md) - 26 January 2020
+- [Pandoc](Tools/panddoc.md) - 26 January 2020
+- [VSCode cannot be resolved to a type](Tools/vscode-cannot-resolve-type.md) - 26 January 2020
+- [Where has my disk space gone?](Tools/Where-has-my-disk-space-gone.md) - 26 January 2020
+- [How to Flush DNS Cache in Google Chrome](Tools/clear-chrome-dns-cache.md) - 26 January 2020
+- [Jenkins docker run permission errors](Tools/jenkins-docker-permission-denied-issue.md) - 26 January 2020
+- [Apple Development documentation](Tools/apple-development-documents.md) - 26 January 2020
 - [Apple Development documentation](Tools/apple-development-documents.md) - 09 January 2020
 - [Swift Charts](Tools/swift-charts.md) - 07 January 2020
 - [Pygments](Tools/code-highlighter.md) - 07 January 2020
@@ -333,6 +574,10 @@ the inner page anchor names must be lowercase.
 - [Pandoc](Tools/panddoc.md)
 
 ### WatchOS
+- [Adding a Complication to Your watchOS App](WatchOS/complications.md) - 26 January 2020
+- [#Watch OS app archive other items issue](WatchOS/Watch-OS-app-archive-other-items-issue.md) - 26 January 2020
+- [watchOS 3 cheat sheet](WatchOS/watchOS-3-cheat-sheet.md) - 26 January 2020
+- [Watch app "the network connection was lost" issue in a simulator](WatchOS/Watch-app-the-connection-lost.md) - 26 January 2020
 - [Adding a Complication to Your watchOS App](WatchOS/complications.md) - 09 January 2020
 - [Watch OS app archive other items issue](WatchOS/Watch-OS-app-archive-other-items-issue.md)
 - [Watch OS app connection lost issue issue](WatchOS/Watch-app-the-connection-lost.md)
