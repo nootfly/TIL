@@ -314,6 +314,7 @@ the inner page anchor names must be lowercase.
 - [Swift playground unit test](Swift/swift-playground-unit-test.md)
 
 ### Tools
+- [App development and deployment Tools](Tools/app-dev-tools.md) - 28 January 2020
 - [Apple Development documentation](Tools/apple-development-documents.md) - 09 January 2020
 - [Swift Charts](Tools/swift-charts.md) - 07 January 2020
 - [Pygments](Tools/code-highlighter.md) - 07 January 2020
