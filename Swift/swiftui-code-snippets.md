@@ -36,3 +36,59 @@ Text(model.brain.output)
             )
         )
 ```
+
+## Text rounded rectangular background
+
+```swift
+                Text(joke.body)
+                    .listRowBackground(RoundedRectangle(cornerRadius: 6)
+                        .fill(Color.blue)
+```
+
+## detect bottom of list
+
+```swift
+
+struct ContentView: View {
+
+    var body: some View {
+
+        ScrollView {
+            ForEach(1...100) { item in
+                Text("\(item)")
+            }
+            Rectangle()
+                .onAppear { print("Reached end of scroll view")  }
+        }
+    }
+}
+
+ struct ContentView: View {
+
+    var body: some View {
+
+        List {
+            ForEach(1...100) { item in
+                Text("\(item)")
+            }
+            Rectangle()
+                .onAppear { print("Reached end of scroll view")  }
+        }
+    }
+  }
+
+```
+
+[https://stackoverflow.com/a/56602782](https://stackoverflow.com/a/56602782)
+
+## WatchOS carousel style
+
+```swift
+   List {
+       ForEach(items, id:\.self) { item in 
+           Text(item)
+       }
+
+   }
+   .listStyle(CarouselListStyle())
+```
