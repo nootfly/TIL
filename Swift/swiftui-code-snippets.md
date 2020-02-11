@@ -85,10 +85,21 @@ struct ContentView: View {
 
 ```swift
    List {
-       ForEach(items, id:\.self) { item in 
+       ForEach(items, id:\.self) { item in
            Text(item)
        }
 
    }
    .listStyle(CarouselListStyle())
 ```
+
+## Push View programmatically in callback
+
+```swift
+
+NavigationLink(destination: ProfileView(viewModel: ProfileViewModelImpl()), isActive: self.pushActive) {
+    Text("")
+  }.hidden()
+```
+
+[https://stackoverflow.com/a/57321795](https://stackoverflow.com/a/57321795)
