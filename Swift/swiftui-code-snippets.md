@@ -200,3 +200,26 @@ class HostingController: WKHostingController<AnyView> {
 ```
 
 [https://stackoverflow.com/a/56555883](https://stackoverflow.com/a/56555883)
+
+## WatchOS context menu
+
+```swift
+var body: some View {
+    Group {
+        Text("Hello Daymo")
+    }
+    .contextMenu(menuItems: {
+        Button(action: {
+            print("Refresh")
+        }, label: {
+            VStack{
+                Image(systemName: "arrow.clockwise")
+                    .font(.title)
+                Text("Refresh view")
+            }
+        })
+    })
+}
+```
+
+[https://stackoverflow.com/a/57677049](https://stackoverflow.com/a/57677049)
