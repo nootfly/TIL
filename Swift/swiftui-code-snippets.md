@@ -103,3 +103,100 @@ NavigationLink(destination: ProfileView(viewModel: ProfileViewModelImpl()), isAc
 ```
 
 [https://stackoverflow.com/a/57321795](https://stackoverflow.com/a/57321795)
+
+##  How to render a gradient
+
+```swift
+    Text("Hello World")
+    .padding()
+    .foregroundColor(.white)
+    .background(LinearGradient(gradient: Gradient(colors: [.white, .red, .black]), startPoint: .top, endPoint: .bottom), cornerRadius: 0)
+```
+
+## use San Francisco Symbol
+
+```swift
+  Image(systemName: "cloud.heavyrain.fill")
+    .foregroundColor(.red) 
+    .font(.largeTitle)
+```
+
+## Adjust image
+
+```swift
+  Image("example-image")
+    .resizable()
+    .aspectRatio(contentMode: .fill)
+```
+
+## Display solid shapes
+
+```swift
+  Rectangle()
+    .fill(Color.red)
+    .frame(width: 200, height: 200)
+
+  Circle()
+    .fill(Color.blue)
+    .frame(width: 50, height: 50)
+```
+
+## use images as backgrounds
+
+```swift
+   Text("Hacking with Swift")
+    .font(.largeTitle)
+    .background(
+        Image("example-image")
+            .resizable()
+            .frame(width: 100, height: 100))
+```
+
+## overlapp content
+
+```swift
+   ZStack() {
+    Image("example-image")
+    Text("Hacking with Swift")
+        .font(.largeTitle)
+        .background(Color.black)
+        .foregroundColor(.white)
+    }
+```
+
+## Random show view
+
+```swift
+    var body: some View {
+    Group {
+        if Bool.random() {
+            Image("example-image")
+        } else {
+            Text("Better luck next time")
+        }
+    }
+   }
+```
+
+## place content outside the safe area
+
+```swift
+    Text("Hello World")
+    .frame(minWidth: 0, maxWidth: .infinity, minHeight: 0, maxHeight: .infinity)
+    .background(Color.red)
+    .edgesIgnoringSafeArea(.all)
+```
+
+[https://www.hackingwithswift.com/quick-start/swiftui/how-to-display-solid-shapes](https://www.hackingwithswift.com/quick-start/swiftui/how-to-display-solid-shapes)
+
+## WatchOS environment object
+
+```swift
+class HostingController: WKHostingController<AnyView> {
+    override var body: AnyView {
+        return  AnyView(ContentView().environmentObject(Store()))
+    }
+}
+```
+
+[https://stackoverflow.com/a/56555883](https://stackoverflow.com/a/56555883)
