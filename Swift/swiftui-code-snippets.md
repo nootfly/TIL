@@ -223,3 +223,37 @@ var body: some View {
 ```
 
 [https://stackoverflow.com/a/57677049](https://stackoverflow.com/a/57677049)
+
+## WatchOS load pages dynamically
+
+```swift
+class HostingController: WKHostingController<MainView> {
+    override var body: MainView {
+        return MainView(host: self)
+    }
+
+    func reloadPages() {
+        var namesAndContexts:[(name: String, context: AnyObject)]
+        if let UserDefaults.standard.bool(forKey: "key")
+            {
+            namesAndContexts =
+        } else {
+             namesAndContexts =
+        }
+         WKInterfaceController.reloadRootControllers(withNamesAndContexts: namesAndContexts)
+    }
+
+
+}
+
+struct MainView : View {
+    weak var host: HostingController?
+    var body: some View {
+        Text("")
+            .onAppear(perform: {
+                self.host?.reloadPages()
+            })
+
+    }
+}
+```
