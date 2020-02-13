@@ -234,8 +234,7 @@ class HostingController: WKHostingController<MainView> {
 
     func reloadPages() {
         var namesAndContexts:[(name: String, context: AnyObject)]
-        if let UserDefaults.standard.bool(forKey: "key")
-            {
+        if UserDefaults.standard.bool(forKey: "key") {
             namesAndContexts =
         } else {
              namesAndContexts =
