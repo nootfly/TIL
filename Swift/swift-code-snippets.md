@@ -226,3 +226,13 @@ public enum Environment {
 ```
 
 [https://thoughtbot.com/blog/let-s-setup-your-ios-environments](https://thoughtbot.com/blog/let-s-setup-your-ios-environments)
+
+## WatchOS update complications
+
+```swift
+        let server = CLKComplicationServer.sharedInstance()
+        for complication in server.activeComplications ?? [] {
+                server.reloadTimeline(for: complication)
+
+        }
+```

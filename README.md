@@ -117,6 +117,7 @@ the inner page anchor names must be lowercase.
 - [Upgrade go to 1.6](Go/Upgrade-go-to-1.6.md)
 
 ### iOS
+- [Add SceneDelegate to existing project](iOS/add-SceneDelegate-to-existing-project.md) - 18 February 2020
 - [NSDate formatter](iOS/nsdate-formatter.md) - 11 February 2020
 - [Mobile CI / CD](iOS/CI-CD-pipleline.md) - 22 January 2020
 - [iOS GitLabe CI/CD](iOS/ios-gitlab-ci-cd.md) - 25 December 2019
