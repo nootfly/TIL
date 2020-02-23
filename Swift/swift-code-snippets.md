@@ -236,3 +236,15 @@ public enum Environment {
 
         }
 ```
+
+## SFSafariViewController reader mode
+
+```swift
+let config = SFSafariViewController.Configuration()
+config.entersReaderIfAvailable = true
+let protocolVC = SFSafariViewController(url: protocolUrl)
+protocolVC.delegate = self
+self.present(protocolVC, animated: true, completion: nil)
+```
+
+[https://www.jianshu.com/p/d1a7268e7311](https://www.jianshu.com/p/d1a7268e7311)
