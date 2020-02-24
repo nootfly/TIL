@@ -371,3 +371,21 @@ extension View {
                 }
                 .buttonStyle(PlainButtonStyle())
 ```
+
+## Button action in a list or a form
+
+```swift
+                Button(action: {
+                  //keep empty
+                }) {
+                    HStack {
+                        Text("Test")
+                    }
+                    .onTapGesture {
+                        //real action
+                    }
+
+                    .buttonStyle(BorderlessButtonStyle())
+
+                }
+```
