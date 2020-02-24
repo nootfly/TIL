@@ -248,3 +248,25 @@ self.present(protocolVC, animated: true, completion: nil)
 ```
 
 [https://www.jianshu.com/p/d1a7268e7311](https://www.jianshu.com/p/d1a7268e7311)
+
+## Change default global tint color
+
+```swift
+@UIApplicationMain class AppDelegate: UIResponder, UIApplicationDelegate {
+
+    var window: UIWindow?
+
+    func application(application: UIApplication!, didFinishLaunchingWithOptions launchOptions: NSDictionary!) -> Bool {
+
+        self.window = UIWindow(frame: UIScreen.mainScreen().bounds)
+
+        // ...
+
+        self.window!.tintColor = UIColor.orangeColor()
+
+        return true
+    }
+}
+```
+
+[https://stackoverflow.com/a/25095089](https://stackoverflow.com/a/25095089)
