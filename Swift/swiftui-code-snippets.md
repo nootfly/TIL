@@ -360,3 +360,14 @@ extension View {
 ```
 
 [https://stackoverflow.com/a/58473985](https://stackoverflow.com/a/58473985)
+
+## Button image not showing
+
+```swift
+                Button(action: {
+                }){
+                    Image("settings_icon")
+
+                }
+                .buttonStyle(PlainButtonStyle())
+```
