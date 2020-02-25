@@ -389,3 +389,15 @@ extension View {
 
                 }
 ```
+
+## Dismiss presented window
+
+```swift
+@Environment(\.presentationMode) var presentationMode: Binding<PresentationMode>
+
+self.presentationMode.wrappedValue.dismiss()
+```
+
+[https://stackoverflow.com/a/56563652](https://stackoverflow.com/a/56563652)
+
+## ObserveredObject does not get updates only in ScrollView. It can get updates in List.
