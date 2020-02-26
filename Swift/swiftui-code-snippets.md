@@ -401,3 +401,37 @@ self.presentationMode.wrappedValue.dismiss()
 [https://stackoverflow.com/a/56563652](https://stackoverflow.com/a/56563652)
 
 ## ObserveredObject does not get updates only in ScrollView. It can get updates in List.
+
+## Content in scrollview as a list item disappears when scrolling
+
+```swift
+struct ItemView: View {
+    var body: some View {
+        VStack {
+            Text("Tag list:")
+            ScrollView(.horizontal, showsIndicators: false) {
+                HStack {
+                    ForEach(0...8, id: \.self) { _ in
+                        TagView().padding()
+                    }
+                }
+            }.id(UUID().uuidString) // << here is a fix !
+        }
+    }
+}
+```
+
+[https://stackoverflow.com/a/59811359](https://stackoverflow.com/a/59811359)
+
+## NavigationView broken in rotation
+
+```swift
+NavigationView {
+//views
+}
+.navigationViewStyle(StackNavigationViewStyle())
+
+```
+
+[https://forums.developer.apple.com/thread/119691](https://forums.developer.apple.com/thread/119691)
+
