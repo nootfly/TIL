@@ -435,3 +435,14 @@ NavigationView {
 
 [https://forums.developer.apple.com/thread/119691](https://forums.developer.apple.com/thread/119691)
 
+## `contextMenu`
+
+```swift
+Text("Control Click Me")
+    .contextMenu {
+        Button(action: { print("added") } ) { Text("Add") }
+        Button(action: { print("removed") } ) { Text("Remove") }
+    }
+```
+
+[https://developer.apple.com/documentation/swiftui/view/3288993-contextmenu](https://developer.apple.com/documentation/swiftui/view/3288993-contextmenu)
