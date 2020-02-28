@@ -446,3 +446,44 @@ Text("Control Click Me")
 ```
 
 [https://developer.apple.com/documentation/swiftui/view/3288993-contextmenu](https://developer.apple.com/documentation/swiftui/view/3288993-contextmenu)
+
+## Multiple sheets
+
+```swift
+enum ActiveSheet {
+   case first, second
+}
+
+struct ContentView: View {
+
+    @State private var showSheet = false
+    @State private var activeSheet: ActiveSheet = .first
+
+    var body: some View {
+
+        NavigationView {
+            VStack(spacing: 20) {
+                Button("First modal view") {
+                    self.showSheet = true
+                    self.activeSheet = .first
+                }
+                Button ("Second modal view") {
+                    self.showSheet = true
+                    self.activeSheet = .second
+                }
+            }
+            .navigationBarTitle(Text("Multiple modal view problem"), displayMode: .inline)
+            .sheet(isPresented: $showSheet) {
+                if self.activeSheet == .first {
+                    Text("First modal view")
+                }
+                else {
+                    Text("Only the second modal view works!")
+                }
+            }
+        }
+    }
+}
+```
+
+[https://stackoverflow.com/a/58837261](https://stackoverflow.com/a/58837261)
