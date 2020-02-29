@@ -487,3 +487,37 @@ struct ContentView: View {
 ```
 
 [https://stackoverflow.com/a/58837261](https://stackoverflow.com/a/58837261)
+
+## Update FetchRequest
+
+```swift
+@State private var refreshing = false
+private var didSave =  NotificationCenter.default.publisher(for: .NSManagedObjectContextDidSave)
+
+var body: some View {
+    List {
+        ForEach(fetchedResults) { primary in
+            NavigationLink(destination: SecondaryView(primary: primary)) {
+                VStack(alignment: .leading) {
+                    // below use of .refreshing is just as demo,
+                    // it can be use for anything
+                    Text("\(primary.primaryName ?? "nil")" + (self.refreshing ? "" : ""))
+                    Text("\(primary.secondary?.secondaryName ?? "nil")").font(.footnote).foregroundColor(.secondary)
+                }
+            }
+            // here is the listener for published context event
+            .onReceive(self.didSave) { _ in
+                self.refreshing.toggle()
+            }
+        }
+    }
+    .navigationBarTitle("Primary List")
+    .navigationBarItems(trailing:
+        Button(action: {self.addNewPrimary()} ) {
+            Image(systemName: "plus")
+        }
+    )
+}
+```
+
+[https://stackoverflow.com/a/58777603](https://stackoverflow.com/a/58777603)
