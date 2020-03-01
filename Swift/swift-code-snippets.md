@@ -240,14 +240,15 @@ public enum Environment {
 ## SFSafariViewController reader mode
 
 ```swift
+let urlString = "http://www.google.com"
+let url = URL(string: urlString)!
 let config = SFSafariViewController.Configuration()
 config.entersReaderIfAvailable = true
-let protocolVC = SFSafariViewController(url: protocolUrl)
-protocolVC.delegate = self
-self.present(protocolVC, animated: true, completion: nil)
+let safariVC = SFSafariViewController(url: url, configuration: config)
+present(safariVC, animated: true, completion: nil)
 ```
 
-[https://www.jianshu.com/p/d1a7268e7311](https://www.jianshu.com/p/d1a7268e7311)
+[https://stackoverflow.com/a/49107463](https://stackoverflow.com/a/49107463)
 
 ## Change default global tint color
 
