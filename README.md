@@ -295,6 +295,7 @@ the inner page anchor names must be lowercase.
 - [Mathematical symbols](http://www.rapidtables.com/math/symbols/Basic_Math_Symbols.htm)
 
 ### Swift
+- [Swiftlint yaml file `swiftlint.yml`](Swift/swiftlint-yml.md) - 01 March 2020
 - [SwiftUI code snippets](Swift/swiftui-code-snippets.md) - 14 January 2020
 - [Swift 5 Code snippets](Swift/swift-code-snippets.md) - 07 January 2020
 - [SwiftUI tips and ticks](Swift/swiftui-tips-and-tricks.md) - 21 June 2019
