@@ -271,3 +271,25 @@ present(safariVC, animated: true, completion: nil)
 ```
 
 [https://stackoverflow.com/a/25095089](https://stackoverflow.com/a/25095089)
+
+## simulator sqlite db paths
+
+```swift
+let dirPaths = NSSearchPathForDirectoriesInDomains(.DocumentDirectory, .UserDomainMask, true)
+var docsDir = dirPaths[0]
+
+print(docsDir)
+
+// use app grpup
+
+public lazy var applicationDocumentsDirectory: URL? = {
+        // The directory the applicatio:  uses to store the Core Data store file. This code uses a directory named "com.nootapp.CoreDataTest" in the application's documents Application Support directory
+        return FileManager.default.containerURL(forSecurityApplicationGroupIdentifier: "group.com.appgroup")
+}()
+
+guard let storeURL = self.applicationDocumentsDirectory?.appendingPathComponent("CoreData.sqlite") else {
+            fatalError("Could not get sqlite url.")
+        }
+
+Swift.debugPrint("storeURL", storeURL.absoluteString)
+```
