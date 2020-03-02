@@ -293,3 +293,15 @@ guard let storeURL = self.applicationDocumentsDirectory?.appendingPathComponent(
 
 Swift.debugPrint("storeURL", storeURL.absoluteString)
 ```
+
+## check iCloud login
+
+```swift
+if FileManager.default.ubiquityIdentityToken != nil {
+    print("iCloud Available")
+} else {
+    print("iCloud Unavailable")
+}
+```
+
+[https://stackoverflow.com/a/39053572](https://stackoverflow.com/a/39053572)
