@@ -305,3 +305,11 @@ if FileManager.default.ubiquityIdentityToken != nil {
 ```
 
 [https://stackoverflow.com/a/39053572](https://stackoverflow.com/a/39053572)
+
+## display base64 string image
+
+```swift
+if let imageData = Data.init(base64Encoded: base64String) {
+imageView.image = UIImage(data: imageData)
+}
+```
