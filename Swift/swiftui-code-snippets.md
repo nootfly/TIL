@@ -521,3 +521,20 @@ var body: some View {
 ```
 
 [https://stackoverflow.com/a/58777603](https://stackoverflow.com/a/58777603)
+
+## Core Data FetchRequest for WatchOS in SwiftUI
+
+[https://schwiftyui.com/swiftui/coredata-fetchrequest-for-watchos-in-swiftui/](https://schwiftyui.com/swiftui/coredata-fetchrequest-for-watchos-in-swiftui/)
+
+## WatchOS `digitalCrownRotation`
+
+```swift
+   Text("\(Int(selection))")
+                    .padding()
+                    .digitalCrownRotation($selection, from: 1.0, through: 10.0, by: 1.0, sensitivity: .low, isContinuous: false, isHapticFeedbackEnabled: true)
+```
+
+[https://developer.apple.com/documentation/swiftui/color/3298184-digitalcrownrotation](https://developer.apple.com/documentation/swiftui/color/3298184-digitalcrownrotation)
+
+
+
