@@ -338,6 +338,7 @@ the inner page anchor names must be lowercase.
 - [Pandoc](Tools/panddoc.md)
 
 ### WatchOS
+- [Unable to install an app on Apple watch](WatchOS/unable-install-app.md) - 06 March 2020
 - [Adding a Complication to Your watchOS App](WatchOS/complications.md) - 09 January 2020
 - [Watch OS app archive other items issue](WatchOS/Watch-OS-app-archive-other-items-issue.md)
 - [Watch OS app connection lost issue issue](WatchOS/Watch-app-the-connection-lost.md)
