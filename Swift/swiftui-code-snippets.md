@@ -536,5 +536,23 @@ var body: some View {
 
 [https://developer.apple.com/documentation/swiftui/color/3298184-digitalcrownrotation](https://developer.apple.com/documentation/swiftui/color/3298184-digitalcrownrotation)
 
+## `GeometryReader`
 
+```swift
+struct SimpleLineView: View {
+    var width: Float
+    var body: some View {
+        GeometryReader { geometry in
+            RoundedRectangle(cornerRadius: 25, style: .continuous)
+                .path(in: CGRect(x:0,
+                                 y: 0,
+                                 width: geometry.size.width * CGFloat(self.width / 10.0),
+                                 height: geometry.size.height))
+                .fill(Color.orange)
 
+        }
+    }
+}
+```
+
+[https://swiftui-lab.com/geometryreader-to-the-rescue/](https://swiftui-lab.com/geometryreader-to-the-rescue/)
