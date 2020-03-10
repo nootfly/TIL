@@ -556,3 +556,15 @@ struct SimpleLineView: View {
 ```
 
 [https://swiftui-lab.com/geometryreader-to-the-rescue/](https://swiftui-lab.com/geometryreader-to-the-rescue/)
+
+## Hide navigation bar
+
+```swift
+    var body: some View {
+        VStack {
+            Button("Done", action: dismiss)
+        }
+         .navigationBarHidden(true)
+         .edgesIgnoringSafeArea([.top])
+    }
+```
