@@ -313,3 +313,7 @@ if let imageData = Data.init(base64Encoded: base64String) {
 imageView.image = UIImage(data: imageData)
 }
 ```
+
+## SF symbols
+
+[https://www.avanderlee.com/swift/sf-symbols-guide/](https://www.avanderlee.com/swift/sf-symbols-guide/)
