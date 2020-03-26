@@ -317,3 +317,51 @@ imageView.image = UIImage(data: imageData)
 ## SF symbols
 
 [https://www.avanderlee.com/swift/sf-symbols-guide/](https://www.avanderlee.com/swift/sf-symbols-guide/)
+
+## hide files
+
+```swift
+extension URL {
+    /// `true` is hidden (invisible) or `false` is not hidden (visible)
+    var isHidden: Bool {
+        get {
+            return (try? resourceValues(forKeys: [.isHiddenKey]))?.isHidden == true
+        }
+        set {
+            var resourceValues = URLResourceValues()
+            resourceValues.isHidden = newValue
+            do {
+                try setResourceValues(resourceValues)
+            } catch {
+                print("isHidden error:", error)
+            }
+        }
+    }
+}
+```
+
+[https://stackoverflow.com/a/34746109](https://stackoverflow.com/a/34746109)
+
+## Secue Coding Guide
+
+[https://developer.apple.com/library/archive/documentation/Security/Conceptual/SecureCodingGuide/Introduction.html#//apple_ref/doc/uid/TP40002415](https://developer.apple.com/library/archive/documentation/Security/Conceptual/SecureCodingGuide/Introduction.html#//apple_ref/doc/uid/TP40002415)
+
+## App Sandbox Design Guide
+
+[https://developer.apple.com/library/archive/documentation/Security/Conceptual/AppSandboxDesignGuide/AboutAppSandbox/AboutAppSandbox.html](https://developer.apple.com/library/archive/documentation/Security/Conceptual/AppSandboxDesignGuide/AboutAppSandbox/AboutAppSandbox.html)
+
+## App and build version
+
+```swift
+// app version
+if let appVersion = Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String {
+      // present appVersion
+}
+
+if let buildVersion = Bundle.main.infoDictionary?["CFBundleVersion"] as? String {
+      // present buildVersion
+ }
+
+```
+
+[https://stackoverflow.com/a/59350389](https://stackoverflow.com/a/59350389)

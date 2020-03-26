@@ -568,3 +568,34 @@ struct SimpleLineView: View {
          .edgesIgnoringSafeArea([.top])
     }
 ```
+
+## Equal widths of subviews with SwiftUI
+
+```swift
+var body: some View {
+    VStack {
+        HStack(spacing: 0) {
+
+            VStack {
+                Text("Short").font(.body)
+            }
+                .frame(minWidth: 0, maxWidth: .infinity)
+                .background(Color.green)
+
+            VStack {
+                Text("Longer!!!").font(.body)
+            }
+                .frame(minWidth: 0, maxWidth: .infinity)
+                .background(Color.blue)
+
+        }
+            .frame(minWidth: 0, maxWidth: .infinity)
+            .background(Color.yellow)
+        Button (action: doSomething) {
+            Text("|")
+        }
+    }
+}
+```
+
+[https://stackoverflow.com/a/56620897](https://stackoverflow.com/a/56620897)
