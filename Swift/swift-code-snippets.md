@@ -374,3 +374,23 @@ fi
 ```
 
 [https://stackoverflow.com/a/57051011](https://stackoverflow.com/a/57051011)
+
+## Using KVO to listen to volume changes
+
+```swift
+class YourViewController: UIViewController {
+
+    var obs: NSKeyValueObservation?
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+
+        let audioSession = AVAudioSession.sharedInstance()
+        self.obs = audioSession.observe( \.outputVolume ) { (av, change) in
+            print("volume \(av.outputVolume)")
+        }
+    }
+}
+```
+
+[https://stackoverflow.com/a/51437265](https://stackoverflow.com/a/51437265)
