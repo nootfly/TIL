@@ -395,3 +395,23 @@ class YourViewController: UIViewController {
 
 [https://stackoverflow.com/a/51437265](https://stackoverflow.com/a/51437265)
 [https://www.ralfebert.de/ios-examples/swift/property-key-value-observer/](https://www.ralfebert.de/ios-examples/swift/property-key-value-observer/)
+
+## Find list of Local Notification the app has already set
+
+```swift
+let center = UNUserNotificationCenter.current()
+
+override func viewWillAppear(_ animated: Bool) {
+    super.viewWillAppear(animated)
+
+    center.getPendingNotificationRequests { (notifications) in
+        print("Count: \(notifications.count)")
+        for item in notifications {
+          print(item.content)
+        }
+    }
+}
+
+```
+
+[https://stackoverflow.com/a/39034576](https://stackoverflow.com/a/39034576)
