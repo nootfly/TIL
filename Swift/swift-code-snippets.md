@@ -394,3 +394,4 @@ class YourViewController: UIViewController {
 ```
 
 [https://stackoverflow.com/a/51437265](https://stackoverflow.com/a/51437265)
+[https://www.ralfebert.de/ios-examples/swift/property-key-value-observer/](https://www.ralfebert.de/ios-examples/swift/property-key-value-observer/)
