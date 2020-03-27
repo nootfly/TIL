@@ -342,14 +342,6 @@ extension URL {
 
 [https://stackoverflow.com/a/34746109](https://stackoverflow.com/a/34746109)
 
-## Secue Coding Guide
-
-[https://developer.apple.com/library/archive/documentation/Security/Conceptual/SecureCodingGuide/Introduction.html#//apple_ref/doc/uid/TP40002415](https://developer.apple.com/library/archive/documentation/Security/Conceptual/SecureCodingGuide/Introduction.html#//apple_ref/doc/uid/TP40002415)
-
-## App Sandbox Design Guide
-
-[https://developer.apple.com/library/archive/documentation/Security/Conceptual/AppSandboxDesignGuide/AboutAppSandbox/AboutAppSandbox.html](https://developer.apple.com/library/archive/documentation/Security/Conceptual/AppSandboxDesignGuide/AboutAppSandbox/AboutAppSandbox.html)
-
 ## App and build version
 
 ```swift
@@ -369,3 +361,16 @@ if let buildVersion = Bundle.main.infoDictionary?["CFBundleVersion"] as? String 
 ## Providing Access to Directories
 
 [Providing Access to Directories](https://developer.apple.com/documentation/uikit/view_controllers/providing_access_to_directories)
+
+## swiftlint script
+
+```sh
+if which swiftlint >/dev/null; then
+  swiftlint autocorrect
+  swiftlint
+else
+  echo "warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint"
+fi
+```
+
+[https://stackoverflow.com/a/57051011](https://stackoverflow.com/a/57051011)
