@@ -522,9 +522,6 @@ var body: some View {
 
 [https://stackoverflow.com/a/58777603](https://stackoverflow.com/a/58777603)
 
-## Core Data FetchRequest for WatchOS in SwiftUI
-
-[https://schwiftyui.com/swiftui/coredata-fetchrequest-for-watchos-in-swiftui/](https://schwiftyui.com/swiftui/coredata-fetchrequest-for-watchos-in-swiftui/)
 
 ## WatchOS `digitalCrownRotation`
 
