@@ -72,6 +72,7 @@ the inner page anchor names must be lowercase.
 - [Android FCM and AWS SNS settings](Android/push-notification-sns.md)
 
 ### Cloud
+- [Appsync Codegen support only one GraphQL API per project](Cloud/aws-appsync-codegen-error.md) - 28 March 2020
 - [Deploy an ExpressJs server on AWS lambda using Serverless](Cloud/aws-lambda-express-server.md) - 04 April 2019
 - [AWS API performance comparision](Cloud/aws-api-performance-comparision.md) - 06 March 2019
 - [Firebase get IP address function](Cloud/firebase-get-ip-function.md) - 04 February 2019
