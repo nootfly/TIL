@@ -19,3 +19,7 @@
 ## Entitlement Key Reference
 
 [https://developer.apple.com/library/archive/documentation/Miscellaneous/Reference/EntitlementKeyReference/Chapters/AboutEntitlements.html](https://developer.apple.com/library/archive/documentation/Miscellaneous/Reference/EntitlementKeyReference/Chapters/AboutEntitlements.html)
+
+## Changing Access Controls on User Data
+
+[https://developer.apple.com/documentation/cloudkit/changing_access_controls_on_user_data/](https://developer.apple.com/documentation/cloudkit/changing_access_controls_on_user_data/)

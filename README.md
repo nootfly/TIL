@@ -262,6 +262,7 @@ the inner page anchor names must be lowercase.
 - [letsencrypt certificate](Others/letsencrypt-certificate.md)
 
 ### Python
+- [GraphQL client](Python/graphql-client.md) - 01 April 2020
 - [Kill jupyter notebooks](Python/kill-jupyter-notebooks.md) - 13 January 2020
 - [for else clause](Python/for-else-clause.md) - 29 June 2019
 - [Jupyter notebook theme](Python/juypter-notebook-theme.md) - 20 April 2019
