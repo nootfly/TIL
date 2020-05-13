@@ -415,3 +415,21 @@ override func viewWillAppear(_ animated: Bool) {
 ```
 
 [https://stackoverflow.com/a/39034576](https://stackoverflow.com/a/39034576)
+
+## Check if remote push notifications are enabled
+
+```swift
+let current = UNUserNotificationCenter.current()
+
+current.getNotificationSettings(completionHandler: { (settings) in
+    if settings.authorizationStatus == .notDetermined {
+        // Notification permission has not been asked yet, go for it!
+    } else if settings.authorizationStatus == .denied {
+        // Notification permission was previously denied, go to settings & privacy to re-enable
+    } else if settings.authorizationStatus == .authorized {
+        // Notification permission was already granted
+    }
+})
+```
+
+[https://stackoverflow.com/a/44407514](https://stackoverflow.com/a/44407514)
