@@ -433,3 +433,9 @@ current.getNotificationSettings(completionHandler: { (settings) in
 ```
 
 [https://stackoverflow.com/a/44407514](https://stackoverflow.com/a/44407514)
+
+## Change the color of a link in an NSMutableAttributedString
+
+> The link color is the tint color of the label/textView. So, you can change it by changing the tint color of the view. However, this will not work if you want different link colours within the same view.
+
+[https://stackoverflow.com/a/33431102](https://stackoverflow.com/a/33431102)
