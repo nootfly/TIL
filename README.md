@@ -196,6 +196,7 @@ the inner page anchor names must be lowercase.
 - [ALWAYS #import other classes in your .m file](iOS/Always-import-other-classes-in-m-file.md)
 
 ### Javascript
+- [2d array join](Javascript/2d-array-join.md) - 06 June 2020
 - [String to hex color](Javascript/string-to-random-color.md) - 20 April 2019
 - [Resolve Cannot find modlue 'nice-try' error](Javascript/reactjs-error-cannot-find-module-nice-try.md) - 04 April 2019
 - [Add code command for VS Code](Javascript/add-vs-code-command.md) - 27 March 2019
