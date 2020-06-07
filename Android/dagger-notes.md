@@ -24,3 +24,7 @@
 
 > The return type of the @Provides function (it doesn't matter how it's called) tells Dagger what type is added to the graph. The parameters of that function are the dependencies that Dagger needs to satisfy before providing an instance of that type.
 
+> You can use the @Provides annotation in Dagger modules to tell Dagger how to provide:
+
+    Implementations of an interface (although @Binds is recommended because it generates less code and therefore it's more efficient).
+    Classes that your project doesn't own (e.g. instances of Retrofit).
