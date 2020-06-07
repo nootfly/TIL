@@ -28,3 +28,48 @@
 
   * Implementations of an interface (although `@Binds` is recommended because it generates less code and therefore it's more efficient).
    * Classes that your project doesn't own (e.g. instances of `Retrofit`).
+
+* A **qualifier** is a custom annotation that will be used to identify a dependency.
+
+```kotlin
+@Retention(AnnotationRetention.BINARY)
+@Qualifier
+annotation class RegistrationStorage
+
+@Retention(AnnotationRetention.BINARY)
+@Qualifier
+annotation class LoginStorage
+
+@Module
+class StorageModule {
+
+    @RegistrationStorage
+    @Provides
+    fun provideRegistrationStorage(context: Context): Storage {
+        return SharedPreferencesStorage("registration", context)
+    }
+
+    @LoginStorage
+    @Provides
+    fun provideLoginStorage(context: Context): Storage {
+        return SharedPreferencesStorage("login", context)
+    }
+}
+```
+
+* You can achieve the same functionality as **qualifiers** with the `@Named` annotation, however **qualifiers** are recommended because:
+
+    * They can be stripped out from Proguard or R8
+    * You don't need to keep a shared constant for matching the names
+    * They can be documented
+
+
+## References
+
+[Using Dagger in your Android app - Kotlin Codelab](https://codelabs.developers.google.com/codelabs/android-dagger/index.html#0)
+
+[Dependency injection in Android](https://developer.android.com/training/dependency-injection)
+
+[Manual dependency injection](https://developer.android.com/training/dependency-injection/manual)
+
+[Dagger basics](https://developer.android.com/training/dependency-injection/dagger-basics)
