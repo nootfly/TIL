@@ -66,10 +66,12 @@ class StorageModule {
 
 ## References
 
+[Dagger basics](https://developer.android.com/training/dependency-injection/dagger-basics)
+
 [Using Dagger in your Android app - Kotlin Codelab](https://codelabs.developers.google.com/codelabs/android-dagger/index.html#0)
 
 [Dependency injection in Android](https://developer.android.com/training/dependency-injection)
 
-[Manual dependency injection](https://developer.android.com/training/dependency-injection/manual)
+[Using Dagger in Android apps](https://developer.android.com/training/dependency-injection/dagger-android)
 
-[Dagger basics](https://developer.android.com/training/dependency-injection/dagger-basics)
+[Manual dependency injection](https://developer.android.com/training/dependency-injection/manual)
