@@ -45,6 +45,7 @@ the inner page anchor names must be lowercase.
 - [Open addressing hash tables](Algorithms/fast-hashing.md) - 31 October 2018
 
 ### Android
+- [Dagger notes](Android/dagger-notes.md) - 07 June 2020
 - [Open a link in new Window](Android/open-new-browser-tab.md) - 06 June 2020
 - [Handle Up navigation](Android/setup-up-button.md) - 25 May 2020
 - [Programmatically change the app language](Android/Programmatically-change-app-language.md) - 24 July 2019
