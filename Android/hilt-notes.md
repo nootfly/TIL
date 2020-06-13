@@ -39,3 +39,14 @@
 * **Testing with Hilt requires no maintenance because Hilt automatically generates a new set of components for each test.**
 
 * An entry point is the boundary place where you can get Hilt-provided objects from code that cannot use Hilt to inject its dependencies. It is the point where code first enters into containers managed by Hilt.
+
+* **An entry point is an interface with an accessor method for each binding type we want** (including its qualifier). Also, the interface must be annotated with `@InstallIn` to specify the component in which to install the entry point.
+
+* To access an entry point, use the appropriate static method from `EntryPointAccessors`. The parameter should be either the component instance or the `@AndroidEntryPoint` object that acts as the component holder. Make sure that the component you pass as a parameter and the `EntryPointAccessors` static method both match the Android class in the `@InstallIn` annotation on the `@EntryPoint` interface.
+
+
+## References
+
+[Using Hilt in your Android app codelab](https://codelabs.developers.google.com/codelabs/android-hilt/#0)
+
+[https://github.com/googlecodelabs/android-hilt](https://github.com/googlecodelabs/android-hilt)
