@@ -50,3 +50,11 @@
 [Using Hilt in your Android app codelab](https://codelabs.developers.google.com/codelabs/android-hilt/#0)
 
 [https://github.com/googlecodelabs/android-hilt](https://github.com/googlecodelabs/android-hilt)
+
+[https://github.com/android/architecture-samples/tree/dev-hilt](https://github.com/android/architecture-samples/tree/dev-hilt)
+
+[https://github.com/google/iosched](https://github.com/google/iosched)
+
+[Dependency injection with Hilt](https://developer.android.com/training/dependency-injection/hilt-android)
+
+[Hilt and Jetpack integrations](https://developer.android.com/training/dependency-injection/hilt-jetpack)
