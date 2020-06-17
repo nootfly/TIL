@@ -43,5 +43,6 @@ fun TextView.setLinkSupport(
 ## Test your URLs
 
 [Test your URLs](https://firebase.google.com/docs/app-indexing/android/test)
+
 [Create Deep Links to App Content](https://developer.android.com/training/app-links/deep-linking)
 
