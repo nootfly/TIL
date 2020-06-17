@@ -46,7 +46,7 @@ the inner page anchor names must be lowercase.
 
 ### Android
 - [executePendingBindings](Android/executePendingBindings.md) - 17 June 2020
-- [Kotlin Android code is](Android/kotlin-code-snippets.md) - 17 June 2020
+- [Kotlin Android code sippets](Android/kotlin-code-snippets.md) - 17 June 2020
 - [Hilt DI notes](Android/hilt-notes.md) - 13 June 2020
 - [Dagger notes](Android/dagger-notes.md) - 07 June 2020
 - [Open a link in new Window](Android/open-new-browser-tab.md) - 06 June 2020

@@ -1,4 +1,4 @@
-# Kotlin Android code is
+# Kotlin Android code sippets
 
 ## TextView set typeface
 
