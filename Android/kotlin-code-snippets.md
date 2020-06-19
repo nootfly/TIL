@@ -46,3 +46,29 @@ fun TextView.setLinkSupport(
 
 [Create Deep Links to App Content](https://developer.android.com/training/app-links/deep-linking)
 
+## RecycleView adapter selected index
+
+```kotlin
+private var selectedIndex = RecyclerView.NO_POSITION
+```
+
+## Returning a result to the previous Destination
+
+need **Navigation 2.3.0-alpha02 and higher**
+
+```kotlin
+navController.previousBackStackEntry?.savedStateHandle?.set("key", result)
+navController.popBackStack()
+
+override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+    val navController = findNavController();
+    // We use a String here, but any type that can be put in a Bundle is supported
+    navController.currentBackStackEntry?.savedStateHandle?.getLiveData<String>("key")?.observe(
+        viewLifecycleOwner) { result ->
+        // Do something with the result.
+    }
+}
+```
+
+[https://stackoverflow.com/a/61239011](https://stackoverflow.com/a/61239011)
+[https://developer.android.com/guide/navigation/navigation-programmatic](https://developer.android.com/guide/navigation/navigation-programmatic)
