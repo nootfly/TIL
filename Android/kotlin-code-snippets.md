@@ -71,4 +71,5 @@ override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
 ```
 
 [https://stackoverflow.com/a/61239011](https://stackoverflow.com/a/61239011)
+
 [https://developer.android.com/guide/navigation/navigation-programmatic](https://developer.android.com/guide/navigation/navigation-programmatic)
