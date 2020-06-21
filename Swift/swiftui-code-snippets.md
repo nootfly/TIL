@@ -104,7 +104,7 @@ NavigationLink(destination: ProfileView(viewModel: ProfileViewModelImpl()), isAc
 
 [https://stackoverflow.com/a/57321795](https://stackoverflow.com/a/57321795)
 
-##  How to render a gradient
+## How to render a gradient
 
 ```swift
     Text("Hello World")

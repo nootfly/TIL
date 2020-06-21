@@ -486,3 +486,26 @@ func deleteAllRecords() {
 
 [https://stackoverflow.com/a/43129221](https://stackoverflow.com/a/43129221)
 
+## Notification send an object
+
+```swift
+func post() {
+    NotificationCenter.default.post(name: Notification.Name("SomeNotificationName"),
+        object: nil, 
+        userInfo:["key0": "value", "key1": 1234])
+}
+
+func addObservers() {
+    NotificationCenter.default.addObserver(self, 
+        selector: #selector(someMethod), 
+        name: Notification.Name("SomeNotificationName"), 
+        object: nil)
+}
+
+@objc func someMethod(_ notification: Notification) {
+    let info0 = notification.userInfo?["key0"]
+    let info1 = notification.userInfo?["key1"]
+}
+```
+
+[https://stackoverflow.com/a/41366080](https://stackoverflow.com/a/41366080)
