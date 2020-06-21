@@ -73,3 +73,24 @@ override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
 [https://stackoverflow.com/a/61239011](https://stackoverflow.com/a/61239011)
 
 [https://developer.android.com/guide/navigation/navigation-programmatic](https://developer.android.com/guide/navigation/navigation-programmatic)
+
+## Android Data Binding using include tag
+
+```xml
+<layout xmlns:andr...>
+  <Button
+    android:id="@+id/button"
+     />
+    <layout xmlns:andr...
+   <include layout="@layout/buttons"
+            android:id="@+id/buttons"/>
+```
+
+```kotlin
+MainBinding binding = MainBinding.inflate(getLayoutInflater());
+binding.buttons.button
+```
+
+[https://stackoverflow.com/a/32958608](https://stackoverflow.com/a/32958608)
+
+
