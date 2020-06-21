@@ -596,3 +596,22 @@ var body: some View {
 ```
 
 [https://stackoverflow.com/a/56620897](https://stackoverflow.com/a/56620897)
+
+## iPad `DoubleColumnNavigationViewStyle`
+
+```swift
+var body: some View {
+
+        NavigationView {
+
+            MyMasterView()
+
+            DetailsView()
+
+        }.navigationViewStyle(DoubleColumnNavigationViewStyle())
+         .padding()
+    }
+```
+
+[https://stackoverflow.com/a/57215664](https://stackoverflow.com/a/57215664)
+
