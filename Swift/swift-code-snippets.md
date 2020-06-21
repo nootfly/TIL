@@ -439,3 +439,50 @@ current.getNotificationSettings(completionHandler: { (settings) in
 > The link color is the tint color of the label/textView. So, you can change it by changing the tint color of the view. However, this will not work if you want different link colours within the same view.
 
 [https://stackoverflow.com/a/33431102](https://stackoverflow.com/a/33431102)
+
+## Present ViewController in full screen
+
+```swift
+let detailVC = DetailViewController()
+detailVC.modalPresentationStyle = .fullScreen
+present(detailVC, animated: true)
+```
+
+## objective-c code call swift extension
+
+```swift
+extension UIColor {
+
+    // As of Swift 4.0.3, the @objc annotation is needed if you want to use the extension in Objective-C files
+    @objc
+    class func otherEventColor() -> UIColor {
+        return UIColor(red:0.525, green:0.49, blue:0.929, alpha:1)
+    }
+}
+```
+
+Then `#import "ProductModuleName-Swift.h"1 in your ObjC file.
+
+[https://stackoverflow.com/a/32275959](https://stackoverflow.com/a/32275959)
+
+## Delete all Core Data records of an entity
+
+```swift
+func deleteAllRecords() {
+    let delegate = UIApplication.shared.delegate as! AppDelegate
+    let context = delegate.persistentContainer.viewContext
+
+    let deleteFetch = NSFetchRequest<NSFetchRequestResult>(entityName: "CurrentCourse")
+    let deleteRequest = NSBatchDeleteRequest(fetchRequest: deleteFetch)
+
+    do {
+        try context.execute(deleteRequest)
+        try context.save()
+    } catch {
+        print ("There was an error")
+    }
+}
+```
+
+[https://stackoverflow.com/a/43129221](https://stackoverflow.com/a/43129221)
+
