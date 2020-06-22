@@ -201,6 +201,7 @@ the inner page anchor names must be lowercase.
 - [ALWAYS #import other classes in your .m file](iOS/Always-import-other-classes-in-m-file.md)
 
 ### Javascript
+- [ReactJs development problem solutions](Javascript/react-js-problems-solutions.md) - 23 June 2020
 - [Template not provided using create-react-app](Javascript/create-react-app-template-not-provided.md) - 21 June 2020
 - [2d array join](Javascript/2d-array-join.md) - 06 June 2020
 - [String to hex color](Javascript/string-to-random-color.md) - 20 April 2019
