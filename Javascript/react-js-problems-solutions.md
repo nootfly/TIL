@@ -8,3 +8,21 @@
 
 [https://stackoverflow.com/a/56158634](https://stackoverflow.com/a/56158634)
 
+## set textfiled value
+
+```javascript
+<input type="text" placeholder="First Name" onChange={e => setfName(e.target.value)} />
+```
+
+[https://stackoverflow.com/a/57343140](https://stackoverflow.com/a/57343140)
+
+## axios instance set header
+
+```javascript
+Object.assign(instance.defaults, {headers: {authorization: 'foo bar'}});
+//or
+instance.defaults.headers.common['Authorization'] = authToken;
+```
+
+[https://github.com/axios/axios/issues/209](https://github.com/axios/axios/issues/209)
+
