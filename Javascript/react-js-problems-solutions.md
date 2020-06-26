@@ -26,3 +26,10 @@ instance.defaults.headers.common['Authorization'] = authToken;
 
 [https://github.com/axios/axios/issues/209](https://github.com/axios/axios/issues/209)
 
+## Cannot read property of undefined in Reactjs
+
+```javascript
+{this.state.list && <MyMeetingList meetings={this.state.list} />}
+```
+
+[https://stackoverflow.com/a/47744911](https://stackoverflow.com/a/47744911)
