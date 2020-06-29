@@ -93,4 +93,21 @@ binding.buttons.button
 
 [https://stackoverflow.com/a/32958608](https://stackoverflow.com/a/32958608)
 
+## Button text not ALL CAPS
+
+Use this line `android:textAllCaps="false"` in your xml
+
+```xml
+<Button
+            android:id="@+id/btn_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/login_str"
+            android:background="@color/colorBlue"
+            android:textColor="@color/colorWhite"
+            android:textAllCaps="false"
+           />
+```
+
+[https://stackoverflow.com/a/59212391](https://stackoverflow.com/a/59212391)
 

@@ -33,3 +33,5 @@ instance.defaults.headers.common['Authorization'] = authToken;
 ```
 
 [https://stackoverflow.com/a/47744911](https://stackoverflow.com/a/47744911)
+
+## Note: the react docs suggest that user-defined components must be capitalized before their use in JSX to avoid being treated as HTML elements.
