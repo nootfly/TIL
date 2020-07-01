@@ -111,3 +111,43 @@ Use this line `android:textAllCaps="false"` in your xml
 
 [https://stackoverflow.com/a/59212391](https://stackoverflow.com/a/59212391)
 
+## Combine multiple live data
+
+```kotlin
+
+fun blogpostBoilerplateExample(newUser: String): LiveData<UserDataResult> {
+
+val liveData1 = userOnlineDataSource.getOnlineTime(newUser)
+val liveData2 = userCheckinsDataSource.getCheckins(newUser)
+
+val result = MediatorLiveData<UserDataResult>()
+
+result.addSource(liveData1) { value ->
+    result.value = combineLatestData(liveData1, liveData2)
+}
+result.addSource(liveData2) { value ->
+    result.value = combineLatestData(liveData1, liveData2)
+}
+return result
+}
+
+private fun combineLatestData(
+    onlineTimeResult: LiveData<Long>,
+    checkinsResult: LiveData<CheckinsResult>
+): UserDataResult {
+
+val onlineTime = onlineTimeResult.value
+val checkins = checkinsResult.value
+
+// Don't send a success until we have both results
+if (onlineTime == null || checkins == null) {
+    return UserDataLoading()
+}
+
+// TODO: Check for errors and return UserDataError if any.
+
+return UserDataSuccess(timeOnline = onlineTime, checkins = checkins)
+}
+```
+
+[https://stackoverflow.com/a/56843092](https://stackoverflow.com/a/56843092)
