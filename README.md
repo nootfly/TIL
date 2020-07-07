@@ -45,6 +45,7 @@ the inner page anchor names must be lowercase.
 - [Open addressing hash tables](Algorithms/fast-hashing.md) - 31 October 2018
 
 ### Android
+- [Android code snippets](Android/android-code-snippet.md) - 07 July 2020
 - [executePendingBindings](Android/executePendingBindings.md) - 17 June 2020
 - [Kotlin Android code sippets](Android/kotlin-code-snippets.md) - 17 June 2020
 - [Hilt DI notes](Android/hilt-notes.md) - 13 June 2020
