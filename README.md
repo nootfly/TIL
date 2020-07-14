@@ -202,6 +202,8 @@ the inner page anchor names must be lowercase.
 - [ALWAYS #import other classes in your .m file](iOS/Always-import-other-classes-in-m-file.md)
 
 ### Javascript
+- [Material UI code snippets](Javascript/material-ui-code-snippets.md) - 14 July 2020
+- [React js code sippets](Javascript/reactjs-code-snippets.md) - 14 July 2020
 - [Javascript code snippets](Javascript/javscript-code-snippets.md) - 14 July 2020
 - [ReactJs development problem solutions](Javascript/react-js-problems-solutions.md) - 23 June 2020
 - [Template not provided using create-react-app](Javascript/create-react-app-template-not-provided.md) - 21 June 2020
