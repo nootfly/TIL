@@ -13,3 +13,11 @@ var id = "ctl03_Tabs1";
 var lastFive = id.substr(id.length - 5); // => "Tabs1"
 var lastChar = id.substr(id.length - 1);
 ```
+
+## loop dictionary
+
+```javascript
+for (const [key, value] of Object.entries(object)) {
+  console.log(key, value);
+}
+```
