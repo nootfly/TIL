@@ -27,3 +27,16 @@ for (const [key, value] of Object.entries(object)) {
 ```javascript
 ("key" in obj)
 ```
+
+## `slice`
+
+The slice() method returns the selected elements in an array, as a new array object.
+
+The slice() method selects the elements starting at the given start argument, and ends at, but does not include, the given end argument.
+
+```javascript
+var fruits = ["Banana", "Orange", "Lemon", "Apple", "Mango"];
+var citrus = fruits.slice(1, 3); // "Orange", "Lemon"
+```
+
+[https://www.w3schools.com/jsref/jsref_slice_array.asp](https://www.w3schools.com/jsref/jsref_slice_array.asp)
