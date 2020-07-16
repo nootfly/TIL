@@ -21,3 +21,9 @@ for (const [key, value] of Object.entries(object)) {
   console.log(key, value);
 }
 ```
+
+## Checking if a key exists in a JavaScript object
+
+```javascript
+("key" in obj)
+```
