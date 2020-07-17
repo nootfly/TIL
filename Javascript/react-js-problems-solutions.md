@@ -67,3 +67,9 @@ export default class Home extends React.Component{
 ```
 
 [https://stackoverflow.com/a/47145247](https://stackoverflow.com/a/47145247)
+
+## Minified React error #152
+
+Remove comments in the first line of returns
+
+[https://stackoverflow.com/a/62849721](https://stackoverflow.com/a/62849721)
