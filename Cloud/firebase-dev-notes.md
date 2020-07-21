@@ -36,3 +36,18 @@ firebase deploy --only functions:makeUppercase
 
 [https://stackoverflow.com/a/44492787](https://stackoverflow.com/a/44492787)
 
+## firebase `Deadline Exceeded` error
+
+```javascript
+let ref = db.collection("orders");
+
+return new Promise((resolve, reject) => {
+            ref.add(order).then((order) => {
+                logger.info(order);
+                resolve(order);
+            }).catch((err) => {
+                logger.info(err);
+                reject(err);
+            })
+})
+```
