@@ -509,3 +509,23 @@ func addObservers() {
 ```
 
 [https://stackoverflow.com/a/41366080](https://stackoverflow.com/a/41366080)
+
+## thread-safe access
+
+```swift
+let queue = DispatchQueue(label: "thread-safe-obj", attributes: .concurrent)
+
+// write
+queue.async(flags: .barrier) {
+    // perform writes on data
+}
+
+// read
+var value: ValueType!
+queue.sync {
+    // perform read and assign value
+}
+return value
+```
+
+[https://stackoverflow.com/a/28976644](https://stackoverflow.com/a/28976644)
