@@ -17,3 +17,22 @@ firebase deploy -P staging # deploy to staging alias
 ```
 
 [https://firebase.googleblog.com/2016/07/deploy-to-multiple-environments-with.html](https://firebase.googleblog.com/2016/07/deploy-to-multiple-environments-with.html)
+
+## test functions using shell
+
+```shell
+firebase experimental:functions:shell
+
+//firebase > aggregateCustomers({})
+```
+
+[https://firebase.googleblog.com/2017/09/testing-functions-locally-with-cloud.html](https://firebase.googleblog.com/2017/09/testing-functions-locally-with-cloud.html)
+
+## firebase functions partially deployed
+
+```shell
+firebase deploy --only functions:makeUppercase
+```
+
+[https://stackoverflow.com/a/44492787](https://stackoverflow.com/a/44492787)
+
