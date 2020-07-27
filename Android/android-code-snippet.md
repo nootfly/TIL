@@ -49,3 +49,9 @@ Log.d("app locale","$currentAppLocale")
 ```
 
 [https://stackoverflow.com/a/52881294](https://stackoverflow.com/a/52881294)
+
+## Remove border of buttons
+
+```xml
+style="?android:attr/borderlessButtonStyle"
+```
