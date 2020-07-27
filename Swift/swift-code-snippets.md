@@ -599,3 +599,20 @@ class Queue<T> {
 ```
 
 [https://benoitpasquier.com/data-structure-implement-queue-swift/](https://benoitpasquier.com/data-structure-implement-queue-swift/)
+
+## `URLQueryItem`
+
+```swift
+import Foundation
+import XCPlayground
+
+let queryItems = [URLQueryItem(name: "id", value: "1"), URLQueryItem(name: "id", value: "2")]
+var urlComps = URLComponents(string: "www.apple.com/help")!
+urlComps.queryItems = queryItems
+let result = urlComps.url!
+print(result)
+```
+
+## `Operation` and `Operation Queue`
+
+[https://www.raywenderlich.com/5293-operation-and-operationqueue-tutorial-in-swift](https://www.raywenderlich.com/5293-operation-and-operationqueue-tutorial-in-swift)
