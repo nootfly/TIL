@@ -164,4 +164,3 @@ return UserDataSuccess(timeOnline = onlineTime, checkins = checkins)
 ```
 
 [https://stackoverflow.com/a/2116191](https://stackoverflow.com/a/2116191)
-
