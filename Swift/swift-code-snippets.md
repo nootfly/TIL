@@ -569,3 +569,33 @@ func createSpinnerView() {
 ```
 
 [https://www.hackingwithswift.com/example-code/uikit/how-to-use-uiactivityindicatorview-to-show-a-spinner-when-work-is-happening](https://www.hackingwithswift.com/example-code/uikit/how-to-use-uiactivityindicatorview-to-show-a-spinner-when-work-is-happening)
+
+## Swift queue
+
+```swift
+class Queue<T> {
+  private var elements: [T] = []
+
+  func enqueue(_ value: T) {
+    elements.append(value)
+  }
+
+  func dequeue() -> T? {
+    guard !elements.isEmpty else {
+      return nil
+    }
+    return elements.removeFirst()
+  }
+
+  var head: T? {
+    return elements.first
+  }
+
+  var tail: T? {
+    return elements.last
+  }
+}
+
+```
+
+[https://benoitpasquier.com/data-structure-implement-queue-swift/](https://benoitpasquier.com/data-structure-implement-queue-swift/)
