@@ -151,3 +151,17 @@ return UserDataSuccess(timeOnline = onlineTime, checkins = checkins)
 ```
 
 [https://stackoverflow.com/a/56843092](https://stackoverflow.com/a/56843092)
+
+## Display HTML in `TextView`
+
+```kotlin
+ val htmlString = "<span style=\\\"font-family: 'Campton-Light','-apple-system', 'HelveticaNeue'; color: '#000000';font-size: \\(16)\\\">${item.text}</span>"
+            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N) {
+               binding.detail.text = Html.fromHtml(htmlString, Html.FROM_HTML_MODE_COMPACT)
+            } else {
+                binding.detail.text = Html.fromHtml(htmlString)
+            }
+```
+
+[https://stackoverflow.com/a/2116191](https://stackoverflow.com/a/2116191)
+
