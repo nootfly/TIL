@@ -55,3 +55,38 @@ Log.d("app locale","$currentAppLocale")
 ```xml
 style="?android:attr/borderlessButtonStyle"
 ```
+
+## Email, phone, SMS intents
+
+```kotlin
+    private fun makeCall(phoneNum: String) {
+        val callIntent = Intent(Intent.ACTION_DIAL)
+        callIntent.data = Uri.parse("tel:" + Uri.encode(phoneNum.trim()))
+        callIntent.flags = Intent.FLAG_ACTIVITY_NEW_TASK
+        startActivity(callIntent)
+    }
+
+    private fun sendEmail(email: String) {
+        val emailIntent = Intent(
+            Intent.ACTION_SENDTO, Uri.fromParts(
+                "mailto", email, null
+            )
+        )
+        emailIntent.putExtra(Intent.EXTRA_SUBJECT, "Subject")
+        emailIntent.putExtra(Intent.EXTRA_TEXT, "Body")
+        startActivity(Intent.createChooser(emailIntent, "Send email..."))
+    }
+
+    private fun sendSMS(phoneNum: String) {
+
+        val defaultSmsPackageName =
+            Telephony.Sms.getDefaultSmsPackage(requireContext()) // Need to change the build to API 19
+        val sendIntent = Intent(Intent.ACTION_SEND, Uri.parse("smsto:${phoneNum.trim()}"))
+        sendIntent.type = "text/plain"
+        sendIntent.putExtra(Intent.EXTRA_TEXT, "text")
+        if (defaultSmsPackageName != null) {
+            sendIntent.setPackage(defaultSmsPackageName)
+        }
+        startActivity(sendIntent)
+    }
+```
