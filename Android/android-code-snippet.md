@@ -79,14 +79,17 @@ style="?android:attr/borderlessButtonStyle"
 
     private fun sendSMS(phoneNum: String) {
 
-        val defaultSmsPackageName =
+       val defaultSmsPackageName =
             Telephony.Sms.getDefaultSmsPackage(requireContext()) // Need to change the build to API 19
-        val sendIntent = Intent(Intent.ACTION_SEND, Uri.parse("smsto:${phoneNum.trim()}"))
+        val sendIntent = Intent(Intent.ACTION_SEND, Uri.parse("smsto: ${phoneNum.trim()}"))
         sendIntent.type = "text/plain"
-        sendIntent.putExtra(Intent.EXTRA_TEXT, "text")
+        sendIntent.putExtra("sms_body", "")
+        sendIntent.putExtra("address", phoneNum.trim())   //this line is key to set a number.
         if (defaultSmsPackageName != null) {
             sendIntent.setPackage(defaultSmsPackageName)
         }
-        startActivity(sendIntent)
+        if (sendIntent.resolveActivity(requireActivity().packageManager) != null) {
+            startActivity(sendIntent)
+        }
     }
 ```
