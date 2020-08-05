@@ -616,3 +616,49 @@ print(result)
 ## `Operation` and `Operation Queue`
 
 [https://www.raywenderlich.com/5293-operation-and-operationqueue-tutorial-in-swift](https://www.raywenderlich.com/5293-operation-and-operationqueue-tutorial-in-swift)
+
+## Send email, sms and phone call
+
+```swift
+    func sendEmail(email: String) {
+        if MFMailComposeViewController.canSendMail() {
+            let mail = MFMailComposeViewController()
+            mail.mailComposeDelegate = self
+            mail.setToRecipients([email])
+
+            present(mail, animated: true)
+        } else {
+
+        }
+    }
+
+//MFMailComposeViewControllerDelegate
+    func mailComposeController(_ controller: MFMailComposeViewController, didFinishWith result: MFMailComposeResult, error: Error?) {
+        controller.dismiss(animated: true)
+    }
+
+    func sendSMS(with phoneNumber: String) {
+        if MFMessageComposeViewController.canSendText() {
+            let messageComposeViewController = MFMessageComposeViewController()
+            messageComposeViewController.messageComposeDelegate = self
+            messageComposeViewController.recipients = [phoneNumber]
+            self.present(messageComposeViewController, animated: true, completion: nil)
+        }
+    }
+
+// MFMessageComposeViewControllerDelegate
+     func messageComposeViewController(_ controller: MFMessageComposeViewController, didFinishWith result: MessageComposeResult) {
+        controller.dismiss(animated: true)
+    }
+
+    func callNumber(phoneNumber: String) {
+        if let url = URL(string: "tel://\(phoneNumber)"), UIApplication.shared.canOpenURL(url) {
+            if #available(iOS 10, *) {
+                UIApplication.shared.open(url)
+            } else {
+                UIApplication.shared.openURL(url)
+            }
+        }
+    }
+```
+
