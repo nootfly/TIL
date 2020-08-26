@@ -51,3 +51,18 @@ return new Promise((resolve, reject) => {
             })
 })
 ```
+
+## Refresh token
+
+```javascript
+firebase.auth().currentUser.getIdToken(/ forceRefresh / true)
+.then(function(idToken) {
+
+}).catch(function(error) {
+
+});
+```
+
+[https://stackoverflow.com/a/38233818](https://stackoverflow.com/a/38233818)
+
+[https://medium.com/@jwngr/implementing-firebase-auth-session-durations-82fa7b1fff08](https://medium.com/@jwngr/implementing-firebase-auth-session-durations-82fa7b1fff08)

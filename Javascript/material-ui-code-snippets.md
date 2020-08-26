@@ -25,3 +25,7 @@ export default function App() {
 ```
 
 [https://stackoverflow.com/a/60609045](https://stackoverflow.com/a/60609045)
+
+## Global snackbars in React with Redux
+
+[https://browntreelabs.com/snackbars-in-react-redux-and-material-ui/](https://browntreelabs.com/snackbars-in-react-redux-and-material-ui/)
