@@ -93,3 +93,15 @@ style="?android:attr/borderlessButtonStyle"
         }
     }
 ```
+
+## `TextField` integer input type
+
+```xml
+android:inputType="numberSigned"
+```
+
+```kotlin
+passwordText.inputType = InputType.TYPE_CLASS_NUMBER
+```
+
+[https://stackoverflow.com/a/24160385](https://stackoverflow.com/a/24160385)
