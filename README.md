@@ -337,6 +337,7 @@ the inner page anchor names must be lowercase.
 - [Swift playground unit test](Swift/swift-playground-unit-test.md)
 
 ### Tools
+- [](Tools/show-current-dir-in-term2.md) - 01 September 2020
 - [Xcode Localizable.strings and Android strings.xml format converter](Tools/android-ios-string-resource-converter.md) - 11 June 2020
 - [App development and deployment Tools](Tools/app-dev-tools.md) - 28 January 2020
 - [Apple Development documentation](Tools/apple-development-documents.md) - 09 January 2020
