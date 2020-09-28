@@ -105,3 +105,7 @@ passwordText.inputType = InputType.TYPE_CLASS_NUMBER
 ```
 
 [https://stackoverflow.com/a/24160385](https://stackoverflow.com/a/24160385)
+
+## Upgrade Android studio kotlin plugin
+
+[https://stackoverflow.com/a/50653112](https://stackoverflow.com/a/50653112)
