@@ -37,3 +37,8 @@ const ScrollDemo = () => {
 ```
 
 [https://stackoverflow.com/a/52528619](https://stackoverflow.com/a/52528619)
+
+## Use react-image-crop
+
+[https://github.com/DominicTobias/react-image-crop](https://github.com/DominicTobias/react-image-crop)
+[https://levelup.gitconnected.com/crop-images-on-upload-in-your-react-app-with-react-image-crop-5f3cd0ad2b35](https://levelup.gitconnected.com/crop-images-on-upload-in-your-react-app-with-react-image-crop-5f3cd0ad2b35)
