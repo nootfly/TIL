@@ -662,3 +662,16 @@ print(result)
     }
 ```
 
+## Set the maximum character length of a UITextField
+
+```swift
+func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
+    let maxLength = 1
+    let currentString: NSString = (textField.text ?? "") as NSString
+    let newString: NSString =
+        currentString.replacingCharacters(in: range, with: string) as NSString
+    return newString.length <= maxLength
+}
+```
+
+[https://stackoverflow.com/a/31363255](https://stackoverflow.com/a/31363255)
