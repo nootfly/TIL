@@ -164,3 +164,34 @@ return UserDataSuccess(timeOnline = onlineTime, checkins = checkins)
 ```
 
 [https://stackoverflow.com/a/2116191](https://stackoverflow.com/a/2116191)
+
+## convert date string to another format
+
+```kotlin
+fun convertDateFormatFromDashboardFormat(date: String?): String {
+    if (date == null) {
+        return ""
+    }
+    try {
+        var dateFormat = DateTimeFormatterBuilder()
+            .parseCaseInsensitive()
+            .appendPattern("dd MMM yyyy")
+            .toFormatter(Locale.ENGLISH)
+
+
+        val date = dateFormat.parse(date)
+        dateFormat = DateTimeFormatterBuilder()
+            .parseCaseInsensitive()
+            .appendPattern("dd/MM/yyyy")
+            .toFormatter(Locale.ENGLISH)
+        return dateFormat.format(date)
+
+    } catch (e: DateTimeParseException) {
+        Timber.d(e)
+
+    }
+    return ""
+}
+```
+
+[https://stackoverflow.com/a/44707392](https://stackoverflow.com/a/44707392)
