@@ -195,3 +195,19 @@ fun convertDateFormatFromDashboardFormat(date: String?): String {
 ```
 
 [https://stackoverflow.com/a/44707392](https://stackoverflow.com/a/44707392)
+
+## Enable textview html link
+
+Do not set `android:autoLink="all"` or `a`ndroid:autoLink="web"` in the xml, because with that **it doesn't work!**
+
+```kotlin
+  if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N) {
+            textView.text = Html.fromHtml(htmlString, Html.FROM_HTML_MODE_LEGACY)
+        } else {
+            textView.text = Html.fromHtml(htmlString)
+        }
+        textView.isClickable = true
+        textView.movementMethod = LinkMovementMethod.getInstance()
+```
+
+[https://stackoverflow.com/a/59046991](https://stackoverflow.com/a/59046991)
