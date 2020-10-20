@@ -42,3 +42,25 @@ const ScrollDemo = () => {
 
 [https://github.com/DominicTobias/react-image-crop](https://github.com/DominicTobias/react-image-crop)
 [https://levelup.gitconnected.com/crop-images-on-upload-in-your-react-app-with-react-image-crop-5f3cd0ad2b35](https://levelup.gitconnected.com/crop-images-on-upload-in-your-react-app-with-react-image-crop-5f3cd0ad2b35)
+
+## Merging Images Using Javascript/React
+
+[https://github.com/lukechilds/merge-images](https://github.com/lukechilds/merge-images)
+
+```javascript
+mergeImages([
+  'http://example.com/images/Avatar.png',
+  'http://example.com/images/Hat.png',
+])
+.then((b64) => {
+  document.querySelector('img.abc').src = b64;
+})
+.catch(error => console.log(error))
+return (
+  ...
+      <img class="abc" src='' width={100} height={200} alt="avatar"/>
+  ...
+);
+```
+
+[https://www.npmjs.com/package/merge-images](https://www.npmjs.com/package/merge-images)

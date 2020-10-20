@@ -115,3 +115,31 @@ window.onload = function(){
 ```
 
 [https://stackoverflow.com/a/8429496](https://stackoverflow.com/a/8429496)
+
+## Async/Await with Array.forEach()
+
+```javascript
+
+Array.prototype.asyncForEach = async function(callback, thisArg) {
+  thisArg = thisArg || this
+  for (let i = 0, l = this.length; i !== l; ++i) {
+    await callback.call(thisArg, this[i], i, this)
+  }
+}
+
+const greetPeople = async (names) => {
+  const delay = () => new Promise(resolve => setTimeout(resolve, 3000))
+
+  await names.asyncForEach(async (name) => {
+    await delay()
+    console.log(`Greetings to you ${name}`)
+  })
+
+  console.log('farewell')
+}
+
+greetPeople(['George', 'Margie', 'Anna'])
+
+```
+
+[https://dev.to/dinos_vl/breaking-down-confusion-of-combining-async-await-with-array-foreach-4alb](https://dev.to/dinos_vl/breaking-down-confusion-of-combining-async-await-with-array-foreach-4alb)
