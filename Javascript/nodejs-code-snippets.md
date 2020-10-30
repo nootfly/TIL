@@ -31,3 +31,61 @@ console.log(decrypt(hw))
 ```
 
 [https://codeforgeek.com/encrypt-and-decrypt-data-in-node-js/](https://codeforgeek.com/encrypt-and-decrypt-data-in-node-js/)
+
+## Send emails with attachments using Microsoft graph API
+
+```javascript
+exports.sendEmail = (sendTo, subject, message, csvFileName, cvsString) => {
+
+    return new Promise((resolve, reject) => {
+        getToken()
+            .then((result) => {
+                console.log(result.data);
+                const attachments = [
+                    {
+                        "@odata.type": "#microsoft.graph.fileAttachment",
+                        name: csvFileName,
+                        contentBytes: Buffer.from(cvsString).toString('base64'),
+                        contentType: 'text/plain'
+                    }
+                ];
+
+                const sendData = {
+                    message: {
+                        subject: subject, body: { contentType: "html", content: message },
+                        toRecipients: sendTo.split(',').map(emailAddress => {
+                            return { emailAddress: { address: emailAddress.trim() } };
+                        })
+                        , attachments
+                    }, saveToSentItems: false
+                };
+
+                const sendConfig = {
+                    method: 'POST',
+                    url: SEND_URL,
+                    headers: {
+                        'Content-Type': 'application/json',
+                        'Authorization': `Bearer ${result.data.access_token}`
+                    },
+                    data: sendData
+                };
+                console.log('sendConfig', sendConfig);
+
+                axios(sendConfig)
+                    .then(() => {
+                        resolve();
+                    })
+                    .catch(err => {
+                        console.log("get token error", err);
+                        reject(err);
+                    });
+
+            })
+            .catch(err => {
+                console.log("get token error", err);
+                reject(err);
+            });
+    });
+
+};
+```
