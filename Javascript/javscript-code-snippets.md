@@ -143,3 +143,11 @@ greetPeople(['George', 'Margie', 'Anna'])
 ```
 
 [https://dev.to/dinos_vl/breaking-down-confusion-of-combining-async-await-with-array-foreach-4alb](https://dev.to/dinos_vl/breaking-down-confusion-of-combining-async-await-with-array-foreach-4alb)
+
+## Get parameter value from query string
+
+```javascript
+const search = window.location.search;
+const params = new URLSearchParams(search);
+const foo = params.get('bar');
+```
