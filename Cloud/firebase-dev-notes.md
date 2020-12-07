@@ -66,3 +66,13 @@ firebase.auth().currentUser.getIdToken(/ forceRefresh / true)
 [https://stackoverflow.com/a/38233818](https://stackoverflow.com/a/38233818)
 
 [https://medium.com/@jwngr/implementing-firebase-auth-session-durations-82fa7b1fff08](https://medium.com/@jwngr/implementing-firebase-auth-session-durations-82fa7b1fff08)
+
+## deploy firestore rules
+
+```shell
+# Deploy your .rules file
+firebase deploy --only firestore:rules
+```
+
+[https://firebase.google.com/docs/rules/manage-deploy](https://firebase.google.com/docs/rules/manage-deploy)
+

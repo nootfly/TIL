@@ -45,6 +45,7 @@ the inner page anchor names must be lowercase.
 - [Open addressing hash tables](Algorithms/fast-hashing.md) - 31 October 2018
 
 ### Android
+- [Android unit tests resources mock](Android/android-mock-resources.md) - 07 December 2020
 - [Gradle commands](Android/gradle-command.md) - 19 November 2020
 - [Android code snippets](Android/android-code-snippet.md) - 07 July 2020
 - [executePendingBindings](Android/executePendingBindings.md) - 17 June 2020
