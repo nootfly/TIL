@@ -151,3 +151,9 @@ const search = window.location.search;
 const params = new URLSearchParams(search);
 const foo = params.get('bar');
 ```
+
+## Jest run one test 
+
+```shell
+jest -t 'fix-order-test'
+```
