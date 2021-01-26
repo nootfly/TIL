@@ -839,3 +839,18 @@ extension UIApplication{
 ```
 
 [https://stackoverflow.com/a/55159701](https://stackoverflow.com/a/55159701)
+
+## Cannot use mutating member on immutable value of type
+
+```swift
+func someFunc() {
+    if var data = data as? ModelOne {
+        data.setSub(ModelOne.SubModelOne(someVar: 2, otherVar: 1))
+        self.data = data // you can do this since ModelOne conforms to SuperModel
+    }
+}
+```
+
+[https://stackoverflow.com/a/38766080](https://stackoverflow.com/a/38766080)
+
+
