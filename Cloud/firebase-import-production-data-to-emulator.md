@@ -44,4 +44,5 @@ export_production_firebase_to_emulator
 
 
 [https://stackoverflow.com/a/62977147](https://stackoverflow.com/a/62977147)
+
 [https://medium.com/firebase-developers/how-to-import-production-data-from-cloud-firestore-to-the-local-emulator-e82ae1c6ed8](https://medium.com/firebase-developers/how-to-import-production-data-from-cloud-firestore-to-the-local-emulator-e82ae1c6ed8)
