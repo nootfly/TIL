@@ -22,6 +22,19 @@ for (const [key, value] of Object.entries(object)) {
 }
 ```
 
+## loop array
+
+```javascript
+for (const item of array) {
+ console.log(item);
+}
+
+## dictionary length
+
+```javascript
+Object.keys(dictionary).length
+```
+
 ## Checking if a key exists in a JavaScript object
 
 ```javascript
