@@ -129,6 +129,7 @@ the inner page anchor names must be lowercase.
 - [Upgrade go to 1.6](Go/Upgrade-go-to-1.6.md)
 
 ### iOS
+- [Clean simulators](iOS/clean-simulators.md) - 26 February 2021
 - [Swift compile-time attributes](iOS/compile-time-attributes.md) - 07 December 2020
 - [Apple's Network Link Conditioner](iOS/network-link-download.md) - 31 July 2020
 - [Record iOS Simulator video](iOS/record-simulator-video.md) - 17 April 2020
