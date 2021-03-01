@@ -81,6 +81,7 @@ the inner page anchor names must be lowercase.
 - [Android FCM and AWS SNS settings](Android/push-notification-sns.md)
 
 ### Cloud
+- [Show biquery table schema](Cloud/bigquery-table-schema.md) - 02 March 2021
 - [Import Firestore data to local emulator](Cloud/firebase-import-production-data-to-emulator.md) - 19 February 2021
 - [Firebase development notes](Cloud/firebase-dev-notes.md) - 14 July 2020
 - [Appsync Codegen support only one GraphQL API per project](Cloud/aws-appsync-codegen-error.md) - 28 March 2020
