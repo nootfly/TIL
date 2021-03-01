@@ -254,6 +254,7 @@ the inner page anchor names must be lowercase.
 - [sudo cd](Linux/sudo-cd.md)
 
 ### Mac
+- [Find process locking port on Mac](Mac/show-port-process.md) - 02 March 2021
 - [Export iPhone photos to external disk](Mac/mac-export-iphone-photos.md) - 28 January 2020
 - [Use two Mac apps side by side in Split View](Mac/mac-apps-split-view.md) - 17 July 2019
 - [Release mac deleted disk space](Mac/mac-delete-disk-space-not-released.md) - 24 June 2019
