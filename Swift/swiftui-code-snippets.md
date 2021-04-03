@@ -660,3 +660,26 @@ Image(systemName: "checkmark.circle")
 ```
 
 [https://stackoverflow.com/a/58870146](https://stackoverflow.com/a/58870146)
+
+## ViewModifier
+
+```swift
+struct Title: ViewModifier {
+    func body(content: Content) -> some View {
+        content
+            .font(.largeTitle)
+            .foregroundColor(.white)
+            .padding()
+            .background(Color.blue)
+            .clipShape(RoundedRectangle(cornerRadius: 10))
+    }
+}
+
+extension View {
+    func titleStyle() -> some View {
+        self.modifier(Title())
+    }
+}
+```
+
+[https://www.hackingwithswift.com/books/ios-swiftui/custom-modifiers](https://www.hackingwithswift.com/books/ios-swiftui/custom-modifiers)
