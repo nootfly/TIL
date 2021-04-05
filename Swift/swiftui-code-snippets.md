@@ -683,3 +683,20 @@ extension View {
 ```
 
 [https://www.hackingwithswift.com/books/ios-swiftui/custom-modifiers](https://www.hackingwithswift.com/books/ios-swiftui/custom-modifiers)
+
+## get color scheme
+
+```swift
+@Environment(\.colorScheme) var colorScheme: ColorScheme
+    
+    var body: some View {
+        DatePicker("", selection: $date, in: Date()..., displayedComponents: [.date, .hourAndMinute])
+            .datePickerStyle(GraphicalDatePickerStyle())
+            .accentColor(colorScheme == .dark ? Color.secondary : Color.primary)
+            .background(Color(UIColor.systemBackground))
+
+    }
+```
+
+[https://stackoverflow.com/a/63949906](https://stackoverflow.com/a/63949906)
+
