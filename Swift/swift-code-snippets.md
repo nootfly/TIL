@@ -853,4 +853,12 @@ func someFunc() {
 
 [https://stackoverflow.com/a/38766080](https://stackoverflow.com/a/38766080)
 
+## Check if the current thread is the main thread
 
+```swift
+Thread.isMainThread
+```
+
+```objective c
+[NSThread isMainThread]
+```
