@@ -699,3 +699,7 @@ extension View {
 ```
 
 [https://stackoverflow.com/a/63949906](https://stackoverflow.com/a/63949906)
+
+## buttons in swiftui
+
+[Mastering buttons in SwiftUI](https://swiftwithmajid.com/2020/02/19/mastering-buttons-in-swiftui/)
