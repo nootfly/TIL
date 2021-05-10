@@ -862,3 +862,16 @@ Thread.isMainThread
 ```objective c
 [NSThread isMainThread]
 ```
+
+## sort an array of objects by two keys
+
+```swift
+let sorted = array.sorted { t1, t2 in 
+   if t1.isPriority == t2.isPriority {
+      return t1.ordering < t2.ordering 
+   }
+   return t1.isPriority && !t2.isPriority 
+}
+```
+
+[https://stackoverflow.com/a/29531359](https://stackoverflow.com/a/29531359)
