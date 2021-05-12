@@ -703,3 +703,22 @@ extension View {
 ## buttons in swiftui
 
 [Mastering buttons in SwiftUI](https://swiftwithmajid.com/2020/02/19/mastering-buttons-in-swiftui/)
+
+## TextField boarder
+
+```swift
+struct ContentView: View {
+    @State private var name: String = "Tim"
+
+    var body: some View {
+        VStack(alignment: .leading) {
+            TextField("Enter your name", text: $name)
+                .textFieldStyle(RoundedBorderTextFieldStyle())
+            Text("Hello, \(name)!")
+        }
+    }
+}
+```
+
+[https://www.hackingwithswift.com/quick-start/swiftui/how-to-add-a-border-to-a-textfield](https://www.hackingwithswift.com/quick-start/swiftui/how-to-add-a-border-to-a-textfield)
+
