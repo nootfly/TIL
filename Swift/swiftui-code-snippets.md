@@ -722,3 +722,47 @@ struct ContentView: View {
 
 [https://www.hackingwithswift.com/quick-start/swiftui/how-to-add-a-border-to-a-textfield](https://www.hackingwithswift.com/quick-start/swiftui/how-to-add-a-border-to-a-textfield)
 
+## full screen modal view
+
+```swift
+struct ContentView: View {
+    @State private var isPresented = false
+
+    var body: some View {
+        Button("Present!") {
+            isPresented.toggle()
+        }
+        .fullScreenCover(isPresented: $isPresented, content: FullScreenModalView.init)
+    }
+}
+```
+
+[https://www.hackingwithswift.com/quick-start/swiftui/how-to-present-a-full-screen-modal-view-using-fullscreencover](https://www.hackingwithswift.com/quick-start/swiftui/how-to-present-a-full-screen-modal-view-using-fullscreencover)
+
+## `tacking()` and `kernling()`
+
+The two modifiers are `tracking()` and `kerning()`: both add spacing between letters, but tracking will pull apart ligatures whereas kerning will not, and kerning will leave some trailing whitespace whereas tracking will not. `tracking()` is used for a word. But `kerning()` is used for a paragraph.
+
+```swfit
+struct ContentView: View {
+    @State private var amount: CGFloat = 50
+
+    var body: some View {
+        VStack {
+            Text("ffi")
+                .font(.custom("AmericanTypewriter", size: 72))
+                .kerning(amount)
+            Text("ffi")
+                .font(.custom("AmericanTypewriter", size: 72))
+                .tracking(amount)
+
+            Slider(value: $amount, in: 0...100) {
+                Text("Adjust the amount of spacing")
+            }
+        }
+    }
+}
+```
+
+[https://www.hackingwithswift.com/quick-start/swiftui/how-to-add-spacing-between-letters-in-text](https://www.hackingwithswift.com/quick-start/swiftui/how-to-add-spacing-between-letters-in-text)
+
