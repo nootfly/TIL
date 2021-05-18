@@ -775,7 +775,9 @@ TextField("Enter your name", text: $name)
     }
 
 TextField("Enter username...", text: $username)
+    .multilineTextAlignment(.center) 
     .textFieldStyle(RoundedBorderTextFieldStyle())
+   
 ```
 
 [https://www.simpleswiftguide.com/swiftui-textfield-complete-tutorial/](https://www.simpleswiftguide.com/swiftui-textfield-complete-tutorial/)
