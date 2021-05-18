@@ -766,3 +766,16 @@ struct ContentView: View {
 
 [https://www.hackingwithswift.com/quick-start/swiftui/how-to-add-spacing-between-letters-in-text](https://www.hackingwithswift.com/quick-start/swiftui/how-to-add-spacing-between-letters-in-text)
 
+## `TextField`
+
+```swift
+
+TextField("Enter your name", text: $name)
+            .disableAutocorrection(true)
+    }
+
+TextField("Enter username...", text: $username)
+    .textFieldStyle(RoundedBorderTextFieldStyle())
+```
+
+[https://www.simpleswiftguide.com/swiftui-textfield-complete-tutorial/](https://www.simpleswiftguide.com/swiftui-textfield-complete-tutorial/)
