@@ -564,6 +564,13 @@ struct SimpleLineView: View {
          .navigationBarHidden(true)
          .edgesIgnoringSafeArea([.top])
     }
+
+
+    NavigationView {
+    FileBrowserView(jsonFromCall: URLRetrieve(URLtoFetch: applicationDelegate.apiURL))
+        .navigationBarTitle("")
+        .navigationBarHidden(true)
+   }
 ```
 
 ## Equal widths of subviews with SwiftUI
