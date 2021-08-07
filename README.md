@@ -16,6 +16,7 @@ This is inspired by https://github.com/jbranchaud/til.
                 - [Cloud](#cloud)
                 - [Design](#design)
                 - [Docker](#docker)
+                - [Flutter](#Flutter)
                 - [Git](#git)
                 - [Go](#go)
                 - [iOS](#ios)
@@ -117,6 +118,10 @@ the inner page anchor names must be lowercase.
 - [Docker.qcow2 disk space issue on Mac](Docker/Docker.qcow2-disk-space-issue-on-Mac.md)
 - [Run Docker tomcat image](Docker/run-tomcat-image.md)
 - [docker GetImageBlob no such file or directory issue](Docker/docker-GetImageBlob-no-such-file.md)
+
+### Flutter
+- [#Place widget in bottom center of the container](Flutter/flutter-code-snippets.md) - 07 August 2021
+- [test](test)
 
 ### Git
 - [Config Repo user](Git/config-repo-user.md) - 11 October 2018
