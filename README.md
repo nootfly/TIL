@@ -120,8 +120,8 @@ the inner page anchor names must be lowercase.
 - [docker GetImageBlob no such file or directory issue](Docker/docker-GetImageBlob-no-such-file.md)
 
 ### Flutter
-- [#Place widget in bottom center of the container](Flutter/flutter-code-snippets.md) - 07 August 2021
-- [test](test)
+- [Flutter code snippets (2.2+)](Flutter/flutter-code-snippets.md) - 07 August 2021
+- [Place widget in bottom center of the container](Flutter/flutter-code-snippets.md) - 07 August 2021
 
 ### Git
 - [Config Repo user](Git/config-repo-user.md) - 11 October 2018
