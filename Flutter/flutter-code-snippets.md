@@ -21,3 +21,20 @@ Expanded(
 ```dart
 debugPrintStack();
 ```
+
+## Enum from string
+
+```dart
+enum Fruit { apple, banana }
+
+// Convert to string
+String str = Fruit.banana.toString();
+
+// Convert to enum
+Fruit f = Fruit.values.firstWhere((e) => e.toString() == str);
+
+assert(f == Fruit.banana);  // it worked
+```
+
+[https://stackoverflow.com/a/44060511](https://stackoverflow.com/a/44060511)
+
