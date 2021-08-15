@@ -15,3 +15,9 @@ Expanded(
 ```
 
 [https://stackoverflow.com/a/58213329](https://stackoverflow.com/a/58213329)
+
+## Print log messages
+
+```dart
+debugPrintStack();
+```
