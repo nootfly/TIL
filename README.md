@@ -183,7 +183,6 @@ the inner page anchor names must be lowercase.
 
 ### Flutter
 - [Flutter code snippets (2.2+)](Flutter/flutter-code-snippets.md) - 22 August 2021
-- [Flutter code snippets (2.2+)](Flutter/flutter-code-snippets.md) - 07 August 2021
 - [Place widget in bottom center of the container](Flutter/flutter-code-snippets.md) - 07 August 2021
 
 ### Git
