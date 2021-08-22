@@ -38,3 +38,19 @@ assert(f == Fruit.banana);  // it worked
 
 [https://stackoverflow.com/a/44060511](https://stackoverflow.com/a/44060511)
 
+
+## Disable text field
+
+```dart
+TextField(
+  readOnly: true,
+  enableInteractiveSelection: false,
+  onTap: () {
+    do_something(),
+  },
+)
+```
+[https://flutteragency.com/disable-textfield-in-flutter/](https://flutteragency.com/disable-textfield-in-flutter/)
+
+
+
