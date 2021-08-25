@@ -76,3 +76,10 @@ firebase deploy --only firestore:rules
 
 [https://firebase.google.com/docs/rules/manage-deploy](https://firebase.google.com/docs/rules/manage-deploy)
 
+## function region
+
+```
+lazy var functions = Functions.functions(region: "europe-west1")
+```
+
+
