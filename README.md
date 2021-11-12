@@ -215,6 +215,7 @@ the inner page anchor names must be lowercase.
 - [ALWAYS #import other classes in your .m file](iOS/Always-import-other-classes-in-m-file.md)
 
 ### Javascript
+- [Mac m1 javascript error](Javascript/mac-m1-javascript-error.md) - 13 November 2021
 - [Nodejs code snippets](Javascript/nodejs-code-snippets.md) - 27 July 2020
 - [Material UI code snippets](Javascript/material-ui-code-snippets.md) - 14 July 2020
 - [React js code sippets](Javascript/reactjs-code-snippets.md) - 14 July 2020
