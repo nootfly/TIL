@@ -1,4 +1,4 @@
-# ARCHS[@]: unbound variable in Xcode 12
+# ARCHS[@]: unbound variable in Xcode 13.1
 
 Open VSCode and go to directory ios/App/App.xcodeproj/project.pbxproj that file and perform a search EXCLUDED_ARCHS
 

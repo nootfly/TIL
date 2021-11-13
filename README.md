@@ -205,6 +205,7 @@ the inner page anchor names must be lowercase.
 - [Upgrade go to 1.6](Go/Upgrade-go-to-1.6.md)
 
 ### iOS
+- [ARCHS[@]: unbound variable in Xcode 13.1](iOS/ARCHS-xcode-13-error.md) - 13 November 2021
 - [ARCHS[@]: unbound variable in Xcode 12](iOS/ARCHS-xcode-13-error.md) - 13 November 2021
 - [Device type and notch](iOS/devices-notch.md) - 22 August 2021
 - [Background NFC tag reading](iOS/ios13-nfc.md) - 22 August 2021
