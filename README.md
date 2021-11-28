@@ -188,6 +188,7 @@ the inner page anchor names must be lowercase.
 - [Place widget in bottom center of the container](Flutter/flutter-code-snippets.md) - 07 August 2021
 
 ### Git
+- [Pull git submodules after checkout](Git/git-submodule.md) - 28 November 2021
 - [remove big files from git repository](Git/remove-big-files-from-git-repository.md) - 22 August 2021
 - [github auto push script](Git/git-auto-push.md) - 22 August 2021
 - [Config Repo user](Git/config-repo-user.md) - 22 August 2021
