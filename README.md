@@ -11,7 +11,7 @@ This is inspired by https://github.com/jbranchaud/til.
 
 - [TIL](#til)
                 - [Categories](#categories)
-                - [Algorithms](#algorithms)                
+                - [Algorithms](#algorithms)
                 - [Android](#android)
                 - [Architecture](#architecture)
                 - [Cloud](#cloud)
@@ -119,6 +119,7 @@ the inner page anchor names must be lowercase.
 - [Android FCM and AWS SNS settings](Android/push-notification-sns.md)
 
 ### Architecture
+- [Android FCM and AWS SNS settings](Android/push-notification-sns.md)
 
 ### Cloud
 - [Firebase development notes](Cloud/firebase-dev-notes.md) - 13 November 2021
