@@ -118,7 +118,7 @@ the inner page anchor names must be lowercase.
 - [RecyclerView laggy scrolling issue](Android/recyclerView-laggy-scrolling-issue.md)
 - [Android FCM and AWS SNS settings](Android/push-notification-sns.md)
 
-### Algorithms
+### Architecture
 
 ### Cloud
 - [Firebase development notes](Cloud/firebase-dev-notes.md) - 13 November 2021
