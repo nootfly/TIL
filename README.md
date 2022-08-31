@@ -119,6 +119,7 @@ the inner page anchor names must be lowercase.
 - [Android FCM and AWS SNS settings](Android/push-notification-sns.md)
 
 ### Architecture
+- [Architechture tools](Architecture/architecture_tools.md)
 
 ### Cloud
 - [Firebase development notes](Cloud/firebase-dev-notes.md) - 13 November 2021
