@@ -11,8 +11,9 @@ This is inspired by https://github.com/jbranchaud/til.
 
 - [TIL](#til)
                 - [Categories](#categories)
-                - [Algorithms](#algorithms)
+                - [Algorithms](#algorithms)                
                 - [Android](#android)
+                - [Architecture](#architecture)
                 - [Cloud](#cloud)
                 - [Design](#design)
                 - [Docker](#docker)
@@ -116,6 +117,8 @@ the inner page anchor names must be lowercase.
 - [Android Studio tips](Android/Android-studio-tips.md)
 - [RecyclerView laggy scrolling issue](Android/recyclerView-laggy-scrolling-issue.md)
 - [Android FCM and AWS SNS settings](Android/push-notification-sns.md)
+
+### Algorithms
 
 ### Cloud
 - [Firebase development notes](Cloud/firebase-dev-notes.md) - 13 November 2021
