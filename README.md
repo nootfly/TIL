@@ -163,6 +163,7 @@ the inner page anchor names must be lowercase.
 - [Free high-resolution photos from Unsplash](https://unsplash.com/collections/curated/143)
 
 ### Docker
+- [E: List directory /var/lib/apt/lists/partial is missing.](Docker/partial-is-missing-error.md) - 09 November 2022
 - [Move docker-machine config to another machine](Docker/Move-docker-machine-config.md) - 22 August 2021
 - [Docker nginx log configuration](Docker/nginx-log-conf.md) - 22 August 2021
 - [docker commands](Docker/docker-commands.md) - 22 August 2021
@@ -458,6 +459,7 @@ the inner page anchor names must be lowercase.
 - [sudo cd](Linux/sudo-cd.md)
 
 ### Mac
+- [python not found](Mac/python-not-found.md) - 09 November 2022
 - [Xcode constantly crashing](Mac/xcode-constantly-crashing.md) - 22 August 2021
 - [Use two Mac apps side by side in Split View](Mac/mac-apps-split-view.md) - 22 August 2021
 - [Homebrew behind proxy](Mac/brew-install-behind-proxy.md) - 22 August 2021
