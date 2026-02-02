@@ -43,12 +43,48 @@ the inner page anchor names must be lowercase.
 
 ---
 ### Algorithms
+- [Open addressing hash tables](Algorithms/fast-hashing.md) - 02 February 2026
+- [Path Finding Algorithms](Algorithms/path-find.md) - 02 February 2026
 - [Path Finding Algorithms](Algorithms/path-find.md) - 22 August 2021
 - [Open addressing hash tables](Algorithms/fast-hashing.md) - 22 August 2021
 - [Path Finding Algorithms](Algorithms/path-find.md) - 31 October 2018
 - [Open addressing hash tables](Algorithms/fast-hashing.md) - 31 October 2018
 
 ### Android
+- [Alway show an `Intent` chooser](Android/Alway-show-an-Intent-chooser.md) - 02 February 2026
+- [Vector Support Library](Android/vector-asset-support.md) - 02 February 2026
+- [Android Animations](Android/Android-Animations.md) - 02 February 2026
+- [Android code snippets](Android/android-code-snippet.md) - 02 February 2026
+- [Android simulator HAXM hypervisor error](Android/Android-simulator-HAXM-hypervisor-error.md) - 02 February 2026
+- [Android studio tips](Android/Android-studio-tips.md) - 02 February 2026
+- [Programmatically change the app language](Android/Programmatically-change-app-language.md) - 02 February 2026
+- [Disable App Signing from Google Play Console](Android/disable-play-signing.md) - 02 February 2026
+- [Android Studio Error running android: Gradle project sync failed. Please fix your project and try again](Android/gradle-project-sync-failed.md) - 02 February 2026
+- [Android CI](Android/android-ci.md) - 02 February 2026
+- [Evenly distribute buttons across the width of an android linearlayout](Android/distribute-views-evenly-linearlayout.md) - 02 February 2026
+- [Kotlin Android code sippets](Android/kotlin-code-snippets.md) - 02 February 2026
+- [Handle Up navigation](Android/setup-up-button.md) - 02 February 2026
+- [Gradle commands](Android/gradle-command.md) - 02 February 2026
+- [Android FCM and AWS SNS settings](Android/push-notification-sns.md) - 02 February 2026
+- [Stop Tap Events From Passing Through an Android Fragment](Android/stop-events-pass-through.md) - 02 February 2026
+- [Layout cheat sheet](Android/layout-cheat-sheet.md) - 02 February 2026
+- [Android questions](Android/android-questions.md) - 02 February 2026
+- [executePendingBindings](Android/executePendingBindings.md) - 02 February 2026
+- [Android unit tests resources mock](Android/android-mock-resources.md) - 02 February 2026
+- [Use Dagger 2 for dependency injection](Android/Use-Dagger2-for-DI.md) - 02 February 2026
+- [Enable Android emulator keyboard](Android/enable-emulator-keyboard.md) - 02 February 2026
+- [Getting Binary XML file line : Attempt to invoke virtual method](Android/view-in-xml-error.md) - 02 February 2026
+- [Android Activity lifecycle](Android/Android-Activity-lifecycle.md) - 02 February 2026
+- [RecyclerView laggy scrolling issue](Android/recyclerView-laggy-scrolling-issue.md) - 02 February 2026
+- [Hilt DI notes](Android/hilt-notes.md) - 02 February 2026
+- [Dagger notes](Android/dagger-notes.md) - 02 February 2026
+- [Fragment removal animation](Android/fragment-remove-animation.md) - 02 February 2026
+- [Gradle damon error](Android/gradle-daemon-error.md) - 02 February 2026
+- [Android style cheat sheet](Android/Android-style-cheat-sheet.md) - 02 February 2026
+- [The Android Gradle plugin supports only Kotlin Gradle plugin version 1.3.0 and higher](Android/android-gradle-plgin-supports-only-kotlin-gradle-plugin.md) - 02 February 2026
+- [Open a link in new Window](Android/open-new-browser-tab.md) - 02 February 2026
+- [Translated here but not found in default locale](Android/translated-here-but-not-found-in-default-locale.md) - 02 February 2026
+- [Dim background](Android/dim-background.md) - 02 February 2026
 - [Android CI](Android/android-ci.md) - 22 August 2021
 - [Android code snippets](Android/android-code-snippet.md) - 22 August 2021
 - [Dim background](Android/dim-background.md) - 22 August 2021
@@ -119,9 +155,25 @@ the inner page anchor names must be lowercase.
 - [Android FCM and AWS SNS settings](Android/push-notification-sns.md)
 
 ### Architecture
+- [Architechture tools](Architecture/architecture_tools.md) - 02 February 2026
 - [Architechture tools](Architecture/architecture_tools.md)
 
 ### Cloud
+- [Serverless function 6 seconds timeout](Cloud/serverless-function-6-seconds-timeout.md) - 02 February 2026
+- [Import Firestore data to local emulator](Cloud/firebase-import-production-data-to-emulator.md) - 02 February 2026
+- [Firebase get IP address function](Cloud/firebase-get-ip-function.md) - 02 February 2026
+- [AWS Policy generator](Cloud/aws-policy-generator.md) - 02 February 2026
+- [Deploy an ExpressJs server on AWS lambda using Serverless](Cloud/aws-lambda-express-server.md) - 02 February 2026
+- [Amazon EC2 - disk full](Cloud/aws-ec2-disk-full.md) - 02 February 2026
+- [Firebase development notes](Cloud/firebase-dev-notes.md) - 02 February 2026
+- [Some userful serverless commands](Cloud/serverless-commands.md) - 02 February 2026
+- [AWS lambda Java read config file](Cloud/aws-lambda-read-config-file.md) - 02 February 2026
+- [Appsync Codegen support only one GraphQL API per project](Cloud/aws-appsync-codegen-error.md) - 02 February 2026
+- [Build AWS Java lambda Serverless](Cloud/build-aws-java-gradle-serverless.md) - 02 February 2026
+- [Serverless S3 bucket exists error](Cloud/serverless-s3-exits-error.md) - 02 February 2026
+- [iOS upload files to AWS S3](Cloud/aws-ios-upload-file-to-s3.md) - 02 February 2026
+- [Show biquery table schema](Cloud/bigquery-table-schema.md) - 02 February 2026
+- [AWS API performance comparision](Cloud/aws-api-performance-comparision.md) - 02 February 2026
 - [Firebase development notes](Cloud/firebase-dev-notes.md) - 13 November 2021
 - [Appsync Codegen support only one GraphQL API per project](Cloud/aws-appsync-codegen-error.md) - 22 August 2021
 - [Serverless function 6 seconds timeout](Cloud/serverless-function-6-seconds-timeout.md) - 22 August 2021
@@ -163,6 +215,18 @@ the inner page anchor names must be lowercase.
 - [Free high-resolution photos from Unsplash](https://unsplash.com/collections/curated/143)
 
 ### Docker
+- [docker GetImageBlob no such file or directory issue](Docker/docker-GetImageBlob-no-such-file.md) - 02 February 2026
+- [Run Tomcat image](Docker/run-tomcat-image.md) - 02 February 2026
+- [E: List directory /var/lib/apt/lists/partial is missing.](Docker/partial-is-missing-error.md) - 02 February 2026
+- [Docker insecure registry](Docker/Docker-insecure-registry.md) - 02 February 2026
+- [Move docker-machine config to another machine](Docker/Move-docker-machine-config.md) - 02 February 2026
+- [sudo docker](Docker/sudo-docker.md) - 02 February 2026
+- [Manage different docker versions](Docker/Manage-different-docker-versions.md) - 02 February 2026
+- [Docker.qcow2 disk space issue on Mac](Docker/Docker.qcow2-disk-space-issue-on-Mac.md) - 02 February 2026
+- [Using SSH keys inside docker container](Docker/Using-SSH-keys-inside-docker-container.md) - 02 February 2026
+- [Docker nginx log configuration](Docker/nginx-log-conf.md) - 02 February 2026
+- [docker-compose node link mongo](Docker/docker-compose-node-link-mongo.md) - 02 February 2026
+- [docker commands](Docker/docker-commands.md) - 02 February 2026
 - [E: List directory /var/lib/apt/lists/partial is missing.](Docker/partial-is-missing-error.md) - 09 November 2022
 - [Move docker-machine config to another machine](Docker/Move-docker-machine-config.md) - 22 August 2021
 - [Docker nginx log configuration](Docker/nginx-log-conf.md) - 22 August 2021
@@ -188,11 +252,21 @@ the inner page anchor names must be lowercase.
 - [docker GetImageBlob no such file or directory issue](Docker/docker-GetImageBlob-no-such-file.md)
 
 ### Flutter
+- [Flutter code snippets (2.2+)](Flutter/flutter-code-snippets.md) - 02 February 2026
+- [INSTALL_PARSE_FAILED_MANIFEST_MALFORMED](Flutter/INSTALL_PARSE_FAILED_MANIFEST_MALFORMED.md) - 02 February 2026
+- [#Unsupported class file major version 61 on Apple Arm](Flutter/fix-issues.md) - 02 February 2026
+- [java.security.NoSuchAlgorithmException](Flutter/Error building AAB-java.security.NoSuchAlgorithmException.md) - 02 February 2026
 - [Flutter code snippets (2.2+)](Flutter/flutter-code-snippets.md) - 13 November 2021
 - [Flutter code snippets (2.2+)](Flutter/flutter-code-snippets.md) - 22 August 2021
 - [Place widget in bottom center of the container](Flutter/flutter-code-snippets.md) - 07 August 2021
 
 ### Git
+- [Config Repo user](Git/config-repo-user.md) - 02 February 2026
+- [github auto push script](Git/git-auto-push.md) - 02 February 2026
+- [Pull git submodules after checkout](Git/git-submodule.md) - 02 February 2026
+- [git cheat sheet](Git/git-cheat-sheet.md) - 02 February 2026
+- [Automatically use correct SSH key for remote Git repo](Git/use-correct-ssh-key.md) - 02 February 2026
+- [remove big files from git repository](Git/remove-big-files-from-git-repository.md) - 02 February 2026
 - [Pull git submodules after checkout](Git/git-submodule.md) - 28 November 2021
 - [remove big files from git repository](Git/remove-big-files-from-git-repository.md) - 22 August 2021
 - [github auto push script](Git/git-auto-push.md) - 22 August 2021
@@ -206,11 +280,95 @@ the inner page anchor names must be lowercase.
 - [Automatically use correct SSH key for remote Git repo](Git/use-correct-ssh-key.md)  
 
 ### Go
+- [Upgrade go to 1.6](Go/Upgrade-go-to-1.6.md) - 02 February 2026
 - [Upgrade go to 1.6](Go/Upgrade-go-to-1.6.md) - 22 August 2021
 
 - [Upgrade go to 1.6](Go/Upgrade-go-to-1.6.md)
 
 ### iOS
+- [Mobile CI / CD](iOS/CI-CD-pipleline.md) - 02 February 2026
+- [#Slow animations in a simulator](iOS/Slow-animations-in-a-simulator.md) - 02 February 2026
+- [iOS development reference](iOS/ios-reference.md) - 02 February 2026
+- [Share code between iOS and TVOS](iOS/Share-code-between-iOS-and-TVOS.md) - 02 February 2026
+- [Revoking an enterprise distribution certificate](iOS/revoke-enterprise-cert.md) - 02 February 2026
+- [SwiftUI code](iOS/swiftui-cook-book.md) - 02 February 2026
+- [Command /bin/sh failed with exit code 1](iOS/command-failed-with-exit-code-1.md) - 02 February 2026
+- [#PODS_ROOT issue](iOS/PODS_ROOT-issue.md) - 02 February 2026
+- [Set static UITableViewCell delegate](iOS/Set-static-UITableViewCell-delegate.md) - 02 February 2026
+- [SceneKit torus example](iOS/scenekit-torus-example.md) - 02 February 2026
+- [* Silent push notification](iOS/Silent-push-notification.md) - 02 February 2026
+- [CoreData get records count](iOS/coredata-get-records-count.md) - 02 February 2026
+- [UITableViewCell's contentView gets unwanted height==44 constraint](iOS/tableview-constraint-height-44-issue.md) - 02 February 2026
+- [Quartz 2D cheat sheet](iOS/quartz2d.md) - 02 February 2026
+- [Print system font names](iOS/print-system-font-names.md) - 02 February 2026
+- [Record iOS Simulator video](iOS/record-simulator-video.md) - 02 February 2026
+- [#iOS common code library](iOS/iOS-common-code-library.md) - 02 February 2026
+- [UIStackView](iOS/UIStackView.md) - 02 February 2026
+- [UIScrollView not scrolling when using autolayout](iOS/UIScrollView-not-scrolling-when-using-autolayout.md) - 02 February 2026
+- [iOS graphics SDK guides](iOS/iOS-graph-SDK-guides.md) - 02 February 2026
+- [#SDWebImagePrefetcher memory issue](iOS/SDWebImage-memory-issue.md) - 02 February 2026
+- [iOS Drawing cheat sheet](iOS/iOS-Drawing-Concepts.md) - 02 February 2026
+- [App Life cycle](iOS/managing-app-life-cycel.md) - 02 February 2026
+- [Mobile app vs web](iOS/web-ios-realtime-app-comparsion.md) - 02 February 2026
+- [Xcode 10 (iOS 12) does not contain libstdc++6.0.9](iOS/xcode10-libstdc-issue.md) - 02 February 2026
+- [no known instance method for selector respondstoselector](iOS/no-known-instance-method-error.md) - 02 February 2026
+- [UITapGestureRecognizer or touchesBegan](iOS/UITapGestureRecognizer-or-touchesBegan.md) - 02 February 2026
+- [ Open terminal window from Xcode](iOS/run-terminal-in-xcode.md) - 02 February 2026
+- [#Get current thread](iOS/Get-current-thread.md) - 02 February 2026
+- [ Swift 4 class from Objective-C: “Property not found on object of type”](iOS/swift4-property-not-found.md) - 02 February 2026
+- [Swift file template in Xcode](iOS/xcode-swift-file-template.md) - 02 February 2026
+- [All kinds of error handling](iOS/ios-error-handling.md) - 02 February 2026
+- [Fix iTunesConnect must have an arm64-only executable error](iOS/itunesconnect-arm64-only-error.md) - 02 February 2026
+- [Prepare push notification certificate](iOS/Prepare-push-notification-certificate.md) - 02 February 2026
+- [NSLayoutAnchor](iOS/NSLayoutAnchor.md) - 02 February 2026
+- [iOS concurrency fact sheet](iOS/iOS-concurrency-cheat-sheet.md) - 02 February 2026
+- [OpenGL cheat sheet](iOS/OpenGL-cheat-sheet.md) - 02 February 2026
+- [iBeacons cheat sheet](iOS/ibeacons.md) - 02 February 2026
+- [#CoreData in Swift framework](iOS/CoreData-in-Swift-framework.md) - 02 February 2026
+- [Autolayout cheat sheet](iOS/Autolayout-rules-of-thumb.md) - 02 February 2026
+- [core data background context](iOS/core-data-background-context.md) - 02 February 2026
+- [>You should ALWAYS #import other classes in your .m file.](iOS/Always-import-other-classes-in-m-file.md) - 02 February 2026
+- [Programmatically change the app language](iOS/change-language-in-code.md) - 02 February 2026
+- [iOS theme code](iOS/ios-theme.md) - 02 February 2026
+- [UIApplicationDelegate handles push notification](iOS/UIApplicationDelegate-handles-push-notification.md) - 02 February 2026
+- [iOS Extensions access CoreData, shared folder and CloudKit](iOS/iOS-Extensions-access-CoreData-shared-folder-and-CloudKit.md) - 02 February 2026
+- [CoreML 2](iOS/coreml2.md) - 02 February 2026
+- [Drag and drop steps](iOS/drag-drop-implement-steps.md) - 02 February 2026
+- [UIWebView transparent background color](iOS/UIWebView-transparent-background-color.md) - 02 February 2026
+- [iOS Drawing cheat sheet 2](iOS/iOS-Drawing-cheat-sheet-2.md) - 02 February 2026
+- [Customize iOS share extension UI](iOS/Customize-iOS-Share-extension-UI.md) - 02 February 2026
+- [NSDate formatter](iOS/nsdate-formatter.md) - 02 February 2026
+- [How to use Low Power Mode in code](iOS/How-to-use-Low-Power-Mode-in-code.md) - 02 February 2026
+- [#iOS 9 PopOver points to top-left corner of anchor](iOS/ios9-popover-always-points-to-top-left-corner-of-anchor.md) - 02 February 2026
+- [increase iOS build number in Fastlane](iOS/increase-ios-build-number-in-fastlane.md) - 02 February 2026
+- [Xcode uses too much disk space](iOS/Xcode-uses-too-much-disk-space.md) - 02 February 2026
+- [UILayoutGuide](iOS/UILayoutGuide.md) - 02 February 2026
+- [iOS questions](iOS/ios-questions.md) - 02 February 2026
+- [Provide Export Compliance Information](iOS/Provide-Export-Compliance-Information.md) - 02 February 2026
+- [Xcode debugging tips](iOS/xcode-debugging-tips.md) - 02 February 2026
+- [Clean simulators](iOS/clean-simulators.md) - 02 February 2026
+- [iOS Keychain check sheet](iOS/iOS-keychain-cheat-sheet.md) - 02 February 2026
+- [CALayer shadow performance issue](iOS/CALayer-shadow-performance-issue.md) - 02 February 2026
+- [Using PDF assets in your iOS app](iOS/svg-pdf.md) - 02 February 2026
+- [Xcode 9 tips](iOS/xcode-9-tips.md) - 02 February 2026
+- [I used iOS Cocoapods libraries](iOS/I-used-iOS-Cocoapods-libraries.md) - 02 February 2026
+- [iOS delete downloaded simulators](iOS/iOS-delete-downloaded-simulators.md) - 02 February 2026
+- [iOS GitLabe CI/CD](iOS/ios-gitlab-ci-cd.md) - 02 February 2026
+- [iOS keyboard background issue](iOS/iOS-keyboard-background-issue.md) - 02 February 2026
+- [Change app icon](iOS/change-app-icon.md) - 02 February 2026
+- [iOS share extension icon not seen on simulators](iOS/iOS-share-extension-icon-not-seen-on-simulators.md) - 02 February 2026
+- [Apple's Network Link Conditioner](iOS/network-link-download.md) - 02 February 2026
+- [UIViewController loadView](iOS/UIViewController-loadView.md) - 02 February 2026
+- [Performing a Task in the Future](iOS/run-task-in-future.md) - 02 February 2026
+- [No such module](iOS/No-such-module.md) - 02 February 2026
+- [Add SceneDelegate to existing project](iOS/add-SceneDelegate-to-existing-project.md) - 02 February 2026
+- [Dynamically change the main bundle's class](iOS/change-bundle.md) - 02 February 2026
+- [Background NFC tag reading](iOS/ios13-nfc.md) - 02 February 2026
+- [Strange AQDefaultDevice logging](iOS/strange-AQDefaultDevice-logging.md) - 02 February 2026
+- [Device type and notch](iOS/devices-notch.md) - 02 February 2026
+- [Error Domain=PlugInKit Code=13](iOS/imagepicker-error-domain.md) - 02 February 2026
+- [Swift compile-time attributes](iOS/compile-time-attributes.md) - 02 February 2026
+- [ARCHS[@]: unbound variable in Xcode 13.1](iOS/ARCHS-xcode-13-error.md) - 02 February 2026
 - [ARCHS[@]: unbound variable in Xcode 13.1](iOS/ARCHS-xcode-13-error.md) - 13 November 2021
 - [Device type and notch](iOS/devices-notch.md) - 22 August 2021
 - [Background NFC tag reading](iOS/ios13-nfc.md) - 22 August 2021
@@ -374,6 +532,38 @@ the inner page anchor names must be lowercase.
 - [ALWAYS #import other classes in your .m file](iOS/Always-import-other-classes-in-m-file.md)
 
 ### Javascript
+- [Config environment variables in Vuejs](Javascript/vuejs-environment-config.md) - 02 February 2026
+- [Nodejs code snippets](Javascript/nodejs-code-snippets.md) - 02 February 2026
+- [ES6 cheat sheet](Javascript/es6-cheat-sheet.md) - 02 February 2026
+- [Nodejs server api authentication](Javascript/nodejs-authentication.md) - 02 February 2026
+- [Error: Cannot find module '../lib/utils/unsupported.js'](Javascript/npm-install-unsupported.js.md) - 02 February 2026
+- [ReactJs development problem solutions](Javascript/react-js-problems-solutions.md) - 02 February 2026
+- [Check mobile safari](Javascript/check-mobile-safari.md) - 02 February 2026
+- [Eslint: How to disable "unexpected console statement" in VueJs](Javascript/Eslin-unexpected-console-statement.md) - 02 February 2026
+- [React js code sippets](Javascript/reactjs-code-snippets.md) - 02 February 2026
+- [Material UI code snippets](Javascript/material-ui-code-snippets.md) - 02 February 2026
+- [Npm behind a corporate web proxy](Javascript/npm-install-behind-proxy.md) - 02 February 2026
+- [Create a dynamic key in an object](Javascript/dynamic-key.md) - 02 February 2026
+- [Chatjs Linear Cartesian Axis](Javascript/chartjs-y-axis-options.md) - 02 February 2026
+- [2d array join](Javascript/2d-array-join.md) - 02 February 2026
+- [Notification callback function for Safari](Javascript/safari-notification-callback-issue.md) - 02 February 2026
+- [JSFiddle console.log](Javascript/JSFiddle-console.md) - 02 February 2026
+- [Run JavaScript in Atom](Javascript/Atom-run-javascript.md) - 02 February 2026
+- [Resolve Cannot find modlue 'nice-try' error](Javascript/reactjs-error-cannot-find-module-nice-try.md) - 02 February 2026
+- [Netlify Firebase authentication redirect issue](Javascript/netlify-redirect-issue.md) - 02 February 2026
+- [nodejs debug object](Javascript/nodejs-debug-object.md) - 02 February 2026
+- [Decouple Jquery](Javascript/decouple-jquery.md) - 02 February 2026
+- [Semver for consumers](Javascript/npm-semver.md) - 02 February 2026
+- [Template not provided using create-react-app](Javascript/create-react-app-template-not-provided.md) - 02 February 2026
+- [Add code command for VS Code](Javascript/add-vs-code-command.md) - 02 February 2026
+- [Mac m1 javascript error](Javascript/mac-m1-javascript-error.md) - 02 February 2026
+- [ReactJS: Maximum update depth exceeded error](Javascript/ReactJS-Maximum-update-depth-exceeded-error.md) - 02 February 2026
+- [Mutiline strings](Javascript/mutiline-strings.md) - 02 February 2026
+- [Javascript code snippets](Javascript/javscript-code-snippets.md) - 02 February 2026
+- [Webpack errors](Javascript/Webpack-errors.md) - 02 February 2026
+- [.eslintrc.js](Javascript/estlintrc.md) - 02 February 2026
+- [mongojs aggregate](Javascript/mongojs-aggregate.md) - 02 February 2026
+- [String to hex color](Javascript/string-to-random-color.md) - 02 February 2026
 
 - [Mac m1 javascript error](Javascript/mac-m1-javascript-error.md) - 13 November 2021
 - [ReactJS: Maximum update depth exceeded error](Javascript/ReactJS-Maximum-update-depth-exceeded-error.md) - 22 August 2021
@@ -435,16 +625,25 @@ the inner page anchor names must be lowercase.
 - [Semantic versioning and npm](Javascript/npm-semver.md)
 
 ### Kotlin
+- [Lazy delegate](Kotlin/by-lazy.md) - 02 February 2026
+- [Sealed classes](Kotlin/sealed-class.md) - 02 February 2026
 - [Lazy delegate](Kotlin/by-lazy.md) - 22 August 2021
 - [Sealed classes](Kotlin/sealed-class.md) - 22 August 2021
 - [Lazy delegate](Kotlin/by-lazy.md) - 20 November 2018
 - [Sealed classes](Kotlin/sealed-class.md) - 17 November 2018
 
 ### Life
+- [Reading](Life/inspiring-words.md) - 02 February 2026
 - [Reading](Life/inspiring-words.md) - 22 August 2021
 - [Reading](Life/inspiring-words.md) - 08 November 2018
 
 ### Linux
+- [Bash commands](Linux/Bash-commands.md) - 02 February 2026
+- [Run cd in a shell script](Linux/run-cd-in-a-shell-script.md) - 02 February 2026
+- [Enable Dell Alienware Wifi and touchpad on ubuntu 18.04](Linux/dell-alienware-enable-wifi-touchpad.md) - 02 February 2026
+- [sudo cd](Linux/sudo-cd.md) - 02 February 2026
+- [Find process locking port 3000](Linux/find-process-port.md) - 02 February 2026
+- [Ubuntu commands](Linux/Ubuntu-commands.md) - 02 February 2026
 - [Run cd in a shell script](Linux/run-cd-in-a-shell-script.md) - 22 August 2021
 - [Enable Dell Alienware Wifi and touchpad on ubuntu 18.04](Linux/dell-alienware-enable-wifi-touchpad.md) - 22 August 2021
 - [Find process locking port 3000](Linux/find-process-port.md) - 22 August 2021
@@ -459,6 +658,21 @@ the inner page anchor names must be lowercase.
 - [sudo cd](Linux/sudo-cd.md)
 
 ### Mac
+- [Remove and regenerate the Bluetooth.plist file](Mac/fix-bluetooth-issue.md) - 02 February 2026
+- [Homebrew behind proxy](Mac/brew-install-behind-proxy.md) - 02 February 2026
+- [Delete Mac outlook calendar attachments](Mac/delete-outlook-calendar-attachements.md) - 02 February 2026
+- [python not found](Mac/python-not-found.md) - 02 February 2026
+- [Show Current dirctory name in iterm tab title](Mac/current-dir-in-iterm-tab-title.md) - 02 February 2026
+- [Use two Mac apps side by side in Split View](Mac/mac-apps-split-view.md) - 02 February 2026
+- [Find process locking port on Mac](Mac/show-port-process.md) - 02 February 2026
+- [Catalina install freezes on boot](Mac/catalina-install-freezes.md) - 02 February 2026
+- [Run Chrome browser without CORS](Mac/disable-chrome-cors.md) - 02 February 2026
+- [Delete old time machine backups manually](Mac/delete-time-machine-backup.md) - 02 February 2026
+- [nscurl](Mac/nscurl.md) - 02 February 2026
+- [Xcode constantly crashing](Mac/xcode-constantly-crashing.md) - 02 February 2026
+- [Release mac deleted disk space](Mac/mac-delete-disk-space-not-released.md) - 02 February 2026
+- [Export iPhone photos to external disk](Mac/mac-export-iphone-photos.md) - 02 February 2026
+- [#Resize off screen window](Mac/Resize-off-screen-window.md) - 02 February 2026
 - [Run Chrome browser without CORS](Mac/disable-chrome-cors.md) - 05 January 2023
 - [python not found](Mac/python-not-found.md) - 09 November 2022
 - [Xcode constantly crashing](Mac/xcode-constantly-crashing.md) - 22 August 2021
@@ -489,6 +703,15 @@ the inner page anchor names must be lowercase.
 - [Resize off screen window](Mac/Resize-off-screen-window.md)
 
 ### ML
+- [Activation function](ML/activation-function.md) - 02 February 2026
+- [Show Pandas graph in jupyter notebook](ML/show-pandas-graph-in-jupyter-notebook.md) - 02 February 2026
+- [CreateML Vs TuriCreate](ML/createml-turicreate.md) - 02 February 2026
+- [CoreML Code Generation Language set to "none"](ML/CoreML-Code-Generation-Language-set-to-none.md) - 02 February 2026
+- [Setup Tensorflow on Windows 10](ML/step-tensorflow-windows.md) - 02 February 2026
+- [Machine learning courses](ML/machine-learning-courses.md) - 02 February 2026
+- [No module named tensorflow in jupyter](ML/No-module-named-tensorflow-in-jupyter.md) - 02 February 2026
+- [install tensorflow error](ML/install-tensorflow-error.md) - 02 February 2026
+- [NVIDIA CUDA [Version 9.0] Installer Failed](ML/install-cuda.md) - 02 February 2026
 - [CreateML Vs TuriCreate](ML/createml-turicreate.md) - 22 August 2021
 - [Activation function](ML/activation-function.md) - 22 August 2021
 - [No module named tensorflow in jupyter](ML/No-module-named-tensorflow-in-jupyter.md) - 22 August 2021
@@ -509,6 +732,9 @@ the inner page anchor names must be lowercase.
 - [Machine learning courses](ML/machine-learning-courses.md)
 
 ### Others
+- [Gmail alias](Others/Gmail-alias.md) - 02 February 2026
+- [letsencrypt certificate](Others/letsencrypt-certificate.md) - 02 February 2026
+- [#Preparing technical coding interviews websites](Others/technique-interview-websites.md) - 02 February 2026
 - [#Preparing technical coding interviews websites](Others/technique-interview-websites.md) - 22 August 2021
 - [letsencrypt certificate](Others/letsencrypt-certificate.md) - 22 August 2021
 - [Gmail alias](Others/Gmail-alias.md) - 22 August 2021
@@ -517,6 +743,28 @@ the inner page anchor names must be lowercase.
 - [letsencrypt certificate](Others/letsencrypt-certificate.md)
 
 ### Python
+- [jupyterthemes](Python/jupyter-notebook-theme.md) - 02 February 2026
+- [Install Tensorflow and Kerea](Python/install-tensorflow-keras-mac.md) - 02 February 2026
+- [Kill jupyter notebooks](Python/kill-jupyter-notebooks.md) - 02 February 2026
+- [Python tutorial](Python/python-tutorial.md) - 02 February 2026
+- [Remove a key from a Python dictionary](Python/dict-del.md) - 02 February 2026
+- [Jupyter notebook theme](Python/juypter-notebook-theme.md) - 02 February 2026
+- [Python Prime number checker](Python/prime-number.md) - 02 February 2026
+- [#Python resources](Python/Python-resources.md) - 02 February 2026
+- [for else clause](Python/for-else-clause.md) - 02 February 2026
+- [Using Python unittest in IPython or Jupyter](Python/unittest-jupyter.md) - 02 February 2026
+- [run Jupyter in a docker container](Python/docker-jupyter-notebook.md) - 02 February 2026
+- [Expend Tuple as part of argument list](Python/expend-tuple.md) - 02 February 2026
+- [Python execution time](Python/execute-time.md) - 02 February 2026
+- [Jupyter tools](Python/jupyter-notebook.md) - 02 February 2026
+- [Is Prime](Python/is_prime.md) - 02 February 2026
+- [ pprint — Data pretty printer](Python/pprint.md) - 02 February 2026
+- [Python Code sippets](Python/python-code-snippets.md) - 02 February 2026
+- [Showing line numbers in Jupyter Notebooks](Python/jupyter-show-line.md) - 02 February 2026
+- [Python objects sort](Python/python-sort.md) - 02 February 2026
+- [Python lambda in a loop](Python/python-lambda-in-loop.md) - 02 February 2026
+- [GraphQL client](Python/graphql-client.md) - 02 February 2026
+- [Jupyter notebook keyboard shortcuts](Python/Jupyter-Notebook-Keyboard-Shortcuts.md) - 02 February 2026
 - [Python execution time](Python/execute-time.md) - 22 August 2021
 - [Remove a key from a Python dictionary](Python/dict-del.md) - 22 August 2021
 - [Install Tensorflow and Kerea](Python/install-tensorflow-keras-mac.md) - 22 August 2021
@@ -565,6 +813,7 @@ the inner page anchor names must be lowercase.
 - [Some interesting Raspberry PI projects](raspberrypi/interesting-pi-projects.md)
 
 ### ReactNative
+- [RawText must be wrapped issue](ReactNative/RawText-must-be-wrapped.md) - 02 February 2026
 - [RawText must be wrapped issue](ReactNative/RawText-must-be-wrapped.md) - 22 August 2021
 
 - [Add custom fonts](https://medium.com/@danielskripnik/how-to-add-and-remove-custom-fonts-in-react-native-b2830084b0e4)
@@ -577,6 +826,26 @@ the inner page anchor names must be lowercase.
 - [Mathematical symbols](http://www.rapidtables.com/math/symbols/Basic_Math_Symbols.htm)
 
 ### Swift
+- [Swift 5 Code snippets](Swift/swift-code-snippets.md) - 02 February 2026
+- [Show swift generated interface](Swift/Show-swift-generated-interface.md) - 02 February 2026
+- [ Data Set in asset catalogue](Swift/Data-set-in-asset-catalogue.md) - 02 February 2026
+- [Upgrade Swift 3 to Swift 4](Swift/swift3-swift4.2-update.md) - 02 February 2026
+- [Copy of an array](Swift/array-copy.md) - 02 February 2026
+- [Automatic Reference Counting](Swift/arc.md) - 02 February 2026
+- [Swift playground unit test](Swift/swift-playground-unit-test.md) - 02 February 2026
+- [SwiftUI code snippets](Swift/swiftui-code-snippets.md) - 02 February 2026
+- [open keyword in Swift 3](Swift/Open-keyword-swift-3.md) - 02 February 2026
+- [#Swift 3 cheat sheet](Swift/Swift-3-cheat-sheet.md) - 02 February 2026
+- [Swiftlint yaml file `swiftlint.yml`](Swift/swiftlint-yml.md) - 02 February 2026
+- [Stop Swift playground refresh](Swift/stop-swift-playgound-refresh.md) - 02 February 2026
+- [SwiftUI tips and ticks](Swift/swiftui-tips-and-tricks.md) - 02 February 2026
+- [ReadableContentGuide](Swift/ReadableContentGuide.md) - 02 February 2026
+- [Swift Playground tips](Swift/playground-tips.md) - 02 February 2026
+- [Escaping Closures in Swift 3.0.1](Swift/Escaping-Closures.md) - 02 February 2026
+- [Conditionally Extending a Type](Swift/Conditionally-Extending-a-Type.md) - 02 February 2026
+- [#Lazy Swift](Swift/Lazy-Swift.md) - 02 February 2026
+- [Swift 2 to Swift 3](Swift/Swift2-to-Swift3.md) - 02 February 2026
+- [Creating your own set types](Swift/Creating-your-own-set-types.md) - 02 February 2026
 - [Upgrade Swift 3 to Swift 4](Swift/swift3-swift4.2-update.md) - 22 August 2021
 - [Escaping Closures in Swift 3.0.1](Swift/Escaping-Closures.md) - 22 August 2021
 - [Swiftlint yaml file `swiftlint.yml`](Swift/swiftlint-yml.md) - 22 August 2021
@@ -618,6 +887,27 @@ the inner page anchor names must be lowercase.
 - [Swift playground unit test](Swift/swift-playground-unit-test.md)
 
 ### Tools
+- [Where has my disk space gone?](Tools/Where-has-my-disk-space-gone.md) - 02 February 2026
+- [Apple Development documentation](Tools/apple-development-documents.md) - 02 February 2026
+- [JSON Scheme to models](Tools/json-to-model-tools.md) - 02 February 2026
+- [Jenkins docker run permission errors](Tools/jenkins-docker-permission-denied-issue.md) - 02 February 2026
+- [atom mac live server plugin not working](Tools/atom-mac-live-server-plugin-not-working.md) - 02 February 2026
+- [Atom editor packages](Tools/atom-packages.md) - 02 February 2026
+- [JSON String Escape / Unescape](Tools/html-escape-tools.md) - 02 February 2026
+- [Web prototype tools](Tools/web-prototype-tools.md) - 02 February 2026
+- [VScode Java formatter](Tools/vscode-java-formatter.md) - 02 February 2026
+- [App development and deployment Tools](Tools/app-dev-tools.md) - 02 February 2026
+- [#Selecting Columns in VS Code](Tools/visual-studio-code-column-selection.md) - 02 February 2026
+- [Xcode Localizable.strings and Android strings.xml format converter](Tools/android-ios-string-resource-converter.md) - 02 February 2026
+- [SilverBullet Guide](Tools/silverbullet-guide.md) - 02 February 2026
+- [Pandoc](Tools/panddoc.md) - 02 February 2026
+- [Developers cheat sheets](Tools/Developers-cheat-sheets.md) - 02 February 2026
+- [](Tools/show-current-dir-in-term2.md) - 02 February 2026
+- [VS Code setters and getters](Tools/vscode-java-get-set.md) - 02 February 2026
+- [Swift Charts](Tools/swift-charts.md) - 02 February 2026
+- [Pygments](Tools/code-highlighter.md) - 02 February 2026
+- [How to Flush DNS Cache in Google Chrome](Tools/clear-chrome-dns-cache.md) - 02 February 2026
+- [VSCode cannot be resolved to a type](Tools/vscode-cannot-resolve-type.md) - 02 February 2026
 - [Atom editor packages](Tools/atom-packages.md) - 22 August 2021
 - [Jenkins docker run permission errors](Tools/jenkins-docker-permission-denied-issue.md) - 22 August 2021
 - [VScode Java formatter](Tools/vscode-java-formatter.md) - 22 August 2021
@@ -662,6 +952,11 @@ the inner page anchor names must be lowercase.
 - [Pandoc](Tools/panddoc.md)
 
 ### WatchOS
+- [#Watch OS app archive other items issue](WatchOS/Watch-OS-app-archive-other-items-issue.md) - 02 February 2026
+- [Unable to install an app on Apple watch](WatchOS/unable-install-app.md) - 02 February 2026
+- [Adding a Complication to Your watchOS App](WatchOS/complications.md) - 02 February 2026
+- [watchOS 3 cheat sheet](WatchOS/watchOS-3-cheat-sheet.md) - 02 February 2026
+- [Watch app "the network connection was lost" issue in a simulator](WatchOS/Watch-app-the-connection-lost.md) - 02 February 2026
 - [Watch app "the network connection was lost" issue in a simulator](WatchOS/Watch-app-the-connection-lost.md) - 22 August 2021
 - [#Watch OS app archive other items issue](WatchOS/Watch-OS-app-archive-other-items-issue.md) - 22 August 2021
 - [Unable to install an app on Apple watch](WatchOS/unable-install-app.md) - 22 August 2021
