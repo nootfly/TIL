@@ -119,31 +119,40 @@ def main():
     for post in new_posts:
         new_posts_by_category[post['category']].append(post)
 
-    # 4. Update README.md
-    if new_posts:
-        temp_readme_path = 'README.md.tmp'
-        updated = False
-        with open('README.md', 'r', encoding='utf-8') as f_old, open(temp_readme_path, 'w', encoding='utf-8') as f_new:
-            for line in f_old:
-                f_new.write(line)
-                # Check if this line is a category header
-                clean_line = line.strip()
-                if clean_line.startswith('### '):
-                    cat_name = clean_line.replace('### ', '').strip()
-                    # If we have new posts for this category, append them immediately after the header line
-                    if cat_name in new_posts_by_category:
-                        for post in new_posts_by_category[cat_name]:
-                            f_new.write(f'- [{post["title"]}]({post["path"]}) - {post["date"]}\n')
-                        # Clear it so we don't write again (in case of duplicate headers)
-                        del new_posts_by_category[cat_name]
+    # 4. Update README.md (with pruning of deleted files)
+    temp_readme_path = 'README.md.tmp'
+    updated = False
+    with open('README.md', 'r', encoding='utf-8') as f_old, open(temp_readme_path, 'w', encoding='utf-8') as f_new:
+        for line in f_old:
+            # Check if we should prune this line (file no longer exists)
+            match = readme_pattern.match(line)
+            if match:
+                title, path, date = match.groups()
+                if not path.startswith(('http://', 'https://', 'mailto:')):
+                    if not os.path.exists(path):
                         updated = True
-        
-        # Replace old README.md with updated one
-        if updated:
-            os.replace(temp_readme_path, 'README.md')
-        else:
-            if os.path.exists(temp_readme_path):
-                os.remove(temp_readme_path)
+                        continue
+            
+            f_new.write(line)
+            
+            # Check if this line is a category header
+            clean_line = line.strip()
+            if clean_line.startswith('### '):
+                cat_name = clean_line.replace('### ', '').strip()
+                # If we have new posts for this category, append them immediately after the header line
+                if cat_name in new_posts_by_category:
+                    for post in new_posts_by_category[cat_name]:
+                        f_new.write(f'- [{post["title"]}]({post["path"]}) - {post["date"]}\n')
+                    # Clear it so we don't write again (in case of duplicate headers)
+                    del new_posts_by_category[cat_name]
+                    updated = True
+    
+    # Replace old README.md with updated one
+    if updated:
+        os.replace(temp_readme_path, 'README.md')
+    else:
+        if os.path.exists(temp_readme_path):
+            os.remove(temp_readme_path)
 
     print("Successfully updated README.md.")
 

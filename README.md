@@ -70,7 +70,6 @@ the inner page anchor names must be lowercase.
 - [RecyclerView laggy scrolling issue](Android/recyclerView-laggy-scrolling-issue.md) - 22 August 2021
 - [Gradle commands](Android/gradle-command.md) - 22 August 2021
 - [Android unit tests resources mock](Android/android-mock-resources.md) - 22 August 2021
-- [The Android Gradle plugin supports only Kotlin Gradle plugin version 1.3.0 and higher](Android/android-gradle-plgin-supports-only-kotlin-gradle-plugin.md) - 22 August 2021
 - [Use Dagger 2 for dependency injection](Android/Use-Dagger2-for-DI.md) - 22 August 2021
 - [Hilt DI notes](Android/hilt-notes.md) - 22 August 2021
 - [Android FCM and AWS SNS settings](Android/push-notification-sns.md) - 22 August 2021
@@ -92,7 +91,6 @@ the inner page anchor names must be lowercase.
 - [Open a link in new Window](Android/open-new-browser-tab.md) - 06 June 2020
 - [Handle Up navigation](Android/setup-up-button.md) - 25 May 2020
 - [Programmatically change the app language](Android/Programmatically-change-app-language.md) - 24 July 2019
-- [The Android Gradle plugin supports only Kotlin Gradle plugin version 1.3.0 and higher](Android/android-gradle-plgin-supports-only-kotlin-gradle-plugin.md) - 05 March 2019
 - [Android Animations](Android/Android-Animations.md) - 24 December 2018
 - [Stop Tap Events From Passing Through an Android Fragment](Android/stop-events-pass-through.md) - 24 December 2018
 - [Translated here but not found in default locale](Android/translated-here-but-not-found-in-default-locale.md) - 24 December 2018
@@ -204,9 +202,7 @@ the inner page anchor names must be lowercase.
 - [Automatically use correct SSH key for remote Git repo](Git/use-correct-ssh-key.md)  
 
 ### Go
-- [Upgrade go to 1.6](Go/Upgrade-go-to-1.6.md) - 22 August 2021
 
-- [Upgrade go to 1.6](Go/Upgrade-go-to-1.6.md)
 
 ### iOS
 - [ARCHS[@]: unbound variable in Xcode 13.1](iOS/ARCHS-xcode-13-error.md) - 13 November 2021
@@ -240,7 +236,6 @@ the inner page anchor names must be lowercase.
 - [iOS concurrency fact sheet](iOS/iOS-concurrency-cheat-sheet.md) - 22 August 2021
 - [#CoreData in Swift framework](iOS/CoreData-in-Swift-framework.md) - 22 August 2021
 - [Mobile app vs web](iOS/web-ios-realtime-app-comparsion.md) - 22 August 2021
-- [Xcode 10 (iOS 12) does not contain libstdc++6.0.9](iOS/xcode10-libstdc-issue.md) - 22 August 2021
 - [iOS keyboard background issue](iOS/iOS-keyboard-background-issue.md) - 22 August 2021
 - [Swift file template in Xcode](iOS/xcode-swift-file-template.md) - 22 August 2021
 - [Change app icon](iOS/change-app-icon.md) - 22 August 2021
@@ -261,7 +256,6 @@ the inner page anchor names must be lowercase.
 - [NSLayoutAnchor](iOS/NSLayoutAnchor.md) - 22 August 2021
 - [UITableViewCell's contentView gets unwanted height==44 constraint](iOS/tableview-constraint-height-44-issue.md) - 22 August 2021
 - [UITapGestureRecognizer or touchesBegan](iOS/UITapGestureRecognizer-or-touchesBegan.md) - 22 August 2021
-- [#iOS 9 PopOver points to top-left corner of anchor](iOS/ios9-popover-always-points-to-top-left-corner-of-anchor.md) - 22 August 2021
 - [increase iOS build number in Fastlane](iOS/increase-ios-build-number-in-fastlane.md) - 22 August 2021
 - [Using PDF assets in your iOS app](iOS/svg-pdf.md) - 22 August 2021
 - [#PODS_ROOT issue](iOS/PODS_ROOT-issue.md) - 22 August 2021
@@ -317,7 +311,6 @@ the inner page anchor names must be lowercase.
 - [iBeacons cheat sheet](iOS/ibeacons.md) - 01 November 2018
 - [Revoking an enterprise distribution certificate](iOS/revoke-enterprise-cert.md) - 29 October 2018
 - [Change app icon](iOS/change-app-icon.md) - 26 October 2018
-- [Xcode 10 (iOS 12) does not contain libstdc++6.0.9](iOS/xcode10-libstdc-issue.md) - 19 October 2018
 - [CoreML 2](iOS/coreml2.md) - 04 October 2018
 - [Error Domain=PlugInKit Code=13](iOS/imagepicker-error-domain.md) - 03 October 2018
 - [Performing a Task in the Future](iOS/run-task-in-future.md) - 02 October 2018
@@ -325,7 +318,6 @@ the inner page anchor names must be lowercase.
 - [How to use Low Power Mode in code](iOS/How-to-use-Low-Power-Mode-in-code.md)
 - [Share code between iOS and TVOS](iOS/Share-code-between-iOS-and-TVOS.md)
 - [UIScrollView not scrolling when using autolayout](iOS/UIScrollView-not-scrolling-when-using-autolayout.md)
-- [iOS 9 PopOver points to top-left corner of anchor](iOS/ios9-popover-always-points-to-top-left-corner-of-anchor.md)
 - [CALayer shadow performance issue](iOS/CALayer-shadow-performance-issue.md)
 - [Slow animations in a simulator](iOS/Slow-animations-in-a-simulator.md)
 - [UITapGestureRecognizer or touchesBegan](iOS/UITapGestureRecognizer-or-touchesBegan.md)
@@ -388,7 +380,6 @@ the inner page anchor names must be lowercase.
 - [String to hex color](Javascript/string-to-random-color.md) - 22 August 2021
 - [Javascript code snippets](Javascript/javscript-code-snippets.md) - 22 August 2021
 - [Eslint: How to disable "unexpected console statement" in VueJs](Javascript/Eslin-unexpected-console-statement.md) - 22 August 2021
-- [Run JavaScript in Atom](Javascript/Atom-run-javascript.md) - 22 August 2021
 - [Error: Cannot find module '../lib/utils/unsupported.js'](Javascript/npm-install-unsupported.js.md) - 22 August 2021
 - [Material UI code snippets](Javascript/material-ui-code-snippets.md) - 22 August 2021
 - [2d array join](Javascript/2d-array-join.md) - 22 August 2021
@@ -425,7 +416,6 @@ the inner page anchor names must be lowercase.
 - [Eslint: How to disable "unexpected console statement" in VueJs](Javascript/Eslin-unexpected-console-statement.md) - 05 January 2019
 - [Decouple Jquery](Javascript/decouple-jquery.md) - 17 October 2018
 - [Show console.log in JSFiddle](Javascript/JSFiddle-console.md)
-- [Run script in Atom](Javascript/Atom-run-javascript.md)
 - [mongojs aggregate](Javascript/mongojs-aggregate.md)
 - [nodejs debug objects](Javascript/nodejs-debug-object.md)
 - [ES6 cheat sheet](Javascript/es6-cheat-sheet.md)
@@ -581,22 +571,17 @@ the inner page anchor names must be lowercase.
 - [GraphQL playground settings](server/apollo-playground-settings.md) - 21 November 2021
 
 ### Swift
-- [Upgrade Swift 3 to Swift 4](Swift/swift3-swift4.2-update.md) - 22 August 2021
-- [Escaping Closures in Swift 3.0.1](Swift/Escaping-Closures.md) - 22 August 2021
 - [Swiftlint yaml file `swiftlint.yml`](Swift/swiftlint-yml.md) - 22 August 2021
 - [Stop Swift playground refresh](Swift/stop-swift-playgound-refresh.md) - 22 August 2021
 - [Copy of an array](Swift/array-copy.md) - 22 August 2021
 - [Creating your own set types](Swift/Creating-your-own-set-types.md) - 22 August 2021
 - [ Data Set in asset catalogue](Swift/Data-set-in-asset-catalogue.md) - 22 August 2021
-- [Swift 2 to Swift 3](Swift/Swift2-to-Swift3.md) - 22 August 2021
 - [Conditionally Extending a Type](Swift/Conditionally-Extending-a-Type.md) - 22 August 2021
 - [Automatic Reference Counting](Swift/arc.md) - 22 August 2021
 - [#Lazy Swift](Swift/Lazy-Swift.md) - 22 August 2021
 - [Show swift generated interface](Swift/Show-swift-generated-interface.md) - 22 August 2021
-- [open keyword in Swift 3](Swift/Open-keyword-swift-3.md) - 22 August 2021
 - [ReadableContentGuide](Swift/ReadableContentGuide.md) - 22 August 2021
 - [Swift 5 Code snippets](Swift/swift-code-snippets.md) - 22 August 2021
-- [#Swift 3 cheat sheet](Swift/Swift-3-cheat-sheet.md) - 22 August 2021
 - [SwiftUI tips and ticks](Swift/swiftui-tips-and-tricks.md) - 22 August 2021
 - [SwiftUI code snippets](Swift/swiftui-code-snippets.md) - 22 August 2021
 - [Swift playground unit test](Swift/swift-playground-unit-test.md) - 22 August 2021
@@ -614,15 +599,10 @@ the inner page anchor names must be lowercase.
 - [Conditionally Extending a Type](Swift/Conditionally-Extending-a-Type.md)
 - [Data set in asset catalogue](Swift/Data-set-in-asset-catalogue.md)
 - [ReadableContentGuide](Swift/ReadableContentGuide.md)
-- [Swift 2 to Swift 3](Swift/Swift2-to-Swift3.md)
-- [Escaping closures](Swift/Escaping-Closures.md)
-- [Open keyword](Swift/Open-keyword-swift-3.md)
-- [Swift 3 cheat sheet](Swift/Swift-3-cheat-sheet.md)
 - [Swift Playground tips](Swift/playground-tips.md)
 - [Swift playground unit test](Swift/swift-playground-unit-test.md)
 
 ### Tools
-- [Atom editor packages](Tools/atom-packages.md) - 22 August 2021
 - [Jenkins docker run permission errors](Tools/jenkins-docker-permission-denied-issue.md) - 22 August 2021
 - [VScode Java formatter](Tools/vscode-java-formatter.md) - 22 August 2021
 - [How to Flush DNS Cache in Google Chrome](Tools/clear-chrome-dns-cache.md) - 22 August 2021
@@ -631,7 +611,6 @@ the inner page anchor names must be lowercase.
 - [Pygments](Tools/code-highlighter.md) - 22 August 2021
 - [Apple Development documentation](Tools/apple-development-documents.md) - 22 August 2021
 - [](Tools/show-current-dir-in-term2.md) - 22 August 2021
-- [atom mac live server plugin not working](Tools/atom-mac-live-server-plugin-not-working.md) - 22 August 2021
 - [Where has my disk space gone?](Tools/Where-has-my-disk-space-gone.md) - 22 August 2021
 - [VSCode cannot be resolved to a type](Tools/vscode-cannot-resolve-type.md) - 22 August 2021
 - [Xcode Localizable.strings and Android strings.xml format converter](Tools/android-ios-string-resource-converter.md) - 22 August 2021
@@ -659,9 +638,7 @@ the inner page anchor names must be lowercase.
 - [Dictionary](dict.html)
 - [Where has my disk space gone](Tools/Where-has-my-disk-space-gone.md)
 - [ES 6 playground](https://babeljs.io/repl/)
-- [atom mac live server plugin not working](Tools/atom-mac-live-server-plugin-not-working.md)
 - [jenkins docker permission denied issue.md](Tools/jenkins-docker-permission-denied-issue.md)
-- [Atom packages](Tools/atom-packages.md)
 - [visual studio code column selection](Tools/visual-studio-code-column-selection.md)
 - [Pandoc](Tools/panddoc.md)
 
@@ -670,11 +647,9 @@ the inner page anchor names must be lowercase.
 - [#Watch OS app archive other items issue](WatchOS/Watch-OS-app-archive-other-items-issue.md) - 22 August 2021
 - [Unable to install an app on Apple watch](WatchOS/unable-install-app.md) - 22 August 2021
 - [Adding a Complication to Your watchOS App](WatchOS/complications.md) - 22 August 2021
-- [watchOS 3 cheat sheet](WatchOS/watchOS-3-cheat-sheet.md) - 22 August 2021
 - [Unable to install an app on Apple watch](WatchOS/unable-install-app.md) - 06 March 2020
 - [Adding a Complication to Your watchOS App](WatchOS/complications.md) - 09 January 2020
 - [Watch OS app archive other items issue](WatchOS/Watch-OS-app-archive-other-items-issue.md)
 - [Watch OS app connection lost issue issue](WatchOS/Watch-app-the-connection-lost.md)
-- [watchOS 3 cheat sheet](WatchOS/watchOS-3-cheat-sheet.md)
 
 ### Web
