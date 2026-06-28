@@ -3,10 +3,6 @@
 
 This is inspired by https://github.com/jbranchaud/til.
 
-[My blog](http://blog.youapp.co)
-
-- [2026 TIL Posts](2026.md)
-
 ---
 
 ### Categories
@@ -116,7 +112,6 @@ the inner page anchor names must be lowercase.
 - [Android CI](Android/android-ci.md)
 - [Vector Support Library](Android/vector-asset-support.md)
 - [Distribute views evenly across a linearlayout](Android/distribute-views-evenly-linearlayout.md)
-- [Save to Android Pay](https://nootfly.github.io/android/2017/12/12/Save-to-Android-Pay/)
 - [Android Studio tips](Android/Android-studio-tips.md)
 - [RecyclerView laggy scrolling issue](Android/recyclerView-laggy-scrolling-issue.md)
 - [Android FCM and AWS SNS settings](Android/push-notification-sns.md)
@@ -159,11 +154,8 @@ the inner page anchor names must be lowercase.
 
 ### Design
 - [Color-hex](http://www.color-hex.com/)
-- [Convert Icon Fonts To PNG](http://fa2png.io/)
 - [Gradient colors](https://uigradients.com)
 - [Flat colors](https://www.materialui.co/flatuicolors)
-- [Free pictures](http://www.freegreatpicture.com/)
-- [Free high-resolution photos from Unsplash](https://unsplash.com/collections/curated/143)
 
 ### Docker
 - [E: List directory /var/lib/apt/lists/partial is missing.](Docker/partial-is-missing-error.md) - 09 November 2022
@@ -356,7 +348,6 @@ the inner page anchor names must be lowercase.
 - [Autolayout cheat sheet](iOS/Autolayout-rules-of-thumb.md)
 - [NSLayoutAnchor](iOS/NSLayoutAnchor.md)
 - [UILayoutGuide](iOS/UILayoutGuide.md)
-- [Customize iOS share extension UI](http://blog.youapp.co/ios/2017/03/01/Customize-iOS-Share-extension-UI/)
 - [UIStackView](iOS/UIStackView.md)
 - [Fix iTunesConnect must have an arm64-only executable error](iOS/itunesconnect-arm64-only-error.md)
 - [iOS share extension icon not seen on simulators](iOS/iOS-share-extension-icon-not-seen-on-simulators.md)
@@ -375,7 +366,6 @@ the inner page anchor names must be lowercase.
 - [Xcode 9 tips](iOS/xcode-9-tips.md)
 - [iPad Drag and Drop steps](iOS/drag-drop-implement-steps.md)
 - [SceneKit torus example](iOS/scenekit-torus-example.md)
-- [Save to Apple Wallet](http://nootfly.github.io/ios/2017/12/13/Save-to-Apple-Wallet/)
 - [Command /bin/sh failed with exit code 1](iOS/command-failed-with-exit-code-1.md)
 - [ALWAYS #import other classes in your .m file](iOS/Always-import-other-classes-in-m-file.md)
 
@@ -666,7 +656,7 @@ the inner page anchor names must be lowercase.
 - [VS Code setters and getters](Tools/vscode-java-get-set.md) - 09 October 2018
 - [How to Flush DNS Cache in Google Chrome](Tools/clear-chrome-dns-cache.md) - 20 September 2018
 - [Developers cheat sheets](Tools/Developers-cheat-sheets.md)
-- [Dictionary](https://cdn.rawgit.com/nootfly/TIL/10cc9914/dict.html)
+- [Dictionary](dict.html)
 - [Where has my disk space gone](Tools/Where-has-my-disk-space-gone.md)
 - [ES 6 playground](https://babeljs.io/repl/)
 - [atom mac live server plugin not working](Tools/atom-mac-live-server-plugin-not-working.md)

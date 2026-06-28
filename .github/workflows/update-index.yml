@@ -7,7 +7,6 @@ on:
     paths:
       - '**/*.md'
       - '!README.md'
-      - '!2026.md'
 
 jobs:
   update-index:
@@ -33,7 +32,7 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add README.md 2026.md
+          git add README.md
           if git diff --staged --quiet; then
             echo "No changes to commit"
           else

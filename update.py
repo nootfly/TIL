@@ -145,44 +145,7 @@ def main():
             if os.path.exists(temp_readme_path):
                 os.remove(temp_readme_path)
 
-    # 5. Generate 2026.md
-    # Filter all posts (both existing and new) whose date is in 2026
-    posts_2026 = []
-    for post in posts_by_path.values():
-        if '2026' in post['date']:
-            posts_2026.append(post)
-
-    if posts_2026:
-        # Group by category
-        cat_posts_2026 = defaultdict(list)
-        for post in posts_2026:
-            cat_posts_2026[post['category']].append(post)
-
-        # Sort categories and posts within them
-        sorted_categories = sorted(cat_posts_2026.keys())
-        
-        with open('2026.md', 'w', encoding='utf-8') as f_2026:
-            f_2026.write('# 2026 TIL Posts\n\n')
-            f_2026.write('Index of Today I Learned (TIL) posts written in 2026.\n\n')
-            
-            # Categories list
-            f_2026.write('## Categories\n\n')
-            for cat in sorted_categories:
-                anchor = cat.lower().replace(' ', '-')
-                f_2026.write(f'- [{cat}](#{anchor})\n')
-            f_2026.write('\n---\n\n')
-            
-            # Category sections
-            for cat in sorted_categories:
-                f_2026.write(f'### {cat}\n')
-                sorted_posts = sorted(cat_posts_2026[cat], key=lambda x: x['title'])
-                for post in sorted_posts:
-                    f_2026.write(f'- [{post["title"]}]({post["path"]}) - {post["date"]}\n')
-                f_2026.write('\n')
-                
-        print("Successfully updated README.md and generated/updated 2026.md.")
-    else:
-        print("Successfully updated README.md. No posts found for 2026.")
+    print("Successfully updated README.md.")
 
 if __name__ == '__main__':
     main()
