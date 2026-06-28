@@ -1,80 +1,188 @@
-from os import listdir
-from os.path import isfile, join
-import os, fnmatch
-from datetime import datetime
+import os
 import re
+import subprocess
+from datetime import datetime
 from collections import defaultdict
 
-global all_files
-NAME_CACHE = "name_cache"
-all_files = []
+DIR_TO_HEADER = {
+    'raspberrypi': 'Raspberry',
+    'javascript': 'Javascript',
+    'reactnative': 'ReactNative',
+    'watchos': 'WatchOS',
+    'ios': 'iOS',
+}
 
-class Record(object):
-      def __init__(self, filename, name, created = None):
-          self.filename = filename
-          self.name = name
-          self.created = created
+EXCLUDE_DIRS = {'.git', '.vscode', 'images', '.github'}
 
-      def created_time(self):
-          return datetime.fromtimestamp(float(self.created)).strftime('%d %B %Y')
+def get_header_name(dir_name):
+    lower_dir = dir_name.lower()
+    if lower_dir in DIR_TO_HEADER:
+        return DIR_TO_HEADER[lower_dir]
+    return dir_name.capitalize()
 
-      def __str__(self):
-          return "filename={}, name={}, created={}".format(self.filename, self.name, self.created_time())     
+def get_git_creation_date(filepath):
+    try:
+        result = subprocess.run(
+            ['git', 'log', '--follow', '--format=%aI', '--', filepath],
+            stdout=subprocess.PIPE,
+            stderr=subprocess.PIPE,
+            text=True,
+            check=True
+        )
+        dates = [d.strip() for d in result.stdout.strip().split('\n') if d.strip()]
+        if dates:
+            iso_date = dates[-1] # Oldest date is the last one in --follow
+            dt = datetime.fromisoformat(iso_date)
+            return dt.strftime('%d %B %Y')
+    except Exception:
+        pass
+    return None
 
-def fetch_files(dirname):
-    global all_files
-    for root, _, files in os.walk(dirname):
-       for file in files:
-          if file.endswith(".md") and not file.endswith('README.md') and not file.endswith('new.md'):
-             filename = os.path.join(root, file)
-             stat = os.stat(filename)
-             created = None
-             try:
-                created = stat.st_birthtime
-             except AttributeError:
-                created = stat.st_mtime
-             #print("file={}, time diff={}".format(file, (datetime.fromtimestamp(created).date() - datetime.today().date()).days))
-             if (datetime.fromtimestamp(created).date() - datetime.today().date()).days >= 0: 
-                  name = open(filename).readline().rstrip().replace('# ', '')
-                  print(name)
-                  record = Record(filename, name, created)
-                  all_files.append(record) 
+def get_file_title(filepath):
+    try:
+        with open(filepath, 'r', encoding='utf-8') as f:
+            for line in f:
+                line = line.strip()
+                if line.startswith('#'):
+                    return re.sub(r'^#+\s*', '', line)
+    except Exception:
+        pass
+    return os.path.splitext(os.path.basename(filepath))[0]
 
-def generate_readme_str():
-    text_dict = defaultdict(set)
-    for record in all_files:
-        temp = '- [{}]({}) - {}\n'.format(record.name, record.filename.replace('./', ''), record.created_time())
-        key = re.search('./(.*)/', record.filename).group(1)
-        text_dict[key].add(temp)
+def main():
+    # 1. Scan filesystem for all .md files (excluding README.md, etc.)
+    all_md_files = []
+    for root, dirs, files in os.walk('.'):
+        # Exclude directories in-place
+        dirs[:] = [d for d in dirs if d not in EXCLUDE_DIRS]
+        for file in files:
+            if file.endswith('.md') and file not in ('README.md', '2026.md', 'new.md'):
+                filepath = os.path.join(root, file)
+                # Normalize path (e.g. ./Linux/tmux.md -> Linux/tmux.md)
+                rel_path = os.path.relpath(filepath, '.')
+                all_md_files.append((filepath, rel_path))
 
-    return text_dict
+    # 2. Parse current README.md to find already indexed files
+    already_indexed = set()
+    posts_by_path = {}
+    
+    # We want to read README.md if it exists
+    current_category = None
+    readme_pattern = re.compile(r'^\s*-\s*\[(.*?)\]\((.*?\.md)\)(?:\s*-\s*(.*))?$')
+    
+    if os.path.exists('README.md'):
+        with open('README.md', 'r', encoding='utf-8') as f:
+            for line in f:
+                line = line.strip()
+                if line.startswith('### '):
+                    current_category = line.replace('### ', '').strip()
+                match = readme_pattern.match(line)
+                if match:
+                    title, path, date = match.groups()
+                    already_indexed.add(path)
+                    if path not in posts_by_path:
+                        posts_by_path[path] = {
+                            'path': path,
+                            'title': title,
+                            'date': date or '',
+                            'category': current_category or 'Others'
+                        }
 
-def update_readme(text_dict):
-    with open("README.md") as f_old, open("new.md", "w") as f_new:
-      for line in f_old:
-        f_new.write(line)
-        for key, texts in text_dict.items():
-            if '### ' + key in line:
-               for text in texts:
-                  f_new.write(text)
-
-def remove_duplicates(text_dict):
-    with open("README.md") as f_old:
-      for line in f_old:
-        for key, texts in text_dict.copy().items():
-               for text in texts.copy():
-                   if text in line:
-                       texts.remove(text)
-               if len(text_dict[key]) == 0:
-                   del text_dict[key]
+    # 3. Process new files
+    new_posts = []
+    today_str = datetime.today().strftime('%d %B %Y')
+    
+    for filepath, rel_path in all_md_files:
+        if rel_path not in already_indexed:
+            # Determine category, title, date
+            parts = rel_path.split(os.sep)
+            if len(parts) > 1:
+                category_dir = parts[0]
+                category = get_header_name(category_dir)
+            else:
+                category = 'Others'
             
+            title = get_file_title(filepath)
+            date = get_git_creation_date(filepath) or today_str
+            
+            post = {
+                'path': rel_path,
+                'title': title,
+                'date': date,
+                'category': category
+            }
+            new_posts.append(post)
+            posts_by_path[rel_path] = post
 
-if __name__ == "__main__":
-    fetch_files('.')
-    text_dict = generate_readme_str()
-    remove_duplicates(text_dict)
-    if text_dict:
-       update_readme(text_dict)
-       os.remove('README.md')
-       os.rename("new.md", 'README.md')
-              
+    # Group new posts by category
+    new_posts_by_category = defaultdict(list)
+    for post in new_posts:
+        new_posts_by_category[post['category']].append(post)
+
+    # 4. Update README.md
+    if new_posts:
+        temp_readme_path = 'README.md.tmp'
+        updated = False
+        with open('README.md', 'r', encoding='utf-8') as f_old, open(temp_readme_path, 'w', encoding='utf-8') as f_new:
+            for line in f_old:
+                f_new.write(line)
+                # Check if this line is a category header
+                clean_line = line.strip()
+                if clean_line.startswith('### '):
+                    cat_name = clean_line.replace('### ', '').strip()
+                    # If we have new posts for this category, append them immediately after the header line
+                    if cat_name in new_posts_by_category:
+                        for post in new_posts_by_category[cat_name]:
+                            f_new.write(f'- [{post["title"]}]({post["path"]}) - {post["date"]}\n')
+                        # Clear it so we don't write again (in case of duplicate headers)
+                        del new_posts_by_category[cat_name]
+                        updated = True
+        
+        # Replace old README.md with updated one
+        if updated:
+            os.replace(temp_readme_path, 'README.md')
+        else:
+            if os.path.exists(temp_readme_path):
+                os.remove(temp_readme_path)
+
+    # 5. Generate 2026.md
+    # Filter all posts (both existing and new) whose date is in 2026
+    posts_2026 = []
+    for post in posts_by_path.values():
+        if '2026' in post['date']:
+            posts_2026.append(post)
+
+    if posts_2026:
+        # Group by category
+        cat_posts_2026 = defaultdict(list)
+        for post in posts_2026:
+            cat_posts_2026[post['category']].append(post)
+
+        # Sort categories and posts within them
+        sorted_categories = sorted(cat_posts_2026.keys())
+        
+        with open('2026.md', 'w', encoding='utf-8') as f_2026:
+            f_2026.write('# 2026 TIL Posts\n\n')
+            f_2026.write('Index of Today I Learned (TIL) posts written in 2026.\n\n')
+            
+            # Categories list
+            f_2026.write('## Categories\n\n')
+            for cat in sorted_categories:
+                anchor = cat.lower().replace(' ', '-')
+                f_2026.write(f'- [{cat}](#{anchor})\n')
+            f_2026.write('\n---\n\n')
+            
+            # Category sections
+            for cat in sorted_categories:
+                f_2026.write(f'### {cat}\n')
+                sorted_posts = sorted(cat_posts_2026[cat], key=lambda x: x['title'])
+                for post in sorted_posts:
+                    f_2026.write(f'- [{post["title"]}]({post["path"]}) - {post["date"]}\n')
+                f_2026.write('\n')
+                
+        print("Successfully updated README.md and generated/updated 2026.md.")
+    else:
+        print("Successfully updated README.md. No posts found for 2026.")
+
+if __name__ == '__main__':
+    main()

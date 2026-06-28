@@ -5,6 +5,8 @@ This is inspired by https://github.com/jbranchaud/til.
 
 [My blog](http://blog.youapp.co)
 
+- [2026 TIL Posts](2026.md)
+
 ---
 
 ### Categories
@@ -32,6 +34,7 @@ This is inspired by https://github.com/jbranchaud/til.
                 - [Raspberry](#raspberry)
                 - [ReactNative](#reactnative)
                 - [Resources](#resources)
+                - [Server](#server)
                 - [Swift](#swift)
                 - [Tools](#tools)
                 - [WatchOS](#watchos)
@@ -188,6 +191,9 @@ the inner page anchor names must be lowercase.
 - [docker GetImageBlob no such file or directory issue](Docker/docker-GetImageBlob-no-such-file.md)
 
 ### Flutter
+- [Unsupported class file major version 61 on Apple Arm](Flutter/fix-issues.md) - 14 April 2022
+- [INSTALL_PARSE_FAILED_MANIFEST_MALFORMED](Flutter/INSTALL_PARSE_FAILED_MANIFEST_MALFORMED.md) - 02 July 2022
+- [java.security.NoSuchAlgorithmException](Flutter/Error building AAB-java.security.NoSuchAlgorithmException.md) - 10 May 2022
 - [Flutter code snippets (2.2+)](Flutter/flutter-code-snippets.md) - 13 November 2021
 - [Flutter code snippets (2.2+)](Flutter/flutter-code-snippets.md) - 22 August 2021
 - [Place widget in bottom center of the container](Flutter/flutter-code-snippets.md) - 07 August 2021
@@ -374,6 +380,9 @@ the inner page anchor names must be lowercase.
 - [ALWAYS #import other classes in your .m file](iOS/Always-import-other-classes-in-m-file.md)
 
 ### Javascript
+- [.eslintrc.js](Javascript/estlintrc.md) - 18 November 2021
+- [Create a dynamic key in an object](Javascript/dynamic-key.md) - 21 April 2022
+- [Mutiline strings](Javascript/mutiline-strings.md) - 23 November 2022
 
 - [Mac m1 javascript error](Javascript/mac-m1-javascript-error.md) - 13 November 2021
 - [ReactJS: Maximum update depth exceeded error](Javascript/ReactJS-Maximum-update-depth-exceeded-error.md) - 22 August 2021
@@ -445,6 +454,7 @@ the inner page anchor names must be lowercase.
 - [Reading](Life/inspiring-words.md) - 08 November 2018
 
 ### Linux
+- [tmux cheat sheet](Linux/tmux.md) - 29 June 2026
 - [Run cd in a shell script](Linux/run-cd-in-a-shell-script.md) - 22 August 2021
 - [Enable Dell Alienware Wifi and touchpad on ubuntu 18.04](Linux/dell-alienware-enable-wifi-touchpad.md) - 22 August 2021
 - [Find process locking port 3000](Linux/find-process-port.md) - 22 August 2021
@@ -459,6 +469,7 @@ the inner page anchor names must be lowercase.
 - [sudo cd](Linux/sudo-cd.md)
 
 ### Mac
+- [MacBook disk / SSD health](Mac/dish-health.md) - 29 June 2026
 - [Run Chrome browser without CORS](Mac/disable-chrome-cors.md) - 05 January 2023
 - [python not found](Mac/python-not-found.md) - 09 November 2022
 - [Xcode constantly crashing](Mac/xcode-constantly-crashing.md) - 22 August 2021
@@ -575,6 +586,9 @@ the inner page anchor names must be lowercase.
 - [Free high-resolution photos](https://unsplash.com/)
 - [Matrial Design icons](https://material.io/icons/)
 - [Mathematical symbols](http://www.rapidtables.com/math/symbols/Basic_Math_Symbols.htm)
+
+### Server
+- [GraphQL playground settings](server/apollo-playground-settings.md) - 21 November 2021
 
 ### Swift
 - [Upgrade Swift 3 to Swift 4](Swift/swift3-swift4.2-update.md) - 22 August 2021
