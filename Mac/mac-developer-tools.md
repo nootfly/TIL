@@ -34,6 +34,7 @@ Recommended:
 brew install git-delta
 brew install lazygit
 brew install starship
+brew install zoxide
 ```
 
 These make terminal work much nicer:
