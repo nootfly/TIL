@@ -277,15 +277,7 @@ mkdir -p ~/Developer/scripts
 mkdir -p ~/.config
 ```
 
-I’d keep work projects separate from personal/startup projects:
 
-```text
-~/Developer/work/orderbuddy
-~/Developer/work/mounties
-~/Developer/personal/ios-apps
-~/Developer/personal/ai-agents
-~/Developer/playground
-```
 
 For your stack, the most important installs are **Xcode, Homebrew, GitHub CLI, Xcodes, fnm/Node LTS, pnpm, Firebase CLI, gcloud, Docker, Cursor, VS Code, Flutter, Android Studio, Proxyman, TablePlus, and 1Password**.
 
