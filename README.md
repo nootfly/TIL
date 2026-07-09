@@ -449,6 +449,7 @@ the inner page anchor names must be lowercase.
 - [sudo cd](Linux/sudo-cd.md)
 
 ### Mac
+- [Mac developer tools](Mac/mac-developer-tools.md) - 10 July 2026
 - [Generate a git commit message from staged changes using Apple's on-device Foundation Models framework (macOS 26+)](Mac/git-commit-comment-mac-foundation-model.md) - 10 July 2026
 - [MacBook disk / SSD health](Mac/dish-health.md) - 29 June 2026
 - [Run Chrome browser without CORS](Mac/disable-chrome-cors.md) - 05 January 2023
