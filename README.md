@@ -118,6 +118,7 @@ the inner page anchor names must be lowercase.
 - [Architechture tools](Architecture/architecture_tools.md)
 
 ### Cloud
+- [cloudflare-login-ssh](Cloud/cloudflare-login-ssh.md) - 06 September 2026
 - [Firebase development notes](Cloud/firebase-dev-notes.md) - 13 November 2021
 - [Appsync Codegen support only one GraphQL API per project](Cloud/aws-appsync-codegen-error.md) - 22 August 2021
 - [Serverless function 6 seconds timeout](Cloud/serverless-function-6-seconds-timeout.md) - 22 August 2021
