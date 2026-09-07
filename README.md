@@ -9,6 +9,7 @@ This is inspired by https://github.com/jbranchaud/til.
 
 - [TIL](#til)
                 - [Categories](#categories)
+                - [AI](#ai)
                 - [Algorithms](#algorithms)
                 - [Android](#android)
                 - [Architecture](#architecture)
@@ -41,6 +42,11 @@ the inner page anchor names must be lowercase.
 -->
 
 ---
+### AI
+- [Herdr Cheatsheet](AI/herdr-cheatsheet.md) - 07 September 2026
+- [Herdr Spaces](AI/herdr-spaces.md) - 07 September 2026
+- [Herdr Tips](AI/herdr-tips.md) - 07 September 2026
+
 ### Algorithms
 - [Path Finding Algorithms](Algorithms/path-find.md) - 22 August 2021
 - [Open addressing hash tables](Algorithms/fast-hashing.md) - 22 August 2021

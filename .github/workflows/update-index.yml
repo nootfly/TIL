@@ -6,7 +6,13 @@ on:
       - master
     paths:
       - '**/*.md'
+      - 'update.py'
+      - '.github/workflows/update-index.yml'
       - '!README.md'
+
+concurrency:
+  group: update-index-${{ github.ref }}
+  cancel-in-progress: false
 
 jobs:
   update-index:

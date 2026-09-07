@@ -14,6 +14,10 @@ DIR_TO_HEADER = {
 
 EXCLUDE_DIRS = {'.git', '.vscode', 'images', '.github'}
 
+CATEGORY_LINK_PATTERN = re.compile(
+    r'^(\s*)-\s+\[([^]]+)\]\(#[^)]+\)\s*$'
+)
+
 def get_header_name(dir_name):
     lower_dir = dir_name.lower()
     if lower_dir in DIR_TO_HEADER:
@@ -49,12 +53,116 @@ def get_file_title(filepath):
         pass
     return os.path.splitext(os.path.basename(filepath))[0]
 
+def get_category_anchor(category):
+    return re.sub(r'[^a-z0-9]+', '-', category.lower()).strip('-')
+
+def add_missing_category_structure(readme_lines, new_posts_by_category):
+    """Add navigation links and sections for categories not yet in README."""
+    existing_category_labels = {
+        line.strip()[4:].strip().casefold(): line.strip()[4:].strip()
+        for line in readme_lines
+        if line.strip().startswith('### ')
+        and line.strip() != '### Categories'
+    }
+    missing_categories = sorted(
+        (
+            category
+            for category in new_posts_by_category
+            if category.casefold() not in existing_category_labels
+        ),
+        key=str.casefold
+    )
+    categories_to_link = sorted(
+        [*existing_category_labels.values(), *missing_categories],
+        key=str.casefold
+    )
+    updated = False
+
+    categories_heading_index = next(
+        (
+            index
+            for index, line in enumerate(readme_lines)
+            if line.strip() == '### Categories'
+        ),
+        None
+    )
+
+    if categories_heading_index is not None:
+        for category in categories_to_link:
+            nav_entries = []
+            nav_end_index = len(readme_lines)
+
+            for index in range(categories_heading_index + 1, len(readme_lines)):
+                clean_line = readme_lines[index].strip()
+                if clean_line.startswith(('<!---', '---', '### ')):
+                    nav_end_index = index
+                    break
+
+                match = CATEGORY_LINK_PATTERN.match(readme_lines[index].rstrip('\n'))
+                if match and match.group(2) not in ('TIL', 'Categories'):
+                    nav_entries.append((index, match.group(1), match.group(2)))
+
+            if any(
+                label.casefold() == category.casefold()
+                for _, _, label in nav_entries
+            ):
+                continue
+
+            indent = nav_entries[0][1] if nav_entries else '                '
+            insert_at = next(
+                (
+                    index
+                    for index, _, label in nav_entries
+                    if label.casefold() > category.casefold()
+                ),
+                nav_entries[-1][0] + 1 if nav_entries else nav_end_index
+            )
+            readme_lines.insert(
+                insert_at,
+                f'{indent}- [{category}](#{get_category_anchor(category)})\n'
+            )
+            updated = True
+
+    for category in missing_categories:
+        section_headers = []
+        for index, line in enumerate(readme_lines):
+            clean_line = line.strip()
+            if clean_line.startswith('### '):
+                label = clean_line[4:].strip()
+                if label != 'Categories':
+                    section_headers.append((index, label))
+
+        insert_at = next(
+            (
+                index
+                for index, label in section_headers
+                if label.casefold() > category.casefold()
+            ),
+            len(readme_lines)
+        )
+        posts = new_posts_by_category.pop(category)
+        section_lines = [f'### {category}\n']
+        section_lines.extend(
+            f'- [{post["title"]}]({post["path"]}) - {post["date"]}\n'
+            for post in posts
+        )
+        section_lines.append('\n')
+        readme_lines[insert_at:insert_at] = section_lines
+        updated = True
+
+    return readme_lines, updated
+
 def main():
     # 1. Scan filesystem for all .md files (excluding README.md, etc.)
     all_md_files = []
     for root, dirs, files in os.walk('.'):
-        # Exclude directories in-place
-        dirs[:] = [d for d in dirs if d not in EXCLUDE_DIRS]
+        # Exclude support folders and nested Git repositories in-place.
+        dirs[:] = [
+            directory
+            for directory in dirs
+            if directory not in EXCLUDE_DIRS
+            and not os.path.exists(os.path.join(root, directory, '.git'))
+        ]
         for file in files:
             if file.endswith('.md') and file not in ('README.md', '2026.md', 'new.md'):
                 filepath = os.path.join(root, file)
@@ -121,9 +229,16 @@ def main():
 
     # 4. Update README.md (with pruning of deleted files)
     temp_readme_path = 'README.md.tmp'
-    updated = False
-    with open('README.md', 'r', encoding='utf-8') as f_old, open(temp_readme_path, 'w', encoding='utf-8') as f_new:
-        for line in f_old:
+    with open('README.md', 'r', encoding='utf-8') as f_old:
+        readme_lines = f_old.readlines()
+
+    readme_lines, updated = add_missing_category_structure(
+        readme_lines,
+        new_posts_by_category
+    )
+
+    with open(temp_readme_path, 'w', encoding='utf-8') as f_new:
+        for line in readme_lines:
             # Check if we should prune this line (file no longer exists)
             match = readme_pattern.match(line)
             if match:
