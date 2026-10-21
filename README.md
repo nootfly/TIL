@@ -456,6 +456,7 @@ the inner page anchor names must be lowercase.
 - [sudo cd](Linux/sudo-cd.md)
 
 ### Mac
+- [cpu-usage](Mac/cpu-usage.md) - 21 October 2026
 - [codex-brew-ssh](Mac/codex-brew-ssh.md) - 12 September 2026
 - [Mac developer tools](Mac/mac-developer-tools.md) - 10 July 2026
 - [Generate a git commit message from staged changes using Apple's on-device Foundation Models framework (macOS 26+)](Mac/git-commit-comment-mac-foundation-model.md) - 10 July 2026
